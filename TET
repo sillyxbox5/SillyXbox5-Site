@@ -1,0 +1,4558 @@
+
+				
+				
+				<div name="0-6"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-6');">
+					<input type="checkbox" name="0-6"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Unbundled Dry Kelp/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Unbundled Dry Kelp
+						</h4>
+						<p class="card-text">
+							Gets rid of the white strings around Dried Kelp.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-7"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-7');">
+					<input type="checkbox" name="0-7"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Solid Honey/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Solid Honey
+						</h4>
+						<p class="card-text">
+							Eliminates Honey Block transparency.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-8"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-8');">
+					<input type="checkbox" name="0-8"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Solid Slime/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Solid Slime
+						</h4>
+						<p class="card-text">
+							Eliminates Slime Block transparency.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-9"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-9');">
+					<input type="checkbox" name="0-9"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Desaturated Dark Oak/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Desaturated Dark Oak
+						</h4>
+						<p class="card-text">
+							Desaturates Dark Oak Plank-based textures to make them more neutral.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-10"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-10');">
+					<input type="checkbox" name="0-10"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Horizontal Nuggets/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Horizontal Nuggets
+						</h4>
+						<p class="card-text">
+							Rotates Gold Nuggets to be consistent with the Iron Nugget.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-11"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-11');">
+					<input type="checkbox" name="0-11"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Vertical Nuggets/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Vertical Nuggets
+						</h4>
+						<p class="card-text">
+							Rotates the Iron Nugget to be consistent with the Gold Nugget.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-12"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-12');">
+					<input type="checkbox" name="0-12"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Clean Wool/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Clean Wool
+						</h4>
+						<p class="card-text">
+							Makes all wool blocks have a clean texture.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-13"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-13');">
+					<input type="checkbox" name="0-13"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Softer Wool/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Softer Wool
+						</h4>
+						<p class="card-text">
+							Lowers the contrast and smoothens all wool blocks.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-14"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-14');">
+					<input type="checkbox" name="0-14"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Brown Leather/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Brown Leather
+						</h4>
+						<p class="card-text">
+							Recolours all leather related items to use a similar palette to Leather Armor.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-15"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-15');">
+					<input type="checkbox" name="0-15"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Red Iron Golem Flowers/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Red Iron Golem Flowers
+						</h4>
+						<p class="card-text">
+							Changes the yellow flowers on the Iron Golem skin to red ones in order to match the poppies that they drop.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-16"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-16');">
+					<input type="checkbox" name="0-16"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Colorful Enchanting Particles/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Colorful Enchanting Particles
+						</h4>
+						<p class="card-text">
+							Makes the particles that come from bookshelves around an Enchanting Table nice and colorful!
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-17"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-17');">
+					<input type="checkbox" name="0-17"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Pink End Rods/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Pink End Rods
+						</h4>
+						<p class="card-text">
+							Changes the gray base of End Rods to pink.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-18"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-18');">
+					<input type="checkbox" name="0-18"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Less Purple Purpur/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Less Purple Purpur
+						</h4>
+						<p class="card-text">
+							Desaturates the color of all purpur blocks.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-19"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-19');">
+					<input type="checkbox" name="0-19"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Unique Dyes/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Unique Dyes
+						</h4>
+						<p class="card-text">
+							Adds variation to the dyes by making each one different.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-20"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-20');">
+					<input type="checkbox" name="0-20"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Ashless Campfires/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Ashless Campfires
+						</h4>
+						<p class="card-text">
+							Removes the 'ash' from unlit Campfires and Soul Campfires.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-21"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-21');">
+					<input type="checkbox" name="0-21"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Glass Doors/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Glass Doors
+						</h4>
+						<p class="card-text">
+							Adds uniquely shaped glass windows into every door type.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-22"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-22');">
+					<input type="checkbox" name="0-22"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Glass Trapdoors/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Glass Trapdoors
+						</h4>
+						<p class="card-text">
+							Adds uniquely shaped glass windows into every trapdoor type.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-23"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-23');">
+					<input type="checkbox" name="0-23"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Flint Tipped Arrows/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Flint Tipped Arrows
+						</h4>
+						<p class="card-text">
+							Changes arrow sprites and entities to have Flint colored tips.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-24"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-24');">
+					<input type="checkbox" name="0-24"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Bed Icons/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Bed Icons
+						</h4>
+						<p class="card-text">
+							Changes Bed item textures to Vanilla Tweaks own custom bed icons textures.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-25"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-25');">
+					<input type="checkbox" name="0-25"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Splash Bottle o' Enchanting/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Splash Bottle o' Enchanting
+						</h4>
+						<p class="card-text">
+							Makes the Bottle o' Enchanting take the same shape as a splash potion.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-26"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-26');">
+					<input type="checkbox" name="0-26"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/2D Spyglass/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							2D Spyglass
+						</h4>
+						<p class="card-text">
+							Removes the 3D model for the handheld Spyglass, using a 2D sprite instead.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-27"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-27');">
+					<input type="checkbox" name="0-27"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Accurate Spyglass/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Accurate Spyglass
+						</h4>
+						<p class="card-text">
+							Recolors the Spyglass to use Copper and Amethyst colors, to reflect its crafting recipe.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-28"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-28');">
+					<input type="checkbox" name="0-28"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Crimsoner Crimson/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Crimsoner Crimson
+						</h4>
+						<p class="card-text">
+							Recolours all Crimson Wood related blocks and items to be redder, matching the shades in Crimson Nylium and Wart blocks closer.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-29"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-29');">
+					<input type="checkbox" name="0-29"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Smoother Warped Planks/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Smoother Warped Planks
+						</h4>
+						<p class="card-text">
+							Removes the harsh contrast from Warped Planks.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-30"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-30');">
+					<input type="checkbox" name="0-30"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Alternate Cut Copper/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Alternate Cut Copper
+						</h4>
+						<p class="card-text">
+							Retextures Cut Copper blocks to resemble their look from their first appearence on Minecraft Live.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-31"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-31');">
+					<input type="checkbox" name="0-31"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Polished Stones to Bricks/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Polished Stones to Bricks
+						</h4>
+						<p class="card-text">
+							Retextures Polished Granite, Andesite and Diorite to look like bricks.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-32"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-32');">
+					<input type="checkbox" name="0-32"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Plain Leather Armor/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Plain Leather Armor
+						</h4>
+						<p class="card-text">
+							Removes the brown overlay from Leather Armor.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-33"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-33');">
+					<input type="checkbox" name="0-33"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Golden Crown/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Golden Crown
+						</h4>
+						<p class="card-text">
+							Retextures the Golden Helmet to look like a crown.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-34"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-34');">
+					<input type="checkbox" name="0-34"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Classic Netherite Armor/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Classic Netherite Armor
+						</h4>
+						<p class="card-text">
+							Netherite armor in the style of the other armors.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-35"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-35');">
+					<input type="checkbox" name="0-35"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Vex Elytra/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Vex Elytra
+						</h4>
+						<p class="card-text">
+							Changes the elytra to Vex-themed wings.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-36"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-36');">
+					<input type="checkbox" name="0-36"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Phantom Elytra/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Phantom Elytra
+						</h4>
+						<p class="card-text">
+							Changes Elytra to look like Phantom wings.
+						</p>
+					</div>
+				</div>
+				
+				<div name="0-37"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-37');">
+					<input type="checkbox" name="0-37"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Aesthetic/Dragon Elytra/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Dragon Elytra
+						</h4>
+						<p class="card-text">
+							Changes Elytra to look like Ender Dragon wings.
+						</p>
+					</div>
+				</div>
+				
+				<div name="1" class="category col-sm-12 card bg-secondary text-white">
+					Terrain
+				</div>
+				
+				<div name="1-0"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('1-0');">
+					<input type="checkbox" name="1-0"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Terrain/Darker Dark Oak Leaves/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Darker Dark Oak Leaves
+						</h4>
+						<p class="card-text">
+							Makes Dark Oak Leaves darker than Oak Leaves.
+						</p>
+					</div>
+				</div>
+				
+				<div name="1-1"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('1-1');">
+					<input type="checkbox" name="1-1"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Terrain/Lush Grass All 'Round!/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Lush Grass All 'Round!
+						</h4>
+						<p class="card-text">
+							Makes the entire world use the Mushroom Biome's colormap.
+						</p>
+					</div>
+				</div>
+				
+				<div name="1-2"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('1-2');">
+					<input type="checkbox" name="1-2"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Terrain/Alternate Bedrock/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Alternate Bedrock
+						</h4>
+						<p class="card-text">
+							Changes the texture of Bedrock to be less noisy and more natural-looking.
+						</p>
+					</div>
+				</div>
+				
+				<div name="1-3"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('1-3');">
+					<input type="checkbox" name="1-3"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Terrain/Brighter Nether/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Brighter Nether
+						</h4>
+						<p class="card-text">
+							Brightens the textures of blocks commonly found in the Nether.
+						</p>
+					</div>
+				</div>
+				
+				<div name="1-4"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('1-4');">
+					<input type="checkbox" name="1-4"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Terrain/Circular Sun And Moon/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Circular Sun And Moon
+						</h4>
+						<p class="card-text">
+							Replaces the default square sun and moon, with a circular sun and moon.
+						</p>
+					</div>
+				</div>
+				
+				<div name="1-5"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('1-5');">
+					<input type="checkbox" name="1-5"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Terrain/Circular Log Tops/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Circular Log Tops
+						</h4>
+						<p class="card-text">
+							Tweaks all log and stripped log tops to be circular, including Nether Fungi stems.
+						</p>
+					</div>
+				</div>
+				
+				<div name="1-6"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('1-6');">
+					<input type="checkbox" name="1-6"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Terrain/Smoother Oak Log/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Smoother Oak Log
+						</h4>
+						<p class="card-text">
+							Smoothens the texture of oak logs to make them less sharp.
+						</p>
+					</div>
+				</div>
+				
+				<div name="1-7"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('1-7');">
+					<input type="checkbox" name="1-7"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Terrain/Smoother Stones/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Smoother Stones
+						</h4>
+						<p class="card-text">
+							Smoothens the textures of Andesite, Diorite, and Granite to make them less noisy and more tolerable.
+						</p>
+					</div>
+				</div>
+				
+				<div name="1-8"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('1-8');">
+					<input type="checkbox" name="1-8"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Terrain/Pebble-Less Dirt/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Pebble-Less Dirt
+						</h4>
+						<p class="card-text">
+							Gets rid of the white pebbles in Dirt.
+						</p>
+					</div>
+				</div>
+				
+				<div name="1-9"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('1-9');">
+					<input type="checkbox" name="1-9"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Terrain/Pebble-Less Coarse Dirt/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Pebble-Less Coarse Dirt
+						</h4>
+						<p class="card-text">
+							Gets rid of the white pebbles in Coarse Dirt.
+						</p>
+					</div>
+				</div>
+				
+				<div name="1-10"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('1-10');">
+					<input type="checkbox" name="1-10"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Terrain/Clearer Water/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Clearer Water
+						</h4>
+						<p class="card-text">
+							Makes Water clearer.
+						</p>
+					</div>
+				</div>
+				
+				<div name="1-11"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('1-11');">
+					<input type="checkbox" name="1-11"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Terrain/Uniform Ores/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Uniform Ores
+						</h4>
+						<p class="card-text">
+							Makes all ores take on the pattern of Diamond Ore.
+						</p>
+					</div>
+				</div>
+				
+				<div name="1-12"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('1-12');">
+					<input type="checkbox" name="1-12"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Terrain/Fancy Sunflowers/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Fancy Sunflowers
+						</h4>
+						<p class="card-text">
+							Retextures the heads of Sunflowers bloom a bit more.
+						</p>
+					</div>
+				</div>
+				
+				<div name="1-13"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('1-13');">
+					<input type="checkbox" name="1-13"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Terrain/Shorter Grass/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Shorter Grass
+						</h4>
+						<p class="card-text">
+							Makes grass slightly shorter.
+						</p>
+					</div>
+				</div>
+				
+				<div name="1-14"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('1-14');">
+					<input type="checkbox" name="1-14"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Terrain/Shorter Tall Grass/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Shorter Tall Grass
+						</h4>
+						<p class="card-text">
+							Makes tall grass slightly shorter.
+						</p>
+					</div>
+				</div>
+				
+				<div name="1-15"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('1-15');">
+					<input type="checkbox" name="1-15"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Terrain/Whiter Snow/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Whiter Snow
+						</h4>
+						<p class="card-text">
+							Removes the blue tint from snow.
+						</p>
+					</div>
+				</div>
+				
+				<div name="2" class="category col-sm-12 card bg-secondary text-white">
+					Lower and Sides
+				</div>
+				
+				<div name="2-0"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('2-0');">
+					<input type="checkbox" name="2-0"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Lower and Sides/Lower Grass/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Lower Grass
+						</h4>
+						<p class="card-text">
+							Lowers the sides of Grass Blocks to provide a smoother and greener landscape.
+						</p>
+					</div>
+				</div>
+				
+				<div name="2-1"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('2-1');">
+					<input type="checkbox" name="2-1"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Lower and Sides/Grass Sides/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Grass Sides
+						</h4>
+						<p class="card-text">
+							Completely covers the sides of Grass Blocks to provide a smoother and greener landscape.
+						</p>
+					</div>
+				</div>
+				
+				<div name="2-2"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('2-2');">
+					<input type="checkbox" name="2-2"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Lower and Sides/Lower Mycelium/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Lower Mycelium
+						</h4>
+						<p class="card-text">
+							Lowers the sides of Mycelium Blocks to provide a smoother and mushroomier landscape.
+						</p>
+					</div>
+				</div>
+				
+				<div name="2-3"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('2-3');">
+					<input type="checkbox" name="2-3"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Lower and Sides/Mycelium Sides/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Mycelium Sides
+						</h4>
+						<p class="card-text">
+							Completely covers the sides of Mycelium Blocks to provide a smoother and mushroomier landscape.
+						</p>
+					</div>
+				</div>
+				
+				<div name="2-4"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('2-4');">
+					<input type="checkbox" name="2-4"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Lower and Sides/Lower Paths/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Lower Paths
+						</h4>
+						<p class="card-text">
+							Lowers the sides of Path Blocks to provide a smoother-looking pathway.
+						</p>
+					</div>
+				</div>
+				
+				<div name="2-5"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('2-5');">
+					<input type="checkbox" name="2-5"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Lower and Sides/Path Sides/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Path Sides
+						</h4>
+						<p class="card-text">
+							Completely covers the sides of Path Blocks to provide a smoother-looking pathway.
+						</p>
+					</div>
+				</div>
+				
+				<div name="2-6"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('2-6');">
+					<input type="checkbox" name="2-6"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Lower and Sides/Lower Podzol/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Lower Podzol
+						</h4>
+						<p class="card-text">
+							Lowers the sides of Podzol Blocks to provide a smoother and more consistent landscape.
+						</p>
+					</div>
+				</div>
+				
+				<div name="2-7"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('2-7');">
+					<input type="checkbox" name="2-7"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Lower and Sides/Podzol Sides/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Podzol Sides
+						</h4>
+						<p class="card-text">
+							Completely covers the sides of Podzol Blocks to provide a smoother and more consistent landscape.
+						</p>
+					</div>
+				</div>
+				
+				<div name="2-8"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('2-8');">
+					<input type="checkbox" name="2-8"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Lower and Sides/Lower Snow/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Lower Snow
+						</h4>
+						<p class="card-text">
+							Lowers the sides of Grass Blocks to provide a smoother and whiter snowy landscape.
+						</p>
+					</div>
+				</div>
+				
+				<div name="2-9"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('2-9');">
+					<input type="checkbox" name="2-9"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Lower and Sides/Snow Sides/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Snow Sides
+						</h4>
+						<p class="card-text">
+							Completely covers the sides of Grass Blocks to provide a smoother and whiter snowy landscape.
+						</p>
+					</div>
+				</div>
+				
+				<div name="2-10"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('2-10');">
+					<input type="checkbox" name="2-10"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Lower and Sides/Lower Crimson Nylium/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Lower Crimson Nylium
+						</h4>
+						<p class="card-text">
+							Lowers the sides of Crimson Nylium to provide a smoother and redder landscape.
+						</p>
+					</div>
+				</div>
+				
+				<div name="2-11"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('2-11');">
+					<input type="checkbox" name="2-11"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Lower and Sides/Crimson Nylium Sides/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Crimson Nylium Sides
+						</h4>
+						<p class="card-text">
+							Completely covers the sides of Crimson Nylium to provide a smoother and redder landscape.
+						</p>
+					</div>
+				</div>
+				
+				<div name="2-12"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('2-12');">
+					<input type="checkbox" name="2-12"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Lower and Sides/Lower Warped Nylium/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Lower Warped Nylium
+						</h4>
+						<p class="card-text">
+							Lowers the sides of Warped Nylium to provide a smoother and bluer landscape.
+						</p>
+					</div>
+				</div>
+				
+				<div name="2-13"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('2-13');">
+					<input type="checkbox" name="2-13"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Lower and Sides/Warped Nylium Sides/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Warped Nylium Sides
+						</h4>
+						<p class="card-text">
+							Completely covers the sides of Warped Nylium to provide a smoother and bluer landscape.
+						</p>
+					</div>
+				</div>
+				
+				<div name="3" class="category col-sm-12 card bg-secondary text-white">
+					Variation
+				</div>
+				
+				<div name="3-0"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('3-0');">
+					<input type="checkbox" name="3-0"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Variation/Variated Dirt/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Variated Dirt
+						</h4>
+						<p class="card-text">
+							Dirt will be randomized using a selection of 16 textures.
+						</p>
+					</div>
+				</div>
+				
+				<div name="3-1"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('3-1');">
+					<input type="checkbox" name="3-1"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Variation/Variated Grass/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Variated Grass
+						</h4>
+						<p class="card-text">
+							Grass will be randomized using a selection of 16 textures.
+						</p>
+					</div>
+				</div>
+				
+				<div name="3-2"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('3-2');">
+					<input type="checkbox" name="3-2"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Variation/Variated Cobblestone/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Variated Cobblestone
+						</h4>
+						<p class="card-text">
+							Cobblestone will be randomized using a selection of 7 textures.
+						</p>
+					</div>
+				</div>
+				
+				<div name="3-3"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('3-3');">
+					<input type="checkbox" name="3-3"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Variation/Variated Bricks/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Variated Bricks
+						</h4>
+						<p class="card-text">
+							Bricks will be randomized using a selection of 7 textures.
+						</p>
+					</div>
+				</div>
+				
+				<div name="3-4"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('3-4');">
+					<input type="checkbox" name="3-4"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Variation/Variated Birch Logs/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Variated Birch Logs
+						</h4>
+						<p class="card-text">
+							Birch Logs will be randomized using a selection of 6 textures.
+						</p>
+					</div>
+				</div>
+				
+				<div name="3-5"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('3-5');">
+					<input type="checkbox" name="3-5"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Variation/Variated Red Mushroom Blocks/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Variated Red Mushroom Blocks
+						</h4>
+						<p class="card-text">
+							Red Mushroom Blocks will be randomized using a selection of 12 textures.
+						</p>
+					</div>
+				</div>
+				
+				<div name="3-6"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('3-6');">
+					<input type="checkbox" name="3-6"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Variation/Variated End Stone/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Variated End Stone
+						</h4>
+						<p class="card-text">
+							End Stone will be randomized using a selection of 5 textures.
+						</p>
+					</div>
+				</div>
+				
+				<div name="3-7"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('3-7');">
+					<input type="checkbox" name="3-7"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Variation/Variated Gravel/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Variated Gravel
+						</h4>
+						<p class="card-text">
+							Gravel will be randomized using a selection of 16 textures.
+						</p>
+					</div>
+				</div>
+				
+				<div name="3-8"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('3-8');">
+					<input type="checkbox" name="3-8"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Variation/Variated Mycelium/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Variated Mycelium
+						</h4>
+						<p class="card-text">
+							Mycelium will be randomized using a selection of 16 textures.
+						</p>
+					</div>
+				</div>
+				
+				<div name="3-9"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('3-9');">
+					<input type="checkbox" name="3-9"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Variation/Variated Planks/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Variated Planks
+						</h4>
+						<p class="card-text">
+							All planks will be randomized using a selection of 16 textures.
+						</p>
+					</div>
+				</div>
+				
+				<div name="3-10"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('3-10');">
+					<input type="checkbox" name="3-10"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Variation/Variated Stone/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Variated Stone
+						</h4>
+						<p class="card-text">
+							Stone will be randomized using a selection of 16 textures.
+						</p>
+					</div>
+				</div>
+				
+				<div name="3-11"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('3-11');">
+					<input type="checkbox" name="3-11"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Variation/Variated Terracotta/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Variated Terracotta
+						</h4>
+						<p class="card-text">
+							Terracotta will be randomized using a selection of 16 textures.
+						</p>
+					</div>
+				</div>
+				
+				<div name="3-12"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('3-12');">
+					<input type="checkbox" name="3-12"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Variation/Variated Unpolished Stones/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Variated Unpolished Stones
+						</h4>
+						<p class="card-text">
+							Unpolished Stones will be randomized using a selection of 16 textures.
+						</p>
+					</div>
+				</div>
+				
+				<div name="3-13"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('3-13');">
+					<input type="checkbox" name="3-13"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Variation/Variated Bookshelves/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Variated Bookshelves
+						</h4>
+						<p class="card-text">
+							Bookshelves will be randomized using a selection of 7 textures.
+						</p>
+					</div>
+				</div>
+				
+				<div name="4" class="category col-sm-12 card bg-secondary text-white">
+					Peace and Quiet
+				</div>
+				
+				<div name="4-0"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('4-0');">
+					<input type="checkbox" name="4-0"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Peace and Quiet/Quieter Rain/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Quieter Rain
+						</h4>
+						<p class="card-text">
+							Makes rain quieter.
+						</p>
+					</div>
+				</div>
+				
+				<div name="4-1"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('4-1');">
+					<input type="checkbox" name="4-1"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Peace and Quiet/Quieter Dispensers and Droppers/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Quieter Dispensers and Droppers
+						</h4>
+						<p class="card-text">
+							Makes Dispensers and Droppers quieter. Also affects menu clicks.
+						</p>
+					</div>
+				</div>
+				
+				<div name="4-2"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('4-2');">
+					<input type="checkbox" name="4-2"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Peace and Quiet/Quieter Ghasts/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Quieter Ghasts
+						</h4>
+						<p class="card-text">
+							Makes Ghasts quieter.
+						</p>
+					</div>
+				</div>
+				
+				<div name="4-3"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('4-3');">
+					<input type="checkbox" name="4-3"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Peace and Quiet/Quieter Minecarts/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Quieter Minecarts
+						</h4>
+						<p class="card-text">
+							Makes Minecarts quieter.
+						</p>
+					</div>
+				</div>
+				
+				<div name="4-4"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('4-4');">
+					<input type="checkbox" name="4-4"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Peace and Quiet/Quieter Villagers/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Quieter Villagers
+						</h4>
+						<p class="card-text">
+							Makes Villagers quieter.
+						</p>
+					</div>
+				</div>
+				
+				<div name="4-5"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('4-5');">
+					<input type="checkbox" name="4-5"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Peace and Quiet/Quieter Fire/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Quieter Fire
+						</h4>
+						<p class="card-text">
+							Makes Fire quieter.
+						</p>
+					</div>
+				</div>
+				
+				<div name="4-6"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('4-6');">
+					<input type="checkbox" name="4-6"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Peace and Quiet/Quieter Nether Portals/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Quieter Nether Portals
+						</h4>
+						<p class="card-text">
+							Makes Nether Portals quieter.
+						</p>
+					</div>
+				</div>
+				
+				<div name="4-7"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('4-7');">
+					<input type="checkbox" name="4-7"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Peace and Quiet/Quieter Water/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Quieter Water
+						</h4>
+						<p class="card-text">
+							Makes Flowing Water quieter.
+						</p>
+					</div>
+				</div>
+				
+				<div name="4-8"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('4-8');">
+					<input type="checkbox" name="4-8"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Peace and Quiet/Quieter Endermen/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Quieter Endermen
+						</h4>
+						<p class="card-text">
+							Makes Endermen quieter.
+						</p>
+					</div>
+				</div>
+				
+				<div name="4-9"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('4-9');">
+					<input type="checkbox" name="4-9"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Peace and Quiet/Quieter Pistons/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Quieter Pistons
+						</h4>
+						<p class="card-text">
+							Makes Pistons quieter.
+						</p>
+					</div>
+				</div>
+				
+				<div name="4-10"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('4-10');">
+					<input type="checkbox" name="4-10"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Peace and Quiet/Quieter Cows/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Quieter Cows
+						</h4>
+						<p class="card-text">
+							Makes Cows quieter.
+						</p>
+					</div>
+				</div>
+				
+				<div name="4-11"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('4-11');">
+					<input type="checkbox" name="4-11"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Peace and Quiet/Quieter Shulker Boxes/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Quieter Shulker Boxes
+						</h4>
+						<p class="card-text">
+							Makes Shulker Boxes quieter.
+						</p>
+					</div>
+				</div>
+				
+				<div name="4-12"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('4-12');">
+					<input type="checkbox" name="4-12"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Peace and Quiet/No Cave Sounds/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							No Cave Sounds
+						</h4>
+						<p class="card-text">
+							Removes the spooky cave sounds.
+						</p>
+					</div>
+				</div>
+				
+				<div name="5" class="category col-sm-12 card bg-secondary text-white">
+					Utility
+				</div>
+				
+				<div name="5-0"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('5-0');">
+					<input type="checkbox" name="5-0"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Utility/Ore Borders/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Ore Borders
+						</h4>
+						<p class="card-text">
+							Places a border around ores for easier visibility within caves.
+						</p>
+					</div>
+				</div>
+				
+				<div name="5-1"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('5-1');">
+					<input type="checkbox" name="5-1"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Utility/Clean Ores/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Clean Ores
+						</h4>
+						<p class="card-text">
+							Makes ores textures clean for easier visibility within caves.
+						</p>
+					</div>
+				</div>
+				
+				<div name="5-2"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('5-2');">
+					<input type="checkbox" name="5-2"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Utility/Visual Infested Stone (Items)/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Visual Infested Stone (Items)
+						</h4>
+						<p class="card-text">
+							Adds a border around Infested Stone in the inventory. This will NOT affect the placed blocks.
+						</p>
+					</div>
+				</div>
+				
+				<div name="5-3"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('5-3');">
+					<input type="checkbox" name="5-3"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Utility/Visual Waxed Copper (Items)/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Visual Waxed Copper (Items)
+						</h4>
+						<p class="card-text">
+							Adds a border around Waxed Copper in the inventory. This will NOT affect the placed blocks.
+						</p>
+					</div>
+				</div>
+				
+				<div name="5-4"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('5-4');">
+					<input type="checkbox" name="5-4"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Utility/Age 25 Kelp/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Age 25 Kelp
+						</h4>
+						<p class="card-text">
+							Adds flowers to the top of kelp plants when they are fully grown. [age=25]
+						</p>
+					</div>
+				</div>
+				
+				<div name="5-5"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('5-5');">
+					<input type="checkbox" name="5-5"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Utility/Mine Progress Bar/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Mine Progress Bar
+						</h4>
+						<p class="card-text">
+							Changes the breaking texture of blocks to a clean ring around the outside.
+						</p>
+					</div>
+				</div>
+				
+				<div name="5-6"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('5-6');">
+					<input type="checkbox" name="5-6"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Utility/Hunger Preview/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Hunger Preview
+						</h4>
+						<p class="card-text">
+							Displays Hunger Bar icons on all food names to show how much it will fill you up.
+						</p>
+					</div>
+				</div>
+				
+				<div name="5-7"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('5-7');">
+					<input type="checkbox" name="5-7"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Utility/Sticky Piston Sides/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Sticky Piston Sides
+						</h4>
+						<p class="card-text">
+							Displays Slime on the sides of Sticky Pistons to allow players to easily differentiate them from regular pistons.
+						</p>
+					</div>
+				</div>
+				
+				<div name="5-8"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('5-8');">
+					<input type="checkbox" name="5-8"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Utility/Directional Hoppers/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Directional Hoppers
+						</h4>
+						<p class="card-text">
+							Gives Hoppers arrows on top to indicate in which direction they are pointing. And colours them depending if they are powered or not.
+						</p>
+					</div>
+				</div>
+				
+				<div name="5-9"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('5-9');">
+					<input type="checkbox" name="5-9"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Utility/Directional Observers/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Directional Observers
+						</h4>
+						<p class="card-text">
+							Gives all sides of the Observer block directional indicators which display updates.
+						</p>
+					</div>
+				</div>
+				
+				<div name="5-10"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('5-10');">
+					<input type="checkbox" name="5-10"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Utility/Clean Redstone Dust/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Clean Redstone Dust
+						</h4>
+						<p class="card-text">
+							Changes the texture of Redstone Dust to a clean solid line.
+						</p>
+					</div>
+				</div>
+				
+				<div name="5-11"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('5-11');">
+					<input type="checkbox" name="5-11"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Utility/Unlit Redstone Ore/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Unlit Redstone Ore
+						</h4>
+						<p class="card-text">
+							Makes unlit Redstone Ore use the same palette as unlit Redstone Wire until its lit, when it then returns to its default, bright red colour.
+						</p>
+					</div>
+				</div>
+				
+				<div name="5-12"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('5-12');">
+					<input type="checkbox" name="5-12"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Utility/Visible Tripwires/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Visible Tripwires
+						</h4>
+						<p class="card-text">
+							Makes tripwire a bright blue so you can easily see them.
+						</p>
+					</div>
+				</div>
+				
+				<div name="5-13"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('5-13');">
+					<input type="checkbox" name="5-13"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Utility/Compass Lodestone/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Compass Lodestone
+						</h4>
+						<p class="card-text">
+							Adds North, East, South and West markings on the sides of the Lodestone, so you can use it as a stationary compass.
+						</p>
+					</div>
+				</div>
+				
+				<div name="5-14"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('5-14');">
+					<input type="checkbox" name="5-14"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Utility/Brewing Guide/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Brewing Guide
+						</h4>
+						<p class="card-text">
+							Adds a cheat sheet to the Brewing Stand interface.
+						</p>
+					</div>
+				</div>
+				
+				<div name="5-15"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('5-15');">
+					<input type="checkbox" name="5-15"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Utility/Arabic Numerals/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Arabic Numerals
+						</h4>
+						<p class="card-text">
+							Translates the Roman Numerals for enchantments and potions to Arabic Numerals. (I, II, III -> 1, 2, 3)
+						</p>
+					</div>
+				</div>
+				
+				<div name="5-16"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('5-16');">
+					<input type="checkbox" name="5-16"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Utility/Tech Set/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Tech Set
+						</h4>
+						<p class="card-text">
+							Adds a proper name and texture to some Technical Blocks. 
+						</p>
+					</div>
+				</div>
+				
+				<div name="6" class="category col-sm-12 card bg-secondary text-white">
+					Unobtrusive
+				</div>
+				
+				<div name="6-0"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('6-0');">
+					<input type="checkbox" name="6-0"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Unobtrusive/Unobtrusive Rain/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Unobtrusive Rain
+						</h4>
+						<p class="card-text">
+							Reduces the amount of rain particles for easier vision.
+						</p>
+					</div>
+				</div>
+				
+				<div name="6-1"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('6-1');">
+					<input type="checkbox" name="6-1"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Unobtrusive/Unobtrusive Snow/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Unobtrusive Snow
+						</h4>
+						<p class="card-text">
+							Reduces the amount of snow particles for easier vision.
+						</p>
+					</div>
+				</div>
+				
+				<div name="6-2"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('6-2');">
+					<input type="checkbox" name="6-2"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Unobtrusive/Unobtrusive Particles/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Unobtrusive Particles
+						</h4>
+						<p class="card-text">
+							Makes many particles transparent or hollow for easier vision.
+						</p>
+					</div>
+				</div>
+				
+				<div name="6-3"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('6-3');">
+					<input type="checkbox" name="6-3"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Unobtrusive/Borderless Glass/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Borderless Glass
+						</h4>
+						<p class="card-text">
+							Gets rid of the border on the edges of the Glass textures to provide for cleaner and more transparent Glass. (Incompatibilities: Clean Glass)
+						</p>
+					</div>
+				</div>
+				
+				<div name="6-4"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('6-4');">
+					<input type="checkbox" name="6-4"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Unobtrusive/Borderless Stained Glass/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Borderless Stained Glass
+						</h4>
+						<p class="card-text">
+							Gets rid of the border on the edges of the Stained Glass textures to provide for cleaner and more transparent Stained Glass. (Incompatibilities: Clean Stained Glass)
+						</p>
+					</div>
+				</div>
+				
+				<div name="6-5"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('6-5');">
+					<input type="checkbox" name="6-5"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Unobtrusive/Borderless Tinted Glass/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Borderless Tinted Glass
+						</h4>
+						<p class="card-text">
+							Gets rid of the border on the edges of Tinted Glass to make it cleaner and more transparent.
+						</p>
+					</div>
+				</div>
+				
+				<div name="6-6"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('6-6');">
+					<input type="checkbox" name="6-6"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Unobtrusive/Clean Glass/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Clean Glass
+						</h4>
+						<p class="card-text">
+							Gets rid of glass streaks, resulting in clean-looking Glass. (Incompatibilities: Borderless Glass)
+						</p>
+					</div>
+				</div>
+				
+				<div name="6-7"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('6-7');">
+					<input type="checkbox" name="6-7"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Unobtrusive/Clean Stained Glass/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Clean Stained Glass
+						</h4>
+						<p class="card-text">
+							Gets rid of glass streaks, resulting in clean-looking Glass. (Incompatibilities: Borderless Stained Glass)
+						</p>
+					</div>
+				</div>
+				
+				<div name="6-8"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('6-8');">
+					<input type="checkbox" name="6-8"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Unobtrusive/Clean Tinted Glass/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Clean Tinted Glass
+						</h4>
+						<p class="card-text">
+							Gets rid of the streaks in Tinted Glass, making it look cleaner.
+						</p>
+					</div>
+				</div>
+				
+				<div name="6-9"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('6-9');">
+					<input type="checkbox" name="6-9"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Unobtrusive/Unobtrusive Scaffolding/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Unobtrusive Scaffolding
+						</h4>
+						<p class="card-text">
+							Creates a hole in the top of scaffolding, allowing you to traverse up and down them more comfortably.
+						</p>
+					</div>
+				</div>
+				
+				<div name="6-10"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('6-10');">
+					<input type="checkbox" name="6-10"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Unobtrusive/Lower Fire/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Lower Fire
+						</h4>
+						<p class="card-text">
+							Lowers the height of fire to be 1-block-tall.
+						</p>
+					</div>
+				</div>
+				
+				<div name="6-11"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('6-11');">
+					<input type="checkbox" name="6-11"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Unobtrusive/Lower Shield/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Lower Shield
+						</h4>
+						<p class="card-text">
+							Lowers Shields in the first-person perspective to provide for wider visibility.
+						</p>
+					</div>
+				</div>
+				
+				<div name="6-12"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('6-12');">
+					<input type="checkbox" name="6-12"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Unobtrusive/Transparent Pumpkin Overlay/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Transparent Pumpkin Overlay
+						</h4>
+						<p class="card-text">
+							Increases visibility when wearing Pumpkins.
+						</p>
+					</div>
+				</div>
+				
+				<div name="6-13"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('6-13');">
+					<input type="checkbox" name="6-13"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Unobtrusive/Orange Pumpkin Overlay/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Orange Pumpkin Overlay
+						</h4>
+						<p class="card-text">
+							Makes Pumpkin Overlay Orange Coloured.
+						</p>
+					</div>
+				</div>
+				
+				<div name="6-14"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('6-14');">
+					<input type="checkbox" name="6-14"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Unobtrusive/No Pumpkin Overlay/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							No Pumpkin Overlay
+						</h4>
+						<p class="card-text">
+							Removes the pumpkin overlay completely when worn.
+						</p>
+					</div>
+				</div>
+				
+				<div name="6-15"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('6-15');">
+					<input type="checkbox" name="6-15"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Unobtrusive/Transparent Spyglass Overlay/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Transparent Spyglass Overlay
+						</h4>
+						<p class="card-text">
+							Makes the length of all swords shorter for easier visibility.
+						</p>
+					</div>
+				</div>
+				
+				<div name="6-16"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('6-16');">
+					<input type="checkbox" name="6-16"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Unobtrusive/No Vignette/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							No Vignette
+						</h4>
+						<p class="card-text">
+							Removes the darkened corners of the screen that occur in darker areas when graphics are set to 'fancy'.
+						</p>
+					</div>
+				</div>
+				
+				<div name="6-17"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('6-17');">
+					<input type="checkbox" name="6-17"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Unobtrusive/Alternate Enchant Glint/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Alternate Enchant Glint
+						</h4>
+						<p class="card-text">
+							Changes the enchantment glint to a much more sleek and less overpowering glint.
+						</p>
+					</div>
+				</div>
+				
+				<div name="6-18"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('6-18');">
+					<input type="checkbox" name="6-18"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Unobtrusive/Invisible Totem/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Invisible Totem
+						</h4>
+						<p class="card-text">
+							Renders the Totem of Undying as completely invisible when in first person mode.
+						</p>
+					</div>
+				</div>
+				
+				<div name="6-19"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('6-19');">
+					<input type="checkbox" name="6-19"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Unobtrusive/Smaller Utilities/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Smaller Utilities
+						</h4>
+						<p class="card-text">
+							Makes some utility items such as food items and the Totem of Undying smaller.
+						</p>
+					</div>
+				</div>
+				
+				<div name="6-20"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('6-20');">
+					<input type="checkbox" name="6-20"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Unobtrusive/Short Swords/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Short Swords
+						</h4>
+						<p class="card-text">
+							Makes the length of all swords shorter for easier visibility.
+						</p>
+					</div>
+				</div>
+				
+				<div name="6-21"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('6-21');">
+					<input type="checkbox" name="6-21"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Unobtrusive/Invisible Item Frames/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Invisible Item Frames
+						</h4>
+						<p class="card-text">
+							Makes item frames invisible. (Careful, you might loose them :P)
+						</p>
+					</div>
+				</div>
+				
+				<div name="7" class="category col-sm-12 card bg-secondary text-white">
+					HUD
+				</div>
+				
+				<div name="7-0"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('7-0');">
+					<input type="checkbox" name="7-0"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/HUD/No Crosshair/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							No Crosshair
+						</h4>
+						<p class="card-text">
+							Changes the default '+' Crosshair.
+						</p>
+					</div>
+				</div>
+				
+				<div name="7-1"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('7-1');">
+					<input type="checkbox" name="7-1"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/HUD/Dot Crosshair/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Dot Crosshair
+						</h4>
+						<p class="card-text">
+							Changes the default '+' Crosshair.
+						</p>
+					</div>
+				</div>
+				
+				<div name="7-2"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('7-2');">
+					<input type="checkbox" name="7-2"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/HUD/Plus Dot Crosshair/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Plus Dot Crosshair
+						</h4>
+						<p class="card-text">
+							Changes the default '+' Crosshair.
+						</p>
+					</div>
+				</div>
+				
+				<div name="7-3"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('7-3');">
+					<input type="checkbox" name="7-3"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/HUD/4 Angled Crosshair/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							4 Angled Crosshair
+						</h4>
+						<p class="card-text">
+							Changes the default '+' Crosshair.
+						</p>
+					</div>
+				</div>
+				
+				<div name="7-4"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('7-4');">
+					<input type="checkbox" name="7-4"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/HUD/4 Angled Dot Crosshair/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							4 Angled Dot Crosshair
+						</h4>
+						<p class="card-text">
+							Changes the default '+' Crosshair.
+						</p>
+					</div>
+				</div>
+				
+				<div name="7-5"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('7-5');">
+					<input type="checkbox" name="7-5"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/HUD/Circle Crosshair/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Circle Crosshair
+						</h4>
+						<p class="card-text">
+							Changes the default '+' Crosshair.
+						</p>
+					</div>
+				</div>
+				
+				<div name="7-6"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('7-6');">
+					<input type="checkbox" name="7-6"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/HUD/Circle Dot Crosshair/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Circle Dot Crosshair
+						</h4>
+						<p class="card-text">
+							Changes the default '+' Crosshair.
+						</p>
+					</div>
+				</div>
+				
+				<div name="7-7"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('7-7');">
+					<input type="checkbox" name="7-7"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/HUD/Square Crosshair/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Square Crosshair
+						</h4>
+						<p class="card-text">
+							Changes the default '+' Crosshair.
+						</p>
+					</div>
+				</div>
+				
+				<div name="7-8"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('7-8');">
+					<input type="checkbox" name="7-8"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/HUD/Square Dot Crosshair/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Square Dot Crosshair
+						</h4>
+						<p class="card-text">
+							Changes the default '+' Crosshair.
+						</p>
+					</div>
+				</div>
+				
+				<div name="7-9"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('7-9');">
+					<input type="checkbox" name="7-9"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/HUD/Wither Hearts/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Wither Hearts
+						</h4>
+						<p class="card-text">
+							Makes Hearts more visible when under the 'Wither' effect.
+						</p>
+					</div>
+				</div>
+				
+				<div name="7-10"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('7-10');">
+					<input type="checkbox" name="7-10"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/HUD/Rainbow Experience Bar/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Rainbow Experience Bar
+						</h4>
+						<p class="card-text">
+							Changes the default green XP bar to a rainbow XP bar.
+						</p>
+					</div>
+				</div>
+				
+				<div name="8" class="category col-sm-12 card bg-secondary text-white">
+					GUI
+				</div>
+				
+				<div name="8-0"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('8-0');">
+					<input type="checkbox" name="8-0"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/GUI/Quick Crafting/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Quick Crafting
+						</h4>
+						<p class="card-text">
+							Adds a button to stack craft items in the stonecutter, and trade faster with villagers.
+						</p>
+					</div>
+				</div>
+				
+				<div name="8-1"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('8-1');">
+					<input type="checkbox" name="8-1"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/GUI/Chat Tweaks/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Chat Tweaks
+						</h4>
+						<p class="card-text">
+							Allows mobile users to easily tab and move between previous and next messages sent in chat and command blocks.
+						</p>
+					</div>
+				</div>
+				
+				<div name="8-2"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('8-2');">
+					<input type="checkbox" name="8-2"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/GUI/Bedrock Edition Title/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Bedrock Edition Title
+						</h4>
+						<p class="card-text">
+							Add a Bedrock Edition Logo to the Minecraft Title.
+						</p>
+					</div>
+				</div>
+				
+				<div name="8-3"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('8-3');">
+					<input type="checkbox" name="8-3"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/GUI/Numbered Hotbar/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Numbered Hotbar
+						</h4>
+						<p class="card-text">
+							Adds numbers to the hotbar slots.
+						</p>
+					</div>
+				</div>
+				
+				<div name="8-4"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('8-4');">
+					<input type="checkbox" name="8-4"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/GUI/Transparent Tool Tips/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Transparent Tool Tips
+						</h4>
+						<p class="card-text">
+							Makes item tooltips transparent.
+						</p>
+					</div>
+				</div>
+				
+				<div name="8-5"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('8-5');">
+					<input type="checkbox" name="8-5"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/GUI/Dark UI/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Dark UI
+						</h4>
+						<p class="card-text">
+							Changes all inventories and UIs to be darker.
+						</p>
+					</div>
+				</div>
+				
+				<div name="8-6"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('8-6');">
+					<input type="checkbox" name="8-6"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/GUI/Trading Helper/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Trading Helper
+						</h4>
+						<p class="card-text">
+							Makes all locked trades visibles and allows to see the locked item names and enchantments.
+						</p>
+					</div>
+				</div>
+				
+				<div name="8-7"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('8-7');">
+					<input type="checkbox" name="8-7"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/GUI/No How To Play/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							No How To Play
+						</h4>
+						<p class="card-text">
+							Removes the "How to Play" Button from all screens so you do not accidentally misclick it.
+						</p>
+					</div>
+				</div>
+				
+				<div name="9" class="category col-sm-12 card bg-secondary text-white">
+					Menu Panoramas
+				</div>
+				
+				<div name="9-0"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('9-0');">
+					<input type="checkbox" name="9-0"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Menu Panoramas/No Panorama Overlay/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							No Panorama Overlay
+						</h4>
+						<p class="card-text">
+							Removes the gradient overlay from the menu panorama.
+						</p>
+					</div>
+				</div>
+				
+				<div name="9-1"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('9-1');">
+					<input type="checkbox" name="9-1"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Menu Panoramas/Classic/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Classic
+						</h4>
+						<p class="card-text">
+							Replaces the default Minecraft menu panorama with the classic one from before 1.13.
+						</p>
+					</div>
+				</div>
+				
+				<div name="9-2"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('9-2');">
+					<input type="checkbox" name="9-2"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Menu Panoramas/Bees/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Bees
+						</h4>
+						<p class="card-text">
+							Replaces the default Minecraft menu panorama with a group of happy bees! (from 1.15)
+						</p>
+					</div>
+				</div>
+				
+				<div name="9-3"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('9-3');">
+					<input type="checkbox" name="9-3"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Menu Panoramas/Village/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Village
+						</h4>
+						<p class="card-text">
+							Replaces the default Minecraft menu panorama with a view of a village. (from 1.14)
+						</p>
+					</div>
+				</div>
+				
+				<div name="9-4"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('9-4');">
+					<input type="checkbox" name="9-4"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Menu Panoramas/Ocean/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Ocean
+						</h4>
+						<p class="card-text">
+							Replaces the default Minecraft menu panorama with an underwater ocean view. (from 1.13)
+						</p>
+					</div>
+				</div>
+				
+				<div name="9-5"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('9-5');">
+					<input type="checkbox" name="9-5"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Menu Panoramas/The End/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							The End
+						</h4>
+						<p class="card-text">
+							Replaces the default Minecraft menu panorama with a 360° view of the main End island.
+						</p>
+					</div>
+				</div>
+				
+				<div name="9-6"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('9-6');">
+					<input type="checkbox" name="9-6"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Menu Panoramas/pack.png/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							pack.png
+						</h4>
+						<p class="card-text">
+							Replaces the default Minecraft menu panorama with the classic and iconic 'pack.png' location.
+						</p>
+					</div>
+				</div>
+				
+				<div name="9-7"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('9-7');">
+					<input type="checkbox" name="9-7"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Menu Panoramas/Nostalgia/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Nostalgia
+						</h4>
+						<p class="card-text">
+							Replaces the default Minecraft menu panorama with a 360° view of a neon green plains biome from Alpha.
+						</p>
+					</div>
+				</div>
+				
+				<div name="9-8"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('9-8');">
+					<input type="checkbox" name="9-8"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Menu Panoramas/Oceanside Extreme Hills/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Oceanside Extreme Hills
+						</h4>
+						<p class="card-text">
+							Replaces the default Minecraft menu panorama with a 360° view of an Oceanside Extreme Hills.
+						</p>
+					</div>
+				</div>
+				
+				<div name="9-9"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('9-9');">
+					<input type="checkbox" name="9-9"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Menu Panoramas/Lakeside Sunset/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Lakeside Sunset
+						</h4>
+						<p class="card-text">
+							Replaces the default Minecraft menu panorama with a 360° view of a Lakeside Sunset.
+						</p>
+					</div>
+				</div>
+				
+				<div name="9-10"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('9-10');">
+					<input type="checkbox" name="9-10"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Menu Panoramas/Underground Lava Pool/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Underground Lava Pool
+						</h4>
+						<p class="card-text">
+							Replaces the default Minecraft menu panorama with a 360° view of an underground lava pool.
+						</p>
+					</div>
+				</div>
+				
+				<div name="9-11"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('9-11');">
+					<input type="checkbox" name="9-11"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Menu Panoramas/TU70 Tutorial World (Legacy Console)/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							TU70 Tutorial World (Legacy Console)
+						</h4>
+						<p class="card-text">
+							Replaces the default Minecraft menu panorama with a 360° view of Minecraft: Console Edition TU70's tutorial world.
+						</p>
+					</div>
+				</div>
+				
+				<div name="9-12"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('9-12');">
+					<input type="checkbox" name="9-12"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Menu Panoramas/Xisuma's Hermitcraft Base (Season 1)/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Xisuma's Hermitcraft Base (Season 1)
+						</h4>
+						<p class="card-text">
+							Replaces the default Minecraft menu panorama with a 360° view of Xisuma's base on Hermitcraft Season 1.
+						</p>
+					</div>
+				</div>
+				
+				<div name="9-13"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('9-13');">
+					<input type="checkbox" name="9-13"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Menu Panoramas/Xisuma's Hermitcraft Base (Season 2)/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Xisuma's Hermitcraft Base (Season 2)
+						</h4>
+						<p class="card-text">
+							Replaces the default Minecraft menu panorama with a 360° view of Xisuma's base on Hermitcraft Season 2.
+						</p>
+					</div>
+				</div>
+				
+				<div name="9-14"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('9-14');">
+					<input type="checkbox" name="9-14"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Menu Panoramas/Xisuma's Hermitcraft Base (Season 3)/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Xisuma's Hermitcraft Base (Season 3)
+						</h4>
+						<p class="card-text">
+							Replaces the default Minecraft menu panorama with a 360° view of Xisuma's base on Hermitcraft Season 3.
+						</p>
+					</div>
+				</div>
+				
+				<div name="9-15"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('9-15');">
+					<input type="checkbox" name="9-15"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Menu Panoramas/Xisuma's Hermitcraft Base (Season 4)/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Xisuma's Hermitcraft Base (Season 4)
+						</h4>
+						<p class="card-text">
+							Replaces the default Minecraft menu panorama with a 360° view of Xisuma's base on Hermitcraft Season 4.
+						</p>
+					</div>
+				</div>
+				
+				<div name="9-16"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('9-16');">
+					<input type="checkbox" name="9-16"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Menu Panoramas/Xisuma's Hermitcraft Base (Season 5)/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Xisuma's Hermitcraft Base (Season 5)
+						</h4>
+						<p class="card-text">
+							Replaces the default Minecraft menu panorama with a 360° view of Xisuma's base on Hermitcraft Season 5.
+						</p>
+					</div>
+				</div>
+				
+				<div name="9-17"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('9-17');">
+					<input type="checkbox" name="9-17"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Menu Panoramas/Xisuma's Hermitcraft Base (Season 6)/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Xisuma's Hermitcraft Base (Season 6)
+						</h4>
+						<p class="card-text">
+							Replaces the default Minecraft menu panorama with a 360° view of Xisuma's base on Hermitcraft Season 6.
+						</p>
+					</div>
+				</div>
+				
+				<div name="9-18"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('9-18');">
+					<input type="checkbox" name="9-18"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Menu Panoramas/Stridey's Resource Pack Development World/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Stridey's Resource Pack Development World
+						</h4>
+						<p class="card-text">
+							Replaces the default Minecraft menu panorama with a 360° view of Stridey's resource pack development world.
+						</p>
+					</div>
+				</div>
+				
+				<div name="10" class="category col-sm-12 card bg-secondary text-white">
+					Retro
+				</div>
+				
+				<div name="10-0"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('10-0');">
+					<input type="checkbox" name="10-0"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Retro/Old Minecraft Logo/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Old Minecraft Logo
+						</h4>
+						<p class="card-text">
+							Brings back the old hand-built Cobblestone Minecraft logo from the Alpha days!
+						</p>
+					</div>
+				</div>
+				
+				<div name="10-1"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('10-1');">
+					<input type="checkbox" name="10-1"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Retro/Dirt Background/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Dirt Background
+						</h4>
+						<p class="card-text">
+							Replaces the menu panorama with a dirt background, like the classic versions of Minecraft.
+						</p>
+					</div>
+				</div>
+				
+				<div name="10-2"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('10-2');">
+					<input type="checkbox" name="10-2"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Retro/Alpha Foliage/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Alpha Foliage
+						</h4>
+						<p class="card-text">
+							Changes the foliage textures to those of Alpha Minecraft.
+						</p>
+					</div>
+				</div>
+				
+				<div name="10-3"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('10-3');">
+					<input type="checkbox" name="10-3"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Retro/Old Cobblestone/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Old Cobblestone
+						</h4>
+						<p class="card-text">
+							Reverts Cobblestone to its Alpha texture.
+						</p>
+					</div>
+				</div>
+				
+				<div name="10-4"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('10-4');">
+					<input type="checkbox" name="10-4"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Retro/Pre-1.17 Ores/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Pre-1.17 Ores
+						</h4>
+						<p class="card-text">
+							Reverts all ores to their pre-1.17 textures, including Deepslate and Copper ores.
+						</p>
+					</div>
+				</div>
+				
+				<div name="10-5"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('10-5');">
+					<input type="checkbox" name="10-5"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Retro/Old Planks/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Old Planks
+						</h4>
+						<p class="card-text">
+							Reverts all planks to their old textures, including Warped and Crimson + their sign counterparts.
+						</p>
+					</div>
+				</div>
+				
+				<div name="10-6"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('10-6');">
+					<input type="checkbox" name="10-6"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Retro/Old Gravel/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Old Gravel
+						</h4>
+						<p class="card-text">
+							Reverts Gravel to its Alpha texture.
+						</p>
+					</div>
+				</div>
+				
+				<div name="10-7"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('10-7');">
+					<input type="checkbox" name="10-7"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Retro/Old Netherrack/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Old Netherrack
+						</h4>
+						<p class="card-text">
+							Reverts Netherrack to its old texture.
+						</p>
+					</div>
+				</div>
+				
+				<div name="10-8"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('10-8');">
+					<input type="checkbox" name="10-8"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Retro/Old Lava/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Old Lava
+						</h4>
+						<p class="card-text">
+							Reverts Lava to its Alpha texture.
+						</p>
+					</div>
+				</div>
+				
+				<div name="10-9"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('10-9');">
+					<input type="checkbox" name="10-9"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Retro/Old Obsidian/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Old Obsidian
+						</h4>
+						<p class="card-text">
+							Reverts Obsidian and Crying Obsidian to their old textures.
+						</p>
+					</div>
+				</div>
+				
+				<div name="10-10"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('10-10');">
+					<input type="checkbox" name="10-10"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Retro/Old Metal Blocks/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Old Metal Blocks
+						</h4>
+						<p class="card-text">
+							Reverts Iron Blocks, Gold Blocks, and Diamond Blocks to their Alpha textures.
+						</p>
+					</div>
+				</div>
+				
+				<div name="10-11"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('10-11');">
+					<input type="checkbox" name="10-11"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Retro/Old Water/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Old Water
+						</h4>
+						<p class="card-text">
+							Reverts Water to its old texture.
+						</p>
+					</div>
+				</div>
+				
+				<div name="10-12"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('10-12');">
+					<input type="checkbox" name="10-12"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Retro/Old Ice/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Old Ice
+						</h4>
+						<p class="card-text">
+							Reverts all Ice blocks to their old textures.
+						</p>
+					</div>
+				</div>
+				
+				<div name="10-13"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('10-13');">
+					<input type="checkbox" name="10-13"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Retro/Old Sponge/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Old Sponge
+						</h4>
+						<p class="card-text">
+							Reverts the texture of Sponges to the beta texture.
+						</p>
+					</div>
+				</div>
+				
+				<div name="10-14"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('10-14');">
+					<input type="checkbox" name="10-14"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Retro/1.11 Wool Colors/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							1.11 Wool Colors
+						</h4>
+						<p class="card-text">
+							Reverts the textures of Wool and Carpet to their Java pre-1.12 variants.
+						</p>
+					</div>
+				</div>
+				
+				<div name="10-15"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('10-15');">
+					<input type="checkbox" name="10-15"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Retro/1.11 Shulker Boxes/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							1.11 Shulker Boxes
+						</h4>
+						<p class="card-text">
+							Reverts the textures of Shulkers and Shulker Boxes to their Java pre-1.12 variants.
+						</p>
+					</div>
+				</div>
+				
+				<div name="10-16"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('10-16');">
+					<input type="checkbox" name="10-16"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Retro/Poppy to Rose/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Poppy to Rose
+						</h4>
+						<p class="card-text">
+							Changes the texture of the Poppy to that of the Rose from before 1.7.2.
+						</p>
+					</div>
+				</div>
+				
+				<div name="10-17"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('10-17');">
+					<input type="checkbox" name="10-17"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Retro/Terracota to Hardened Clay/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Terracota to Hardened Clay
+						</h4>
+						<p class="card-text">
+							Changes the newly named 'Terracotta' back to 'Hardened Clay'.
+						</p>
+					</div>
+				</div>
+				
+				<div name="10-18"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('10-18');">
+					<input type="checkbox" name="10-18"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Retro/Dirt Path to Grass Path/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Dirt Path to Grass Path
+						</h4>
+						<p class="card-text">
+							Changes the newly named 'Dirt Path' back to 'Grass Path'.
+						</p>
+					</div>
+				</div>
+				
+				<div name="10-19"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('10-19');">
+					<input type="checkbox" name="10-19"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Retro/Zombie Pigman/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Zombie Pigman
+						</h4>
+						<p class="card-text">
+							Changes the texture and model of the Zombified Piglin back to the old Zombie Pigman.
+						</p>
+					</div>
+				</div>
+				
+				<div name="10-20"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('10-20');">
+					<input type="checkbox" name="10-20"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Retro/Old Door Sounds/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Old Door Sounds
+						</h4>
+						<p class="card-text">
+							Reverts all door, trapdoor and fence gate sounds to that of before 1.0.
+						</p>
+					</div>
+				</div>
+				
+				<div name="10-21"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('10-21');">
+					<input type="checkbox" name="10-21"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Retro/Old Damage Sounds/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Old Damage Sounds
+						</h4>
+						<p class="card-text">
+							Oof!
+						</p>
+					</div>
+				</div>
+				
+				<div name="10-22"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('10-22');">
+					<input type="checkbox" name="10-22"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Retro/Old Level Up Sound/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Old Level Up Sound
+						</h4>
+						<p class="card-text">
+							Brings back the old level up jingle when you hit increment of 5 XP levels.
+						</p>
+					</div>
+				</div>
+				
+				<div name="11" class="category col-sm-12 card bg-secondary text-white">
+					Fun
+				</div>
+				
+				<div name="11-0"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('11-0');">
+					<input type="checkbox" name="11-0"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fun/Xisuma Turtle/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Xisuma Turtle
+						</h4>
+						<p class="card-text">
+							Changes the turtle texture to the well-known Xisuma Turtle.
+						</p>
+					</div>
+				</div>
+				
+				<div name="11-1"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('11-1');">
+					<input type="checkbox" name="11-1"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fun/Xisuma Squid/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Xisuma Squid
+						</h4>
+						<p class="card-text">
+							Changes the squid texture to the well-known Xisuma Squid.
+						</p>
+					</div>
+				</div>
+				
+				<div name="11-2"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('11-2');">
+					<input type="checkbox" name="11-2"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fun/Wandering Xisuma/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Wandering Xisuma
+						</h4>
+						<p class="card-text">
+							Changes the Wandering Trader texture to Xisuma's Green Team skin.
+						</p>
+					</div>
+				</div>
+				
+				<div name="11-3"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('11-3');">
+					<input type="checkbox" name="11-3"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fun/Darth Xisuma Piglins/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Darth Xisuma Piglins
+						</h4>
+						<p class="card-text">
+							Changes Piglins, Zombified Piglins and Piglin Brutes' textures to Xisuma's Darth Vader skin.
+						</p>
+					</div>
+				</div>
+				
+				<div name="11-4"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('11-4');">
+					<input type="checkbox" name="11-4"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fun/Emeralds to Rubies/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Emeralds to Rubies
+						</h4>
+						<p class="card-text">
+							Replaces all Emerald items and blocks with Rubies!
+						</p>
+					</div>
+				</div>
+				
+				<div name="11-5"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('11-5');">
+					<input type="checkbox" name="11-5"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fun/Smiley Axolotls/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Smiley Axolotls
+						</h4>
+						<p class="card-text">
+							Gives Axolotls a smiley face. :)
+						</p>
+					</div>
+				</div>
+				
+				<div name="11-6"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('11-6');">
+					<input type="checkbox" name="11-6"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fun/Beeralis/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Beeralis
+						</h4>
+						<p class="card-text">
+							Look into my eyes, and nothing but my eyes!
+						</p>
+					</div>
+				</div>
+				
+				<div name="11-7"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('11-7');">
+					<input type="checkbox" name="11-7"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fun/Wither Bee/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Wither Bee
+						</h4>
+						<p class="card-text">
+							Changes the Wither Boss texture to a Bee.
+						</p>
+					</div>
+				</div>
+				
+				<div name="11-8"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('11-8');">
+					<input type="checkbox" name="11-8"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fun/ilmango Golden Apples/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							ilmango Golden Apples
+						</h4>
+						<p class="card-text">
+							Changes Golden Apples to ilmango's icon to celebrate the digging of a perimeter in under 12 hours.
+						</p>
+					</div>
+				</div>
+				
+				<div name="11-9"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('11-9');">
+					<input type="checkbox" name="11-9"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fun/Stridey Striders/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Stridey Striders
+						</h4>
+						<p class="card-text">
+							Awful pack that makes Striders look like Stridey. Sorry.
+						</p>
+					</div>
+				</div>
+				
+				<div name="11-10"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('11-10');">
+					<input type="checkbox" name="11-10"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fun/English Enchanting Table Translation/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							English Enchanting Table Translation
+						</h4>
+						<p class="card-text">
+							Changes the Enchanting Table language (AKA Standard Galactic) to use English alphabet characters. This will not help you with enchanting, as the words and phrases used in the Enchanting Table are completely random gibberish.
+						</p>
+					</div>
+				</div>
+				
+				<div name="11-11"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('11-11');">
+					<input type="checkbox" name="11-11"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fun/Standart Galactic Alphabet/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Standart Galactic Alphabet
+						</h4>
+						<p class="card-text">
+							Changes English alphabet characters to Standard Galactic alphabet characters (AKA the enchanting table language). ??? ??? ??? ?????|:??? ?????
+						</p>
+					</div>
+				</div>
+				
+				<div name="11-12"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('11-12');">
+					<input type="checkbox" name="11-12"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fun/Bacon Beam/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Bacon Beam
+						</h4>
+						<p class="card-text">
+							Adds the almighty Bacon Beam to beacons! All hail the Bacon Beam!
+						</p>
+					</div>
+				</div>
+				
+				<div name="11-13"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('11-13');">
+					<input type="checkbox" name="11-13"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fun/WHAT/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							WHAT
+						</h4>
+						<p class="card-text">
+							Replaces the Spyglass overlay with the 'WHAT' meme template, including Earthbound's 'Sanctuary Guardian' music.
+						</p>
+					</div>
+				</div>
+				
+				<div name="11-14"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('11-14');">
+					<input type="checkbox" name="11-14"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fun/Screaming Goats Meme/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Screaming Goats Meme
+						</h4>
+						<p class="card-text">
+							Changes the screaming goat sounds to the Screaming Goat meme from 2012.
+						</p>
+					</div>
+				</div>
+				
+				<div name="11-15"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('11-15');">
+					<input type="checkbox" name="11-15"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fun/Honey Slime/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Honey Slime
+						</h4>
+						<p class="card-text">
+							Replaces all things slimy with all things honey-y!
+						</p>
+					</div>
+				</div>
+				
+				<div name="12" class="category col-sm-12 card bg-secondary text-white">
+					Colorful Slime
+				</div>
+				
+				<div name="12-0"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('12-0');">
+					<input type="checkbox" name="12-0"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Colorful Slime/White Slime/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							White Slime
+						</h4>
+						<p class="card-text">
+							Changes the color of all slime related items, blocks and entities to white.
+						</p>
+					</div>
+				</div>
+				
+				<div name="12-1"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('12-1');">
+					<input type="checkbox" name="12-1"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Colorful Slime/Orange Slime/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Orange Slime
+						</h4>
+						<p class="card-text">
+							Changes the color of all slime related items, blocks and entities to orange.
+						</p>
+					</div>
+				</div>
+				
+				<div name="12-2"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('12-2');">
+					<input type="checkbox" name="12-2"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Colorful Slime/Magenta Slime/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Magenta Slime
+						</h4>
+						<p class="card-text">
+							Changes the color of all slime related items, blocks and entities to magenta.
+						</p>
+					</div>
+				</div>
+				
+				<div name="12-3"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('12-3');">
+					<input type="checkbox" name="12-3"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Colorful Slime/Light Blue Slime/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Light Blue Slime
+						</h4>
+						<p class="card-text">
+							Changes the color of all slime related items, blocks and entities to light blue.
+						</p>
+					</div>
+				</div>
+				
+				<div name="12-4"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('12-4');">
+					<input type="checkbox" name="12-4"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Colorful Slime/Light Gray Slime/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Light Gray Slime
+						</h4>
+						<p class="card-text">
+							Changes the color of all slime related items, blocks and entities to light gray.
+						</p>
+					</div>
+				</div>
+				
+				<div name="12-5"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('12-5');">
+					<input type="checkbox" name="12-5"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Colorful Slime/Cyan Slime/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Cyan Slime
+						</h4>
+						<p class="card-text">
+							Changes the color of all slime related items, blocks and entities to cyan.
+						</p>
+					</div>
+				</div>
+				
+				<div name="12-6"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('12-6');">
+					<input type="checkbox" name="12-6"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Colorful Slime/Purple Slime/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Purple Slime
+						</h4>
+						<p class="card-text">
+							Changes the color of all slime related items, blocks and entities to purple.
+						</p>
+					</div>
+				</div>
+				
+				<div name="12-7"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('12-7');">
+					<input type="checkbox" name="12-7"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Colorful Slime/Blue Slime/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Blue Slime
+						</h4>
+						<p class="card-text">
+							Changes the color of all slime related items, blocks and entities to blue.
+						</p>
+					</div>
+				</div>
+				
+				<div name="12-8"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('12-8');">
+					<input type="checkbox" name="12-8"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Colorful Slime/Brown Slime/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Brown Slime
+						</h4>
+						<p class="card-text">
+							Changes the color of all slime related items, blocks and entities to brown.
+						</p>
+					</div>
+				</div>
+				
+				<div name="12-9"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('12-9');">
+					<input type="checkbox" name="12-9"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Colorful Slime/Green Slime/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Green Slime
+						</h4>
+						<p class="card-text">
+							Changes the color of all slime related items, blocks and entities to green.
+						</p>
+					</div>
+				</div>
+				
+				<div name="12-10"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('12-10');">
+					<input type="checkbox" name="12-10"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Colorful Slime/Red Slime/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Red Slime
+						</h4>
+						<p class="card-text">
+							Changes the color of all slime related items, blocks and entities to red.
+						</p>
+					</div>
+				</div>
+				
+				<div name="12-11"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('12-11');">
+					<input type="checkbox" name="12-11"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Colorful Slime/Black Slime/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Black Slime
+						</h4>
+						<p class="card-text">
+							Changes the color of all slime related items, blocks and entities to black.
+						</p>
+					</div>
+				</div>
+				
+				<div name="13" class="category col-sm-12 card bg-secondary text-white">
+					Parity
+				</div>
+				
+				<div name="13-0"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('13-0');">
+					<input type="checkbox" name="13-0"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Parity/Java Boom/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Java Boom
+						</h4>
+						<p class="card-text">
+							Gives Explosion particles their texture from Minecraft: Java Edition.
+						</p>
+					</div>
+				</div>
+				
+				<div name="13-1"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('13-1');">
+					<input type="checkbox" name="13-1"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Parity/Java Dried Kelp/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Java Dried Kelp
+						</h4>
+						<p class="card-text">
+							Gives the Dried Kelp item its texture from Minecraft: Java Edition.
+						</p>
+					</div>
+				</div>
+				
+				<div name="13-2"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('13-2');">
+					<input type="checkbox" name="13-2"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Parity/Java Map/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Java Map
+						</h4>
+						<p class="card-text">
+							Gives all Map item variants their textures from Minecraft: Java Edition.
+						</p>
+					</div>
+				</div>
+				
+				<div name="13-3"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('13-3');">
+					<input type="checkbox" name="13-3"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Parity/Java Ender Dragon Ball/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Java Ender Dragon Ball
+						</h4>
+						<p class="card-text">
+							Gives the Ender Dragon's projectile its texture from Minecraft: Java Edition.
+						</p>
+					</div>
+				</div>
+				
+				<div name="13-4"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('13-4');">
+					<input type="checkbox" name="13-4"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Parity/Dungeons Creepers/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Dungeons Creepers
+						</h4>
+						<p class="card-text">
+							Gives the Creeper its texture from Minecraft: Dungeons.
+						</p>
+					</div>
+				</div>
+				
+				<div name="13-5"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('13-5');">
+					<input type="checkbox" name="13-5"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Parity/Dungeons Alex & Steve/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Dungeons Alex & Steve
+						</h4>
+						<p class="card-text">
+							Gives Alex and Steve their textures from Minecraft: Dungeons.
+						</p>
+					</div>
+				</div>
+				
+				<div name="13-6"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('13-6');">
+					<input type="checkbox" name="13-6"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Parity/Dungeons Dirt/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Dungeons Dirt
+						</h4>
+						<p class="card-text">
+							Gives Dirt its texture from Minecraft: Dungeons.
+						</p>
+					</div>
+				</div>
+				
+				<div name="13-7"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('13-7');">
+					<input type="checkbox" name="13-7"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Parity/Dungeons Stone/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Dungeons Stone
+						</h4>
+						<p class="card-text">
+							Gives Stone its texture from Minecraft: Dungeons. (with 12 texture variants)
+						</p>
+					</div>
+				</div>
+				
+				<div name="13-8"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('13-8');">
+					<input type="checkbox" name="13-8"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Parity/Dungeons Terracotta/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Dungeons Terracotta
+						</h4>
+						<p class="card-text">
+							Gives Terracotta its texture from Minecraft: Dungeons.
+						</p>
+					</div>
+				</div>
+				
+				<div name="13-9"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('13-9');">
+					<input type="checkbox" name="13-9"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Parity/Super Smash Bros Enderman/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Super Smash Bros Enderman
+						</h4>
+						<p class="card-text">
+							Recolours Endermen to have the same palette as they do in 'Super Smash Bros Ultimate' and makes them shorter!
+						</p>
+					</div>
+				</div>
+				
+				<div name="13-10"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('13-10');">
+					<input type="checkbox" name="13-10"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Parity/Legacy Console Emerald/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Legacy Console Emerald
+						</h4>
+						<p class="card-text">
+							Gives the Emerald its texture from old legacy console editions of Minecraft.
+						</p>
+					</div>
+				</div>
+				
+				<div name="13-11"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('13-11');">
+					<input type="checkbox" name="13-11"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Parity/Legacy Console Snowball/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Legacy Console Snowball
+						</h4>
+						<p class="card-text">
+							Gives the Snowball its texture from old legacy console editions of Minecraft.
+						</p>
+					</div>
+				</div>
+				
+				<div name="14" class="category col-sm-12 card bg-secondary text-white">
+					Fixes
+				</div>
+				
+				<div name="14-0"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('14-0');">
+					<input type="checkbox" name="14-0"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fixes/Hotbar Offset Fix/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Hotbar Offset Fix
+						</h4>
+						<p class="card-text">
+							Fixes the offset in the hotbar.
+						</p>
+					</div>
+				</div>
+				
+				<div name="14-1"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('14-1');">
+					<input type="checkbox" name="14-1"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fixes/Jappa Observer/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Jappa Observer
+						</h4>
+						<p class="card-text">
+							Retextures the Observer's top textures to fit in-line with the 1.14 default textures, as it was left out in that update.
+						</p>
+					</div>
+				</div>
+				
+				<div name="14-2"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('14-2');">
+					<input type="checkbox" name="14-2"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fixes/Consistent Oars/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Consistent Oars
+						</h4>
+						<p class="card-text">
+							Recolors the oars on all boat items to match the boat color itself.
+						</p>
+					</div>
+				</div>
+				
+				<div name="14-3"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('14-3');">
+					<input type="checkbox" name="14-3"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fixes/Consistent Helmets/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Consistent Helmets
+						</h4>
+						<p class="card-text">
+							Adds nose-pieces to the helmet items that are missing them (iron, gold & diamond).
+						</p>
+					</div>
+				</div>
+				
+				<div name="14-4"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('14-4');">
+					<input type="checkbox" name="14-4"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fixes/Cactus Bottom Fix/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Cactus Bottom Fix
+						</h4>
+						<p class="card-text">
+							Recolors the bottom of cacti to match the rest of the cactus.
+						</p>
+					</div>
+				</div>
+				
+				<div name="14-5"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('14-5');">
+					<input type="checkbox" name="14-5"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fixes/Pixel Consistent Bat/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Pixel Consistent Bat
+						</h4>
+						<p class="card-text">
+							Retextures the Bat's textures to be consistent with its size.
+						</p>
+					</div>
+				</div>
+				
+				<div name="14-6"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('14-6');">
+					<input type="checkbox" name="14-6"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fixes/Pixel Consistent Ghast/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Pixel Consistent Ghast
+						</h4>
+						<p class="card-text">
+							Retextures the Ghasts's textures to be consistent with its size.
+						</p>
+					</div>
+				</div>
+				
+				<div name="14-7"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('14-7');">
+					<input type="checkbox" name="14-7"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fixes/Pixel Consistent Elder Guardian/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Pixel Consistent Elder Guardian
+						</h4>
+						<p class="card-text">
+							Retextures the Elder Guardian's texture to be consistent with its size.
+						</p>
+					</div>
+				</div>
+				
+				<div name="14-8"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('14-8');">
+					<input type="checkbox" name="14-8"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fixes/Pixel Consistent Wither/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Pixel Consistent Wither
+						</h4>
+						<p class="card-text">
+							Retextures the Wither's texture to be consistent with its size.
+						</p>
+					</div>
+				</div>
+				
+				<div name="14-9"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('14-9');">
+					<input type="checkbox" name="14-9"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fixes/Pixel Consistent Signs/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Pixel Consistent Signs
+						</h4>
+						<p class="card-text">
+							Retextures all sign textures to be consistent with their size.
+						</p>
+					</div>
+				</div>
+				
+				<div name="14-10"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('14-10');">
+					<input type="checkbox" name="14-10"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fixes/Pixel Consistent Experience Orbs/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Pixel Consistent Experience Orbs
+						</h4>
+						<p class="card-text">
+							Retextures Experience Orbs' textures to be consistent with their sizes.
+						</p>
+					</div>
+				</div>
+				
+				<div name="14-11"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('14-11');">
+					<input type="checkbox" name="14-11"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fixes/Pixel Consistent Beacon Beam/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Pixel Consistent Beacon Beam
+						</h4>
+						<p class="card-text">
+							Retextures Beacon and End Gateway beams's textures to be consistent with their sizes.
+						</p>
+					</div>
+				</div>
+				
+				<div name="14-12"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('14-12');">
+					<input type="checkbox" name="14-12"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fixes/Pixel Consistent Guardian Beam/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Pixel Consistent Guardian Beam
+						</h4>
+						<p class="card-text">
+							Retextures the Guardian beam's textures to be consistent with its sizes.
+						</p>
+					</div>
+				</div>
+				
+				<div name="14-13"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('14-13');">
+					<input type="checkbox" name="14-13"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fixes/Soul Soil Campfire/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Soul Soil Campfire
+						</h4>
+						<p class="card-text">
+							Replaces the Soul Campfire's 'ash' texture with Soul Soil for consistency.
+						</p>
+					</div>
+				</div>
+				
+				<div name="14-14"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('14-14');">
+					<input type="checkbox" name="14-14"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fixes/Blaze's Rods Fix/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Blaze's Rods Fix
+						</h4>
+						<p class="card-text">
+							Fixes the Blaze's rods' color on the bottom face.
+						</p>
+					</div>
+				</div>
+				
+				<div name="14-15"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('14-15');">
+					<input type="checkbox" name="14-15"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fixes/Brewing Stand Icons Fix/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Brewing Stand Icons Fix
+						</h4>
+						<p class="card-text">
+							Removes the extra pixels on the Brewing Stand's potion slot icons.
+						</p>
+					</div>
+				</div>
+				
+				<div name="14-16"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('14-16');">
+					<input type="checkbox" name="14-16"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fixes/Nicer Fast Leaves/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Nicer Fast Leaves
+						</h4>
+						<p class="card-text">
+							Replaces the random green parts in leaves to a darker green when having fancy leaves disabled.
+						</p>
+					</div>
+				</div>
+				
+				<div name="14-17"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('14-17');">
+					<input type="checkbox" name="14-17"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fixes/Double Slab Fix/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Double Slab Fix
+						</h4>
+						<p class="card-text">
+							Gives double slab variants of some blocks a clear line of separation.
+						</p>
+					</div>
+				</div>
+				
+				<div name="14-18"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('14-18');">
+					<input type="checkbox" name="14-18"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fixes/Hoe Fix/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Hoe Fix
+						</h4>
+						<p class="card-text">
+							Fixes the incorrect colour on the handles of iron and stone hoes.
+						</p>
+					</div>
+				</div>
+				
+				<div name="14-19"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('14-19');">
+					<input type="checkbox" name="14-19"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fixes/Villager Cloak Fix/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Villager Cloak Fix
+						</h4>
+						<p class="card-text">
+							Slightly tweaks the texture of Villagers' cloaks to include the missing bottom pixels.
+						</p>
+					</div>
+				</div>
+				
+				<div name="14-20"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('14-20');">
+					<input type="checkbox" name="14-20"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="https://bedrocktweaks.net/resource-packs/resources/Fixes/Cat Fix/pack_icon.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Cat Fix
+						</h4>
+						<p class="card-text">
+							Removes z-fighting under all Cats' chins and fixes miscoloured white pixels on the upper face of the Tuxedo Cat's legs.
+						</p>
+					</div>
+				</div>

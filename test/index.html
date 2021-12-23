@@ -1,0 +1,627 @@
+
+<!DOCTYPE html>
+
+
+
+
+
+<html>
+	<head>
+        <title>Text To Image API | DeepAI </title>
+        <script type="application/ld+json">
+     {"@context": "http://schema.org", "@type": "Product", "name": "Text To Image API", "description": "Creates an image from scratch from a text description.", "image": "https://images.deepai.org/machine-learning-models/ca6bd68b90a64e75b2e195434bab73d3/biggan_demo_copy.jpg", "brand": {"@type": "Thing", "name": "DeepAI", "image": "https://deepai.org/assets/image/deepai-logo.png", "sameAs": "https://deepai.org"}, "offers": {"@type": "Offer", "price": "1.00", "priceCurrency": "USD"}, "url": "https://deepai.org/machine-learning-model/text2img"} 
+</script>
+<script
+  async
+  src="https://browser.sentry-cdn.com/5.20.1/bundle.min.js"
+  integrity="sha384-O8HdAJg1h8RARFowXd2J/r5fIWuinSBtjhwQoPesfVILeXzGpJxvyY/77OaPPXUo"
+  crossorigin="anonymous"
+  onload="Sentry.init({ dsn: 'https://97bfbb7bc651472085dab062d23194f6@sentry.io/1460722' });"
+></script>
+
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="https://deepai.org/static/images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="https://deepai.org/static/images/favicon.ico" type="image/x-icon">
+        
+	
+	<meta name="description" content="Creates an image from scratch from a text description.">
+      <meta property="og:url" content="https://deepai.org/machine-learning-model/text2img">
+      <meta property="og:site_name" content="DeepAI">
+      <meta property="og:type" content="article">
+      <meta property="og:title" content="Text To Image">
+      <meta property="og:description" content="Creates an image from scratch from a text description.">
+      <meta property="og:image" content="https://images.deepai.org/machine-learning-models/ca6bd68b90a64e75b2e195434bab73d3/biggan_demo_copy.jpg">
+  
+
+        
+        <style type="text/css">@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;font-display:block;src:local('Ubuntu Regular'),local('Ubuntu-Regular'),url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKcg72nU6AF7xm.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;font-display:block;src:local('Ubuntu Regular'),local('Ubuntu-Regular'),url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKew72nU6AF7xm.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;font-display:block;src:local('Ubuntu Regular'),local('Ubuntu-Regular'),url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKcw72nU6AF7xm.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;font-display:block;src:local('Ubuntu Regular'),local('Ubuntu-Regular'),url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKfA72nU6AF7xm.woff2) format('woff2');unicode-range:U+0370-03FF}@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;font-display:block;src:local('Ubuntu Regular'),local('Ubuntu-Regular'),url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKcQ72nU6AF7xm.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;font-display:block;src:local('Ubuntu Regular'),local('Ubuntu-Regular'),url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKfw72nU6AFw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}body{margin:0}*{font-family:Ubuntu!important}a{text-decoration:none}.hiring-banner{background-color:#EBE700;padding:16px;display:flex;align-items:center;justify-content:space-between;white-space:nowrap}.hiring-banner .hiring-message{margin:auto;font-size:14px}.hiring-banner .close-hiring-banner{cursor:pointer}#infinite-scroll-loading{margin-bottom:50%}header{background-color:white;padding:12px 0;overflow:hidden;box-shadow:0 1px 8px rgba(0,0,0,0.1);display:flex!important;align-items:center;width:100%;position:fixed;z-index:1}header .hiring-button{margin-right:24px;color:#0D0D0D;background:#fff2e8;border:2px solid #ffbb96!important}header .hiring-button:hover{color:#d4380d!important}header img.deepai-logo{height:28px;margin-left:24px}header img.header-social-icon{height:28px;margin:0 0 0 20px}header a.logo-link{display:flex;cursor:pointer}header nav{margin-left:auto;max-height:40px}header ul{list-style-type:none;margin:0;padding:0;display:flex;flex-direction:row;white-space:nowrap;align-items:center}header ul li{display:block;float:left;font-size:16px;margin-left:20px;font-family:Ubuntu;color:#1D2129;line-height:2.5em}header ul li a{text-decoration:none;color:#1D2129;text-transform:uppercase;cursor:pointer}.menu-icon{font-size:20px;font-weight:bold;cursor:pointer;vertical-align:middle}header ul li a:hover{text-decoration:none;color:#3A90E0}header ul li.dropdown:hover{color:#3A90E0;cursor:pointer}header .dropdown{position:unset}ul li.dropdown ul{visibility:hidden;opacity:0;position:fixed;transition:all 0.5s ease;display:none;background-color:#fff;padding:8px 20px;border-radius:0 0 8px 8px;z-index:1}.show-dropdown{visibility:visible!important;opacity:1!important;display:block!important}ul li.dropdown ul a{clear:both;width:100%;display:block;margin:0;position:relative}ul li.dropdown ul li{margin:0 5px}.loading{background:url(/static/images/loading.gif) no-repeat right center!important;background-size:contain!important}.loading-center{background:url(/static/images/loading.gif) no-repeat center center;background-size:contain;height:50px}#newsletter-success-message{display:none}.vr{border-left:1px solid gray;height:20px;margin-top:10px}a.button{padding:12px 28px;font-size:12px;border-radius:7px;border:1px solid #1D2129;vertical-align:bottom;white-space:nowrap}a.button:hover{opacity:0.7;border-color:#3A90E0}a.button:active{opacity:0.9}a.button.highlighted{background-color:#3A90E0;border-color:#3A90E0;color:white}input:focus,button{outline:none}footer{padding:20px 20px 1px 20px;text-align:center;background-color:#f1f5f8;color:#a3a8ac}footer a{color:#a3a8ac}footer h2{color:#4e5d69;font-size:42px}footer p{color:#a3a8ac;font-size:12px}footer ul{list-style:none;padding:0;margin:15px auto;display:grid;grid-template-columns:auto auto auto;max-width:1100px}footer li{margin:10px}footer li img{vertical-align:middle;margin-right:2px}#social-modal{min-width:400px}#social-modal .social-container{text-align:center;margin:20px auto}#social-modal .modal-body{margin:40px auto}#social-modal .social-container a{margin:0 5px;outline:none}#social-modal .social-container a img{height:35px;outline:none;border:0}#social-modal #share_title{color:#53626c}dialog{padding:0;border:0;border-radius:0.6rem;box-shadow:0 0 1em black}dialog::backdrop{background-color:rgba(0,0,0,0.4)}dialog + .backdrop{position:fixed;top:0;right:0;bottom:0;left:0;background-color:rgba(0,0,0,0.4)}dialog[open]{animation:slide-up 0.4s ease-out}dialog{display:none;left:0;right:0;margin:auto;max-width:575px;background-color:white;border-radius:8px}dialog[open]{display:block}dialog#signup-modal form,dialog#login-modal form{display:block;margin:20px;width:500px}dialog input[type=text]{height:40px;width:300px;border-radius:8px;padding:0 6px;font-size:1em;border-radius:3px;box-shadow:0 2px 5px 0 rgba(0,0,0,.26);border-width:0;border-style:none;-webkit-appearance:none;margin:10px auto;display:block}dialog input[type=email]{height:40px;width:300px;border-radius:8px;padding:0 6px;font-size:1em;border-radius:3px;box-shadow:0 2px 5px 0 rgba(0,0,0,.26);border-width:0;border-style:none;-webkit-appearance:none;margin:10px auto;display:block}dialog input[type=password]{height:40px;width:300px;border-radius:8px;padding:0 6px;font-size:1em;border-radius:3px;box-shadow:0 2px 5px 0 rgba(0,0,0,.26);border-width:0;border-style:none;-webkit-appearance:none;margin:10px auto;display:block}dialog .button{padding:0 28px;color:#fff;background:#e7416b;font-weight:700;font-size:1em;border-radius:3px;box-shadow:0 2px 5px 0 rgba(0,0,0,.26);border-width:0;border-style:none;-webkit-appearance:none;height:40px;cursor:pointer;margin:10px auto;width:50%;display:block}dialog .button.social-auth{width:48%;background:#fff;color:#1D2129;border:1px solid #999;display:inline-block;padding:0 0 0 28px;text-align:left;margin:10px 4px}dialog .button.social-auth img{vertical-align:middle;margin:6px}dialog .switch-login-signup-button{padding:0 28px;color:#fff;background:#6ec0fd;font-weight:700;font-size:.7em;border-radius:3px;box-shadow:0 2px 5px 0 rgba(0,0,0,.26);border-width:0;border-style:none;-webkit-appearance:none;height:25px;cursor:pointer;margin:10px auto;width:30%;display:block}.close{position:absolute;top:0.2em;right:0.2em;padding:0.3em;line-height:0.6;background-color:transparent;border:0;font-size:2em}.modal-header,.modal-body,.modal-footer{padding:1em}.modal-body p{color:#1D2129;text-align:center}.modal-body .title{font-size:22px}.modal-body .subtitle{opacity:0.9}.modal-header{margin:0;padding-bottom:0.6em;background-color:#f3f3f3;border-bottom:1px solid #f3f3f3}.modal-footer{border-top:1px solid #f3f3f3}.share-button{color:#1D2129!important;opacity:0.65;cursor:pointer;display:flex;align-items:center;flex-direction:row}.share-button img{margin-right:4px}#social-image{margin:0 auto}.separator-bullet{margin:0 4px}.card-list{display:flex;flex-direction:column;justify-content:center;background:#dae0e6;padding:24px 24px 0;margin-top:64px}.card-list .main-list{display:flex;flex-direction:column}.card-list .card-list-item{background:#f8f9fa;border-radius:8px;margin:0 auto 12px auto;width:100%;max-width:700px;cursor:pointer;display:flex;flex-direction:row;outline:none}.card-list .card-list-item .card-sidebar{display:flex;flex-direction:column;background:transparent;width:40px}.card-list-item .heart-link{display:flex;flex:0 1;flex-direction:column;padding:12px 0;align-items:center}.card-list .card-list-item .card-content{display:flex;flex-direction:column;background:#fff;width:100%;border-radius:0 8px 8px 0}.card-list .card-list-item:hover{outline:1px solid #898989}.card-list .card-list-item .tag-container{display:flex;flex-direction:row}.card-list .card-list-item .category-tag{font-size:12px;display:flex;align-items:center;justify-content:center;background-color:#E6F7FF;color:#1890FF;border:1px solid #91D5FF;padding:4px 20px;border-radius:50px}.card-list .card-list-item .category-tag:not(:first-child){margin-left:8px}.card-list .card-list-item .card-list-item-header{display:flex;flex-direction:row;align-items:center;margin:12px;font-size:14px;color:#999}.card-list .card-list-item .trunc-summary{margin:0 12px 12px;font-size:14px}.card-list .card-list-item .card-footer{display:flex;flex-direction:row;align-items:center;margin:12px;font-size:14px}.card-list-item .card-footer .author-link{color:#3A90E0}.card-list .card-list-item .title{margin:0 12px 12px;font-size:15px;font-weight:500;line-height:24px;color:#1D2129}.card-list .card-list-item .title a{color:#1D2129}.card-list .card-list-item .category-tag.research{color:#eb2f96;background:#fff0f6;border-color:#ffadd2}.card-list .card-list-item .category-tag.news{background-color:#E6F7FF;color:#1890FF;border:1px solid #91D5FF}.thumbnail{width:500px;max-width:100%;margin:12px auto;height:350px;max-height:100%;border:1px solid #E8E8E8;box-sizing:border-box;border-radius:8px;background-size:cover;background-repeat:no-repeat;background-position:center}.middle{vertical-align:middle}.float-left{float:left}.divider{border-bottom:1px solid #f3f3f3;width:92.5%;margin:25px auto}.inline-block{display:inline-block}.float-right{float:right}.header-link-style{text-decoration:none;color:#1D2129;text-transform:uppercase;cursor:pointer}.header-link-style:hover{text-decoration:none;color:#3A90E0}.hide{display:none}.show-block{display:block}.show-inline{display:inline-block}.heart-link{display:flex;align-items:center;justify-content:center;color:#999!important;text-decoration:none!important;cursor:pointer;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.heart-count{margin:4px}.heart-link:not([hearted]) .hearted-heart-icon{display:none}.heart-link[hearted] .unhearted-heart-icon{display:none}.show-lt-xlg{display:none!important}.show-lt-lg{display:none!important}.show-lt-md{display:none!important}.show-lt-sm{display:none!important}@media screen and (max-width:1190px){.show-lt-xlg{display:block!important}.hide-lt-xlg{display:none!important}.hide-lg{display:none!important}}@media screen and (max-width:960px){.show-lt-xlg{display:block!important}.show-lt-lg{display:block!important}.hide-lt-xlg{display:none!important}.hide-lt-lg{display:none!important}.hide-md{display:none!important}header img.header-social-icon{margin-left:12px}header ul li{margin-left:12px}}@media screen and (max-width:600px){.hiring-banner .hiring-message{font-size:12px}header nav{max-width:60px}ul li.dropdown ul{right:37px;z-index:1;border:1px solid #E8E8E8}footer ul{display:block}#social-modal{min-width:300px}dialog#signup-modal{width:365px}dialog#signup-modal form,dialog#login-modal form{width:300px;margin:10px}.thumbnail{max-width:90%;margin:12px}dialog .button.social-auth{width:100%;display:block;padding:0 0 0 60px;text-align:left}.card-list .card-list-item{margin:12px 0}.card-list .card-list-item .card-content{width:87%}.show-lt-xlg{display:block!important}.show-lt-lg{display:block!important}.show-lt-md{display:block!important}.hide-lt-xlg{display:none!important}.hide-lt-lg{display:none!important}.hide-lt-md{display:none!important}.hide-sm{display:none!important}}@media screen and (max-width:320px){header nav{max-width:60px}ul li.dropdown ul{right:37px;z-index:1;border:1px solid #E8E8E8}footer ul{display:block}#social-modal{min-width:300px}dialog#signup-modal{width:365px}dialog#signup-modal form,dialog#login-modal form{width:300px;margin:10px}.thumbnail{max-width:90%;margin:12px}.card-list .card-list-item .card-content{width:87%}.card-list .card-list-item{margin:12px 0}dialog .button.social-auth{width:100%;display:block}.show-lt-xlg{display:block!important}.show-lt-lg{display:block!important}.show-lt-md{display:block!important}.show-lt-sm{display:block!important}.hide-lt-xlg{display:none!important}.hide-lt-lg{display:none!important}.hide-lt-md{display:none!important}.hide-xs{display:none!important}}main{max-width:1100px;margin:0 auto;padding:100px 0;display:grid;grid-template-columns:500px auto;grid-column-gap:35px}main h1{color:#53626c}main .try-it{width:500px;height:500px;border-radius:8px;overflow:hidden;border:1px solid #C2D1D9}main .try-it .try-it-result-area{width:100%;height:100%}main .try-it .placeholder-image{object-fit:cover;width:100%;height:100%}main .demo-image-container{display:grid;position:absolute;z-index:1}main .demo-img-button{border-radius:8px;border:1px solid rgba(194,209,217,0.6);width:75px;height:75px;cursor:pointer;display:flex;margin:20px 20px 0px;background-position:center;background-repeat:no-repeat;background-size:cover;box-shadow:1px 3px 6px rgba(0,0,0,0.5)}main .demo-img-button:active{box-shadow:none;width:74px;height:74px;margin:21px 21px 0px}main input[type="file"]{display:none}main .model-input-row{}main #progressContainer{width:100%;height:10px;margin:5px}main #progressBar{height:10px;background:#61b1ff;border-radius:10px;margin-top:20px;width:0%}main .info{padding:40px 0 50px 0}main p{font-size:12px}main .author{color:#919295;display:flex;flex-flow:row wrap;font-size:12px}main p.description{color:#1D2129;margin:50px 0 30px 0;font-size:14px;opacity:0.85}main p.description a{text-decoration:none;color:#0000EE}main .author img{margin:0 1px;vertical-align:sub}main a{color:#272727}main a.button{background-color:#3f4b5d;color:white;border:none;margin-right:20px}main a.button.upload{background-color:#f1f5f8;color:black}main a.primary{text-transform:uppercase}section.enterprise-contact-form{max-width:500px;margin:0 auto;text-align:center}section.code{position:relative;top:100px;max-width:950px;margin:0 auto;padding:0 0 0 80px;background-color:#2e2e30;color:#cecece;border-radius:8px;box-shadow:1px 3px 6px rgba(0,0,0,0.5)}section.code .inner-content{overflow-x:scroll;border-radius:0 8px 8px 0;padding:20px;background-color:#404041}.quick-start-header{text-align:center;display:block;font-size:16px}.highlight{text-align:left}.highlight .hll{}.highlight{color:#d0d0d0}.highlight .c{color:#008800;font-style:italic}.highlight .err{color:#ffffff}.highlight .esc{color:#ffffff}.highlight .g{color:#ffffff}.highlight .k{color:#fb660a;font-weight:bold}.highlight .l{color:#ffffff}.highlight .n{color:#ffffff}.highlight .o{color:#ffffff}.highlight .x{color:#ffffff}.highlight .p{color:#ffffff}.highlight .ch{color:#008800;font-style:italic}.highlight .cm{color:#008800;font-style:italic}.highlight .cp{color:#ff0007;font-weight:bold;font-style:italic}.highlight .cpf{color:#008800;font-style:italic}.highlight .c1{color:#848484;font-style:italic}.highlight .cs{color:#008800;font-style:italic}.highlight .gd{color:#ffffff}.highlight .ge{color:#ffffff}.highlight .gr{color:#ffffff}.highlight .gh{color:#ffffff;font-weight:bold}.highlight .gi{color:#ffffff}.highlight .go{color:#444444;background-color:#222222}.highlight .gp{color:#ffffff}.highlight .gs{color:#ffffff}.highlight .gu{color:#ffffff;font-weight:bold}.highlight .gt{color:#ffffff}.highlight .kc{color:#fb660a;font-weight:bold}.highlight .kd{color:#fb660a;font-weight:bold}.highlight .kn{color:#fb660a;font-weight:bold}.highlight .kp{color:#fb660a}.highlight .kr{color:#fb660a;font-weight:bold}.highlight .kt{color:#cdcaa9;font-weight:bold}.highlight .ld{color:#ffffff}.highlight .m{color:#0086f7;font-weight:bold}.highlight .s{color:#0086d2}.highlight .na{color:#ff0086;font-weight:bold}.highlight .nb{color:#ffffff}.highlight .nc{color:#ffffff}.highlight .no{color:#0086d2}.highlight .nd{color:#ffffff}.highlight .ni{color:#ffffff}.highlight .ne{color:#ffffff}.highlight .nf{color:#ff0086;font-weight:bold}.highlight .nl{color:#ffffff}.highlight .nn{color:#ffffff}.highlight .nx{color:#ffffff}.highlight .py{color:#ffffff}.highlight .nt{color:#fb660a;font-weight:bold}.highlight .nv{color:#fb660a}.highlight .ow{color:#ffffff}.highlight .w{color:#888888}.highlight .mb{color:#0086f7;font-weight:bold}.highlight .mf{color:#0086f7;font-weight:bold}.highlight .mh{color:#0086f7;font-weight:bold}.highlight .mi{color:#0086f7;font-weight:bold}.highlight .mo{color:#0086f7;font-weight:bold}.highlight .sa{color:#0086d2}.highlight .sb{color:#0086d2}.highlight .sc{color:#0086d2}.highlight .dl{color:#0086d2}.highlight .sd{color:#0086d2}.highlight .s2{color:#0086d2}.highlight .se{color:#0086d2}.highlight .sh{color:#0086d2}.highlight .si{color:#0086d2}.highlight .sx{color:#0086d2}.highlight .sr{color:#0086d2}.highlight .s1{color:#4ecc41}.highlight .ss{color:#0086d2}.highlight .bp{color:#ffffff}.highlight .fm{color:#ff0086;font-weight:bold}.highlight .vc{color:#fb660a}.highlight .vg{color:#fb660a}.highlight .vi{color:#fb660a}.highlight .vm{color:#fb660a}.highlight .il{color:#0086f7;font-weight:bold}section.three{background-color:#246ab8;min-height:200px;display:flex}section.three .inner-content{max-width:1100px;margin:120px auto 20px;display:grid;grid-template-columns:auto auto auto;grid-column-gap:20px}section.three .info{text-align:center;padding:20px}section.three hr{width:70%;border:0;height:0;border-top:1px solid #d5d5d7;border-bottom:1px solid #d5d5d7}h2{font-size:28px;margin:10px;color:white}section.three .subheader{font-size:18px;font-weight:normal;margin-bottom:30px;color:#fff;opacity:0.7}section.three p{color:#fff;opacity:0.7;margin-top:30px}section.alternating-image-columns{max-width:1300px;margin:0 auto;display:grid;grid-template-columns:auto auto;grid-auto-flow:dense}section.alternating-image-columns .img-container{border-bottom:2px solid #f3f3f3}section.alternating-image-columns>div:nth-of-type(even){grid-column:2}section.alternating-image-columns>div>img{max-width:350px;display:block;margin:40px auto;box-shadow:1px 3px 6px rgba(0,0,0,0.5);border-radius:8px}section.alternating-image-columns>.info:nth-of-type(even){grid-column:1}section.alternating-image-columns .info{padding:75px;border-bottom:2px solid #f3f3f3}section.alternating-image-columns .info h3{color:#5a5f67;margin:10px 0;font-size:28px}section.alternating-image-columns .info p{color:#c3c8cb}section.faq{width:900px;margin:20px auto}section.faq .inner-content{display:grid;grid-template-columns:425px 425px;grid-column-gap:50px}section.faq h3{text-align:center}section.faq .info{box-shadow:0px 4px 4px rgba(0,0,0,0.25);padding:10px 20px}section.faq h4{color:#505D68;font-size:22px}iframe{border-width:0;border-style:none;border-color:none;border-image:none}img.switch{vertical-align:middle}img.upload-icon{vertical-align:middle;height:18px;margin-right:5px}img.check-icon{vertical-align:middle;height:18px;opacity:0.3;margin-left:16px}.button.upload{padding:15px 12px 12px 28px}.middle{vertical-align:middle!important}input[type=text].model-input-url-input{height:40px;width:125px;border-radius:8px;padding:0 6px;font-size:1em;border-radius:3px;box-shadow:0 2px 5px 0 rgba(0,0,0,.26);border-width:0;border-style:none;-webkit-appearance:none;margin:0 10px}.lang-icons-container{width:250px;height:40px;margin:20px 0 0;display:inline-block}.lang-icons-container img{vertical-align:middle}.hero{padding:20px;background-color:#FA7268;height:300px}.hero p{color:#fff;font-size:22px}.inner-content{max-width:900px;margin:0 auto;display:block;text-align:center}.teir-container{display:inline-flex;margin:20px 0}.pricing{top:-100px;position:relative}.teir{margin:10px 30px;width:300px;padding:20px;box-shadow:0 4px 4px rgba(0,0,0,0.25);background-color:#fff;border-radius:8px}section.enterprise-contact{display:inline-grid;margin:50px auto 0}section.enterprise-contact input[type=email],section.enterprise-contact input[type=text],section.enterprise-contact input[type=url]{height:40px;width:225px;border-radius:8px;padding:0 6px;font-size:1em;border-radius:3px;box-shadow:0 2px 5px 0 rgba(0,0,0,.26);border-width:0;border-style:none;-webkit-appearance:none;margin:10px}section.enterprise-contact button{padding:0 28px;color:#fff;background:#e7416b;font-weight:700;font-size:1em;border-radius:3px;box-shadow:0 2px 5px 0 rgba(0,0,0,.26);border-width:0;border-style:none;-webkit-appearance:none;height:40px;cursor:pointer;margin:10px auto;width:50%}button.signup,button.ent-contact{padding:0 28px;color:#fff;background:#e7416b;font-weight:700;font-size:1em;border-radius:3px;box-shadow:0 2px 5px 0 rgba(0,0,0,.26);border-width:0;border-style:none;-webkit-appearance:none;height:40px;cursor:pointer;margin:10px auto;width:50%}section.enterprise-contact .top-row{display:inline-flex}textarea{height:100px;padding:10px 6px;font-size:1em;border-radius:3px;box-shadow:0 2px 5px 0 rgba(0,0,0,.26);border-width:0;border-style:none;-webkit-appearance:none;margin:10px}@media screen and (max-width:1190px){}@media screen and (max-width:960px){main .demo-img-button{width:30px;height:30px;border-radius:6px}main{max-width:600px;grid-template-columns:300px auto}main .try-it{width:300px;height:300px;margin:70px 0 0}section.faq{width:100%;max-width:600px}section.faq .inner-content{display:block}}@media screen and (max-width:600px){main{padding:50px 0}section.code{padding:0 0 0 30px}main .demo-img-button{width:30px;height:30px;border-radius:6px}main .demo-img-button:active{box-shadow:none;width:29px;height:29px;margin:21px 21px 0px}section.three .inner-content{display:block}section.alternating-image-columns{display:block}section.faq{width:100%;max-width:600px}section.faq .inner-content{display:block}section.faq .info{max-width:500px;margin:20px auto}section.enterprise-contact .top-row{display:block}.teir-container{display:block}.teir{margin:10px auto}section.code{font-size:12px}main{max-width:300px;display:block}}@media screen and (max-width:320px){main{padding:50px 0}section.code{padding:0 0 0 30px}main .demo-img-button{width:30px;height:30px;border-radius:6px}main .demo-img-button:active{box-shadow:none;width:29px;height:29px;margin:21px 21px 0px}section.three .inner-content{display:block}section.alternating-image-columns{display:block}section.faq{width:100%;max-width:350px}section.faq .inner-content{display:block}section.faq .info{max-width:300px;margin:20px auto}main{max-width:300px;display:block}section.enterprise-contact .top-row{display:block}.teir-container{display:block}.teir{margin:10px auto}}</style>
+
+        <!--  Start Google Analytics Tag -->
+            <script ng-if="userIdReady">
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-92627538-2', 'auto');
+              ga('send', 'pageview');
+
+            </script>
+        <!--  End Google Analytics Tag -->
+	</head>
+	<body>
+        <!-- <div id="hiring-banner" class="hiring-banner">
+            <span class="hiring-message">We're hiring in San Francisco, CA!&nbsp;&nbsp;<a href="https://careers.deepai.org" target="_blank">careers.deepai.org</a></span>
+            <span class="close-hiring-banner" onclick="document.getElementById('hiring-banner').setAttribute('style', 'display: none;');">&#10008;</span>
+        </div> -->
+		<header>
+            <a class="logo-link" href="https://deepai.org/"><img class="deepai-logo" src="https://deepai.org/static/images/logo.png"></a>
+            <a class="logo-link" href="https://twitter.com/Deep__AI" target="_blank"><img class="header-social-icon" src="https://deepai.org/static/images/twitter-icon-blue-circle.svg" /></a>
+            <a class="logo-link" href="https://www.linkedin.com/company/deepai" target="_blank"><img class="header-social-icon" src="https://deepai.org/static/images/linkedin-icon-blue-circle.svg" /></a>
+            <a class="logo-link" href="https://discord.gg/7FYvBqBvkg" target="_blank"><img class="header-social-icon" src="https://deepai.org/static/images/discord-icon-blue-circle.svg" /></a>
+            <nav>
+                <ul>
+                    <!-- <li class="hide-lt-md"><a href="https://deepai.org/researchers">Researchers</a></li>
+                    <li class="hide-lt-md"><a href="https://deepai.org/developers">Developers</a></li>
+                    <li class="vr hide-lt-xlg"></li>
+                    <li class="hide-lt-lg"><a href="https://deepai.org/products">Products</a></li> -->
+                    <li class="hide-lt-md"><a href="https://deepai.org/zendo">Try Zendo<sup style="color:#de1717; font-style: italic;">new</sup></a></li>
+                    <li class="dropdown">
+                        <span class="menu-icon dropbtn" onclick="mainNavDrop()">&#8943;</span>
+                        <ul id="mainNavDropdown">
+                            <a class="dropdown-link show-lt-md" href="https://deepai.org/zendo"><li>Zendo</li></a>
+                            <a class="dropdown-link" href="https://deepai.org/research"><li>Research</li></a>
+                            <a class="dropdown-link" href="https://deepai.org/definitions"><li>Glossary</li></a>
+                            <a class="dropdown-link" href="https://deepai.org/apis"><li>APIs</li></a>
+                            <a class="dropdown-link" href="https://deepai.org/jobs"><li>Jobs</li></a>
+                            <a class="dropdown-link" href="https://deepai.org/news"><li>News</li></a>
+                            <a id="login-button-dropdown" onclick="openLogin()" class="dropdown-link show-lt-md"><li>Login</li></a>
+					        <a id="signup-button-dropdown" onclick="openSignup(function(){window.location = '/dashboard/profile'})" class="dropdown-link show-lt-md"><li>Signup</li></a>
+                        </ul>
+                    </li>
+					<li><a onclick="openLogin()" class="button hide-lt-md login-button">Login</a></li>
+                    <li><a onclick="openSignup(function(){window.location = '/dashboard/profile'})" class="button highlighted hide-lt-md signup-button">Signup</a></li>
+                    <li><a onclick="window.open('https:\/\/careers.deepai.org', '_blank')" class="button hide-lt-lg hiring-button">We're Hiring!</a></li>
+                </ul>
+            </nav>
+		</header>
+        
+
+
+	<main>
+		<div class="try-it">
+			<div class="demo-image-container">
+				
+			</div>
+      <div class="try-it-result-area">
+        <!-- The try it results will replace the contents of this div... -->
+			  <img class="placeholder-image" src="https://images.deepai.org/machine-learning-models/ca6bd68b90a64e75b2e195434bab73d3/biggan_demo_copy.jpg">
+			</div>
+		</div>
+		<div class="info">
+			<h1>Text To Image API</h1>
+
+			<div class="author">
+				
+				by &nbsp; <a href="https://deepai.org/profile/scott-ellison-reed">
+						Scott Ellison Reed
+					</a>
+					
+					<div class="separator-bullet">∙</div>
+				
+				
+
+<a class="heart-link middle" onclick="event.stopPropagation();heart(this, event)" heartid="aimodel-3">
+  <img class="unhearted-heart-icon middle" src="https://deepai.org/static/images/heart.png"> <img class="hearted-heart-icon middle" src="https://deepai.org/static/images/heart-red.png">
+  <span class="heart-count">
+    225
+  </span>
+    
+</a>
+
+				<div class="separator-bullet">∙</div>
+				<a mainimage="https://images.deepai.org/machine-learning-models/31b57fae7c464e9aa3f18ba5dbf75e36/text2img-thumb.jpg" modelname="Text To Image API" class="share-button" onclick="openSocial(window.location, this.attributes.modelname.value, this.attributes.mainimage.value)">
+					<img src="https://deepai.org/static/images/share.png"> share
+				</a>
+			</div>
+			<p class="description">Creates an image from scratch from a text description.</p>
+
+    
+      
+      <span class="model-input-row">
+
+        
+            <textarea class="model-input-text-input" name="text"></textarea>
+            <button type="button" onclick="textModelSubmit()">Submit</button>
+        
+
+      </span>
+
+      
+
+			<a href="javascript:switchToUrlUpload()" class="switchToUrlUploadButton show-for-file-upload-mode">
+				<img class="switch" src="https://deepai.org/static/images/switcheroo-icon.png" />
+				<span class="middle">url upload</span>
+			</a>
+      <a href="javascript:switchToFileUpload()" class="switchToFileUploadButton show-for-url-upload-mode">
+				<img class="switch" src="https://deepai.org/static/images/switcheroo-icon.png" />
+				<span class="middle">file upload</span>
+			</a>
+
+
+      <div id="progressContainer">
+          <div id="progressBar"> </div>
+      </div>
+      
+
+			<br><br>
+
+    
+
+
+			<a class="button highlighted middle" href="javascript:document.getElementById('api-docs').scrollIntoView({behavior: 'smooth'})">API Docs</a> <!-- <a href="https://deepai.org/embed">Embed try-it</a> -->
+			<div class="lang-icons-container">
+				
+					<a href="javascript:document.getElementById('cURL').scrollIntoView({behavior: 'smooth'})">
+						
+							<img class="" src="https://deepai.org/static/images/bash-icon.png">
+						
+						
+						
+						
+						
+					</a>
+				
+					<a href="javascript:document.getElementById('Javascript').scrollIntoView({behavior: 'smooth'})">
+						
+						
+							<img class="" src="https://deepai.org/static/images/js-icon.png">
+						
+						
+						
+						
+					</a>
+				
+					<a href="javascript:document.getElementById('Python').scrollIntoView({behavior: 'smooth'})">
+						
+						
+						
+							<img class="" src="https://deepai.org/static/images/python-icon.png">
+						
+						
+						
+					</a>
+				
+					<a href="javascript:document.getElementById('Ruby').scrollIntoView({behavior: 'smooth'})">
+						
+						
+						
+						
+							<img class="" src="https://deepai.org/static/images/ruby-icon.png">
+						
+						
+					</a>
+				
+					<a href="javascript:document.getElementById('Csharp').scrollIntoView({behavior: 'smooth'})">
+						
+						
+						
+						
+						
+							<img class="" src="https://deepai.org/static/images/csharp-icon.png">
+						
+					</a>
+				
+			</div>
+		</div>
+    
+	</main>
+  
+	<section class="code api-key-auto-substitute-area">
+		<div class="inner-content">
+			<span class="quick-start-header"><code>QUICK START API REQUEST</code></span>
+			<div class="highlight"><pre><span></span>curl <span class="se">\</span>
+    -F <span class="s1">&#39;text=YOUR_TEXT_URL&#39;</span> <span class="se">\</span>
+    -H <span class="s1">&#39;api-key:YOUR_API_KEY&#39;</span> <span class="se">\</span>
+    https://api.deepai.org/api/text2img 
+</pre></div>
+
+		</div>
+	</section>
+  
+	<section class="three">
+		<div class="inner-content">
+			
+		</div>
+	</section>
+	<section class="alternating-image-columns">
+		
+	</section>
+	
+
+	<section id="api-docs" class="three">
+		<div class="inner-content">
+			<h2>Text To Image API Documentation</h2>
+		</div>
+	</section>
+	
+		<section id="cURL" class="code api-key-auto-substitute-area">
+			<div class="inner-content">
+				<span class="quick-start-header"><code><h3>Text To Image cURL Examples</h3></code></span>
+				<div class="highlight"><pre><span></span><span class="c1"># Example posting a text URL:</span>
+
+curl <span class="se">\</span>
+    -F <span class="s1">&#39;text=YOUR_TEXT_URL&#39;</span> <span class="se">\</span>
+    -H <span class="s1">&#39;api-key:YOUR_API_KEY&#39;</span> <span class="se">\</span>
+    https://api.deepai.org/api/text2img 
+
+
+<span class="c1"># Example posting a local text file:</span>
+
+curl <span class="se">\</span>
+    -F <span class="s1">&#39;text=@/path/to/your/file.txt&#39;</span> <span class="se">\</span>
+    -H <span class="s1">&#39;api-key:YOUR_API_KEY&#39;</span> <span class="se">\</span>
+    https://api.deepai.org/api/text2img 
+
+
+<span class="c1"># Example directly sending a text string:</span>
+
+curl <span class="se">\</span>
+    -F <span class="s1">&#39;text=YOUR_TEXT_HERE&#39;</span> <span class="se">\</span>
+    -H <span class="s1">&#39;api-key:YOUR_API_KEY&#39;</span> <span class="se">\</span>
+    https://api.deepai.org/api/text2img 
+</pre></div>
+
+			</div>
+		</section>
+
+		<section class="three">
+			<div class="inner-content">
+			</div>
+		</section>
+	
+		<section id="Javascript" class="code api-key-auto-substitute-area">
+			<div class="inner-content">
+				<span class="quick-start-header"><code><h3>Text To Image Javascript Examples</h3></code></span>
+				<div class="highlight"><pre><span></span>// Get the <span class="s1">&#39;deepai&#39;</span> package here <span class="o">(</span>Compatible with browser <span class="p">&amp;</span> nodejs<span class="o">)</span>:
+//     https://www.npmjs.com/package/deepai
+// All examples use JS async-await syntax, be sure to call the API inside an async <span class="k">function</span>.
+//     Learn more about async-await here: https://javascript.info/async-await
+
+// Example posting a text URL:
+
+const <span class="nv">deepai</span> <span class="o">=</span> require<span class="o">(</span><span class="s1">&#39;deepai&#39;</span><span class="o">)</span><span class="p">;</span> // OR include deepai.min.js as a script tag <span class="k">in</span> your HTML
+
+deepai.setApiKey<span class="o">(</span><span class="s1">&#39;YOUR_API_KEY&#39;</span><span class="o">)</span><span class="p">;</span>
+
+<span class="o">(</span>async <span class="k">function</span><span class="o">()</span> <span class="o">{</span>
+    var <span class="nv">resp</span> <span class="o">=</span> await deepai.callStandardApi<span class="o">(</span><span class="s2">&quot;text2img&quot;</span>, <span class="o">{</span>
+            text: <span class="s2">&quot;YOUR_TEXT_URL&quot;</span>,
+    <span class="o">})</span><span class="p">;</span>
+    console.log<span class="o">(</span>resp<span class="o">)</span><span class="p">;</span>
+<span class="o">})()</span>
+
+
+// Example posting file picker input text <span class="o">(</span>Browser only<span class="o">)</span>:
+
+const <span class="nv">deepai</span> <span class="o">=</span> require<span class="o">(</span><span class="s1">&#39;deepai&#39;</span><span class="o">)</span><span class="p">;</span> // OR include deepai.min.js as a script tag <span class="k">in</span> your HTML
+
+deepai.setApiKey<span class="o">(</span><span class="s1">&#39;YOUR_API_KEY&#39;</span><span class="o">)</span><span class="p">;</span>
+
+<span class="o">(</span>async <span class="k">function</span><span class="o">()</span> <span class="o">{</span>
+    var <span class="nv">resp</span> <span class="o">=</span> await deepai.callStandardApi<span class="o">(</span><span class="s2">&quot;text2img&quot;</span>, <span class="o">{</span>
+            text: document.getElementById<span class="o">(</span><span class="s1">&#39;yourFileInputId&#39;</span><span class="o">)</span>,
+    <span class="o">})</span><span class="p">;</span>
+    console.log<span class="o">(</span>resp<span class="o">)</span><span class="p">;</span>
+<span class="o">})()</span>
+
+
+// Example posting a <span class="nb">local</span> text file <span class="o">(</span>Node.js only<span class="o">)</span>:
+const <span class="nv">fs</span> <span class="o">=</span> require<span class="o">(</span><span class="s1">&#39;fs&#39;</span><span class="o">)</span><span class="p">;</span>
+
+const <span class="nv">deepai</span> <span class="o">=</span> require<span class="o">(</span><span class="s1">&#39;deepai&#39;</span><span class="o">)</span><span class="p">;</span> // OR include deepai.min.js as a script tag <span class="k">in</span> your HTML
+
+deepai.setApiKey<span class="o">(</span><span class="s1">&#39;YOUR_API_KEY&#39;</span><span class="o">)</span><span class="p">;</span>
+
+<span class="o">(</span>async <span class="k">function</span><span class="o">()</span> <span class="o">{</span>
+    var <span class="nv">resp</span> <span class="o">=</span> await deepai.callStandardApi<span class="o">(</span><span class="s2">&quot;text2img&quot;</span>, <span class="o">{</span>
+            text: fs.createReadStream<span class="o">(</span><span class="s2">&quot;/path/to/your/file.txt&quot;</span><span class="o">)</span>,
+    <span class="o">})</span><span class="p">;</span>
+    console.log<span class="o">(</span>resp<span class="o">)</span><span class="p">;</span>
+<span class="o">})()</span>
+
+
+// Example directly sending a text string:
+
+const <span class="nv">deepai</span> <span class="o">=</span> require<span class="o">(</span><span class="s1">&#39;deepai&#39;</span><span class="o">)</span><span class="p">;</span> // OR include deepai.min.js as a script tag <span class="k">in</span> your HTML
+
+deepai.setApiKey<span class="o">(</span><span class="s1">&#39;YOUR_API_KEY&#39;</span><span class="o">)</span><span class="p">;</span>
+
+<span class="o">(</span>async <span class="k">function</span><span class="o">()</span> <span class="o">{</span>
+    var <span class="nv">resp</span> <span class="o">=</span> await deepai.callStandardApi<span class="o">(</span><span class="s2">&quot;text2img&quot;</span>, <span class="o">{</span>
+            text: <span class="s2">&quot;YOUR_TEXT_HERE&quot;</span>,
+    <span class="o">})</span><span class="p">;</span>
+    console.log<span class="o">(</span>resp<span class="o">)</span><span class="p">;</span>
+<span class="o">})()</span>
+</pre></div>
+
+			</div>
+		</section>
+
+		<section class="three">
+			<div class="inner-content">
+			</div>
+		</section>
+	
+		<section id="Python" class="code api-key-auto-substitute-area">
+			<div class="inner-content">
+				<span class="quick-start-header"><code><h3>Text To Image Python Examples</h3></code></span>
+				<div class="highlight"><pre><span></span><span class="c1"># Example posting a text URL:</span>
+
+import requests
+<span class="nv">r</span> <span class="o">=</span> requests.post<span class="o">(</span>
+    <span class="s2">&quot;https://api.deepai.org/api/text2img&quot;</span>,
+    <span class="nv">data</span><span class="o">={</span>
+        <span class="s1">&#39;text&#39;</span>: <span class="s1">&#39;YOUR_TEXT_URL&#39;</span>,
+    <span class="o">}</span>,
+    <span class="nv">headers</span><span class="o">={</span><span class="s1">&#39;api-key&#39;</span>: <span class="s1">&#39;YOUR_API_KEY&#39;</span><span class="o">}</span>
+<span class="o">)</span>
+print<span class="o">(</span>r.json<span class="o">())</span>
+
+
+<span class="c1"># Example posting a local text file:</span>
+
+import requests
+<span class="nv">r</span> <span class="o">=</span> requests.post<span class="o">(</span>
+    <span class="s2">&quot;https://api.deepai.org/api/text2img&quot;</span>,
+    <span class="nv">files</span><span class="o">={</span>
+        <span class="s1">&#39;text&#39;</span>: open<span class="o">(</span><span class="s1">&#39;/path/to/your/file.txt&#39;</span>, <span class="s1">&#39;rb&#39;</span><span class="o">)</span>,
+    <span class="o">}</span>,
+    <span class="nv">headers</span><span class="o">={</span><span class="s1">&#39;api-key&#39;</span>: <span class="s1">&#39;YOUR_API_KEY&#39;</span><span class="o">}</span>
+<span class="o">)</span>
+print<span class="o">(</span>r.json<span class="o">())</span>
+
+
+<span class="c1"># Example directly sending a text string:</span>
+
+import requests
+<span class="nv">r</span> <span class="o">=</span> requests.post<span class="o">(</span>
+    <span class="s2">&quot;https://api.deepai.org/api/text2img&quot;</span>,
+    <span class="nv">data</span><span class="o">={</span>
+        <span class="s1">&#39;text&#39;</span>: <span class="s1">&#39;YOUR_TEXT_HERE&#39;</span>,
+    <span class="o">}</span>,
+    <span class="nv">headers</span><span class="o">={</span><span class="s1">&#39;api-key&#39;</span>: <span class="s1">&#39;YOUR_API_KEY&#39;</span><span class="o">}</span>
+<span class="o">)</span>
+print<span class="o">(</span>r.json<span class="o">())</span>
+</pre></div>
+
+			</div>
+		</section>
+
+		<section class="three">
+			<div class="inner-content">
+			</div>
+		</section>
+	
+		<section id="Ruby" class="code api-key-auto-substitute-area">
+			<div class="inner-content">
+				<span class="quick-start-header"><code><h3>Text To Image Ruby Examples</h3></code></span>
+				<div class="highlight"><pre><span></span><span class="c1"># Example posting a text URL:</span>
+
+require <span class="s1">&#39;rest_client&#39;</span>
+<span class="nv">r</span> <span class="o">=</span> RestClient::Request.execute<span class="o">(</span>method: :post, url: <span class="s1">&#39;https://api.deepai.org/api/text2img&#39;</span>, timeout: <span class="m">600</span>,
+    headers: <span class="o">{</span><span class="s1">&#39;api-key&#39;</span> <span class="o">=</span>&gt; <span class="s1">&#39;YOUR_API_KEY&#39;</span><span class="o">}</span>,
+    payload: <span class="o">{</span>
+        <span class="s1">&#39;text&#39;</span> <span class="o">=</span>&gt; <span class="s1">&#39;YOUR_TEXT_URL&#39;</span>,
+    <span class="o">}</span>
+<span class="o">)</span>
+puts r
+
+
+<span class="c1"># Example posting a local text file:</span>
+
+require <span class="s1">&#39;rest_client&#39;</span>
+<span class="nv">r</span> <span class="o">=</span> RestClient::Request.execute<span class="o">(</span>method: :post, url: <span class="s1">&#39;https://api.deepai.org/api/text2img&#39;</span>, timeout: <span class="m">600</span>,
+    headers: <span class="o">{</span><span class="s1">&#39;api-key&#39;</span> <span class="o">=</span>&gt; <span class="s1">&#39;YOUR_API_KEY&#39;</span><span class="o">}</span>,
+    payload: <span class="o">{</span>
+        <span class="s1">&#39;text&#39;</span> <span class="o">=</span>&gt; File.new<span class="o">(</span><span class="s1">&#39;/path/to/your/file.txt&#39;</span><span class="o">)</span>,
+    <span class="o">}</span>
+<span class="o">)</span>
+puts r
+
+
+<span class="c1"># Example directly sending a text string:</span>
+
+require <span class="s1">&#39;rest_client&#39;</span>
+<span class="nv">r</span> <span class="o">=</span> RestClient::Request.execute<span class="o">(</span>method: :post, url: <span class="s1">&#39;https://api.deepai.org/api/text2img&#39;</span>, timeout: <span class="m">600</span>,
+    headers: <span class="o">{</span><span class="s1">&#39;api-key&#39;</span> <span class="o">=</span>&gt; <span class="s1">&#39;YOUR_API_KEY&#39;</span><span class="o">}</span>,
+    payload: <span class="o">{</span>
+        <span class="s1">&#39;text&#39;</span> <span class="o">=</span>&gt; <span class="s1">&#39;YOUR_TEXT_HERE&#39;</span>,
+    <span class="o">}</span>
+<span class="o">)</span>
+puts r
+</pre></div>
+
+			</div>
+		</section>
+
+		<section class="three">
+			<div class="inner-content">
+			</div>
+		</section>
+	
+		<section id="Csharp" class="code api-key-auto-substitute-area">
+			<div class="inner-content">
+				<span class="quick-start-header"><code><h3>Text To Image Csharp Examples</h3></code></span>
+				<div class="highlight"><pre><span></span>// Ensure your DeepAI.Client NuGet package is up to date: https://www.nuget.org/packages/DeepAI.Client
+// Example posting a text URL:
+
+using DeepAI<span class="p">;</span> // Add this line to the top of your file
+
+DeepAI_API <span class="nv">api</span> <span class="o">=</span> new DeepAI_API<span class="o">(</span>apiKey: <span class="s2">&quot;YOUR_API_KEY&quot;</span><span class="o">)</span><span class="p">;</span>
+
+StandardApiResponse <span class="nv">resp</span> <span class="o">=</span> api.callStandardApi<span class="o">(</span><span class="s2">&quot;text2img&quot;</span>, new <span class="o">{</span>
+        <span class="nv">text</span> <span class="o">=</span> <span class="s2">&quot;YOUR_TEXT_URL&quot;</span>,
+<span class="o">})</span><span class="p">;</span>
+Console.Write<span class="o">(</span>api.objectAsJsonString<span class="o">(</span>resp<span class="o">))</span><span class="p">;</span>
+
+
+// Example posting a <span class="nb">local</span> text file:
+
+using DeepAI<span class="p">;</span> // Add this line to the top of your file
+
+DeepAI_API <span class="nv">api</span> <span class="o">=</span> new DeepAI_API<span class="o">(</span>apiKey: <span class="s2">&quot;YOUR_API_KEY&quot;</span><span class="o">)</span><span class="p">;</span>
+
+StandardApiResponse <span class="nv">resp</span> <span class="o">=</span> api.callStandardApi<span class="o">(</span><span class="s2">&quot;text2img&quot;</span>, new <span class="o">{</span>
+        <span class="nv">text</span> <span class="o">=</span> File.OpenRead<span class="o">(</span><span class="s2">&quot;C:\\path\\to\\your\\file.txt&quot;</span><span class="o">)</span>,
+<span class="o">})</span><span class="p">;</span>
+Console.Write<span class="o">(</span>api.objectAsJsonString<span class="o">(</span>resp<span class="o">))</span><span class="p">;</span>
+
+
+// Example directly sending a text string:
+
+using DeepAI<span class="p">;</span> // Add this line to the top of your file
+
+DeepAI_API <span class="nv">api</span> <span class="o">=</span> new DeepAI_API<span class="o">(</span>apiKey: <span class="s2">&quot;YOUR_API_KEY&quot;</span><span class="o">)</span><span class="p">;</span>
+
+StandardApiResponse <span class="nv">resp</span> <span class="o">=</span> api.callStandardApi<span class="o">(</span><span class="s2">&quot;text2img&quot;</span>, new <span class="o">{</span>
+        <span class="nv">text</span> <span class="o">=</span> <span class="s2">&quot;YOUR_TEXT_HERE&quot;</span>,
+<span class="o">})</span><span class="p">;</span>
+Console.Write<span class="o">(</span>api.objectAsJsonString<span class="o">(</span>resp<span class="o">))</span><span class="p">;</span>
+</pre></div>
+
+			</div>
+		</section>
+
+		<section class="three">
+			<div class="inner-content">
+			</div>
+		</section>
+	
+	
+
+
+
+
+        <dialog id="signup-modal">
+            <div class="modal-body">
+                <p class="title">Sign up for DeepAI</p>
+                <p class="subtitle">Join one of the world's largest A.I. communities</p>
+                <form>
+                    <input id="user-username" type="text" placeholder="username" onkeydown="username_changed(event)" onkeyup="username_changed(event)">
+                    <p id="user-username-error" class="hide"></p>
+                    <input id="user-email" type="email" placeholder="email *">
+                    <p id="user-email-error" class="hide"></p>
+                    <input id="user-password" type="password" placeholder="password *">
+                    <input id="confirm-user-password" type="password" placeholder="confirm password *">
+                    <p id="user-password-error" class="hide"></p>
+                    <button class="button" onclick="signup(event)">sign up</button>
+                    <button class="button social-auth" onclick="social_signup(event, 'google')"><img src="https://deepai.org/static/images/google-icon.png"><span class="middle">Signup with Google</span></button>
+                    <button class="button social-auth" onclick="social_signup(event, 'github')"><img src="https://deepai.org/static/images/github-icon.png"><span class="middle">Signup with GitHub</span></button>
+                    <button class="button social-auth" onclick="social_signup(event, 'twitter')"><img src="https://deepai.org/static/images/twitter-icon.png"><span class="middle">Signup with Twitter</span></button>
+                    <button class="button social-auth" onclick="social_signup(event, 'linkedin')"><img src="https://deepai.org/static/images/linkedin-icon.png"><span class="middle">Signup with LinkedIn</span></button>
+                    <p class="subtitle">Already have an account? <a href="javascript:void();" onclick="signupSwitchToLogin(event)"> Login here</a></p>
+                </form>
+            </div>
+            <button id="close" class="close" type="button">&times;</button>
+        </dialog>
+        <dialog id="login-modal">
+            <div class="modal-body">
+                <p class="title">Login to DeepAI</p>
+                <p class="subtitle"></p>
+                <form>
+                    <input id="login-user-email"type="email" placeholder="email">
+                    <p id="login-user-email-error" class="hide"></p>
+                    <input id="login-user-password" type="password" placeholder="password">
+                    <p id="login-user-password-error" class="hide"></p>
+                    <button class="button" onclick="login(event)">login</button>
+                    <button class="button social-auth" onclick="social_login(event, 'google')"><img src="https://deepai.org/static/images/google-icon.png"><span class="middle">Login with Google</span></button>
+                    <button class="button social-auth" onclick="social_login(event, 'github')"><img src="https://deepai.org/static/images/github-icon.png"><span class="middle">Login with GitHub</span></button>
+                    <button class="button social-auth" onclick="social_login(event, 'twitter')"><img src="https://deepai.org/static/images/twitter-icon.png"><span class="middle">Login with Twitter</span></button>
+                    <button class="button social-auth" onclick="social_login(event, 'linkedin')"><img src="https://deepai.org/static/images/linkedin-icon.png"><span class="middle">Login with LinkedIn</span></button>
+                    <p class="subtitle">Don't have an account? <a href="javascript:void();" onclick="loginSwitchToSignup(event)"> Signup here</a></p>
+                </form>
+                <!--
+                <a href="javascript:resetPassword()">reset password</a>
+                -->
+            </div>
+            <button id="close-login" class="close" type="button">&times;</button>
+        </dialog>
+        <dialog id="social-modal">
+            <div class="modal-body">
+                <div id="social-image" class="thumbnail"></div>
+                <p class="title">SHARE<br><b id="share_title"></b></p>
+                <p class="subtitle"></p>
+                <div class="social-container">
+                    <a id="tw-link" target="_blank">
+                        <img src="https://deepai.org/static/images/twitter-icon-medium.png">
+                    </a>
+                    <a id="lkdin-link" target="_blank">
+                        <img src="https://deepai.org/static/images/linkedin-icon-medium.png">
+                    </a>
+                    <a id="fb-link" target="_blank">
+                        <img src="https://deepai.org/static/images/facebook-icon.png">
+                    </a>
+                </div>
+                <!--
+                    <button class="button" onclick="copyToClipboard()">copy link</button>
+                -->
+                </form>
+            </div>
+            <button id="close-social" class="close" type="button">&times;</button>
+        </dialog>
+		<footer>
+			
+
+
+			
+
+
+			
+
+
+			
+				<ul>
+                    <li><img src="https://deepai.org/static/images/mail.png"><a href="mailto:team@deepai.org">team@deepai.org</a></li>
+					<li><img src="https://deepai.org/static/images/location.png"><a href="https://deepai.org/about">About Us</a></li>
+					<li><img src="https://deepai.org/static/images/location.png"><a href="https://deepai.org/terms-of-service/terms-of-service">terms of service</a></li>
+                </ul>
+                <p>© 2019 Deep AI, Inc. | San Francisco Bay Area | All rights reserved</p>
+			
+		</footer>
+    <script>var $jscomp=$jscomp||{};$jscomp.scope={};$jscomp.arrayIteratorImpl=function(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}};$jscomp.arrayIterator=function(a){return{next:$jscomp.arrayIteratorImpl(a)}};$jscomp.makeIterator=function(a){var b="undefined"!=typeof Symbol&&Symbol.iterator&&a[Symbol.iterator];return b?b.call(a):$jscomp.arrayIterator(a)};$jscomp.ASSUME_ES5=!1;$jscomp.ASSUME_NO_NATIVE_MAP=!1;$jscomp.ASSUME_NO_NATIVE_SET=!1;$jscomp.SIMPLE_FROUND_POLYFILL=!1;$jscomp.ISOLATE_POLYFILLS=!1;$jscomp.FORCE_POLYFILL_PROMISE=!1;$jscomp.FORCE_POLYFILL_PROMISE_WHEN_NO_UNHANDLED_REJECTION=!1;$jscomp.defineProperty=$jscomp.ASSUME_ES5||"function"==typeof Object.defineProperties?Object.defineProperty:function(a,b,c){if(a==Array.prototype||a==Object.prototype)return a;a[b]=c.value;return a};$jscomp.getGlobal=function(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var c=a[b];if(c&&c.Math==Math)return c}throw Error("Cannot find global object");};$jscomp.global=$jscomp.getGlobal(this);$jscomp.IS_SYMBOL_NATIVE="function"===typeof Symbol&&"symbol"===typeof Symbol("x");$jscomp.TRUST_ES6_POLYFILLS=!$jscomp.ISOLATE_POLYFILLS||$jscomp.IS_SYMBOL_NATIVE;$jscomp.polyfills={};$jscomp.propertyToPolyfillSymbol={};$jscomp.POLYFILL_PREFIX="$jscp$";var $jscomp$lookupPolyfilledValue=function(a,b){var c=$jscomp.propertyToPolyfillSymbol[b];if(null==c)return a[b];c=a[c];return void 0!==c?c:a[b]};$jscomp.polyfill=function(a,b,c,f){b&&($jscomp.ISOLATE_POLYFILLS?$jscomp.polyfillIsolated(a,b,c,f):$jscomp.polyfillUnisolated(a,b,c,f))};$jscomp.polyfillUnisolated=function(a,b,c,f){c=$jscomp.global;a=a.split(".");for(f=0;f<a.length-1;f++){var e=a[f];if(!(e in c))return;c=c[e]}a=a[a.length-1];f=c[a];b=b(f);b!=f&&null!=b&&$jscomp.defineProperty(c,a,{configurable:!0,writable:!0,value:b})};$jscomp.polyfillIsolated=function(a,b,c,f){var e=a.split(".");a=1===e.length;f=e[0];f=!a&&f in $jscomp.polyfills?$jscomp.polyfills:$jscomp.global;for(var k=0;k<e.length-1;k++){var d=e[k];if(!(d in f))return;f=f[d]}e=e[e.length-1];c=$jscomp.IS_SYMBOL_NATIVE&&"es6"===c?f[e]:null;b=b(c);null!=b&&(a?$jscomp.defineProperty($jscomp.polyfills,e,{configurable:!0,writable:!0,value:b}):b!==c&&(void 0===$jscomp.propertyToPolyfillSymbol[e]&&(c=1E9*Math.random()>>>0,$jscomp.propertyToPolyfillSymbol[e]=$jscomp.IS_SYMBOL_NATIVE?$jscomp.global.Symbol(e):$jscomp.POLYFILL_PREFIX+c+"$"+e),$jscomp.defineProperty(f,$jscomp.propertyToPolyfillSymbol[e],{configurable:!0,writable:!0,value:b})))};$jscomp.underscoreProtoCanBeSet=function(){var a={a:!0},b={};try{return b.__proto__=a,b.a}catch(c){}return!1};$jscomp.setPrototypeOf=$jscomp.TRUST_ES6_POLYFILLS&&"function"==typeof Object.setPrototypeOf?Object.setPrototypeOf:$jscomp.underscoreProtoCanBeSet()?function(a,b){a.__proto__=b;if(a.__proto__!==b)throw new TypeError(a+" is not extensible");return a}:null;$jscomp.generator={};$jscomp.generator.ensureIteratorResultIsObject_=function(a){if(!(a instanceof Object))throw new TypeError("Iterator result "+a+" is not an object");};$jscomp.generator.Context=function(){this.isRunning_=!1;this.yieldAllIterator_=null;this.yieldResult=void 0;this.nextAddress=1;this.finallyAddress_=this.catchAddress_=0;this.finallyContexts_=this.abruptCompletion_=null};$jscomp.generator.Context.prototype.start_=function(){if(this.isRunning_)throw new TypeError("Generator is already running");this.isRunning_=!0};$jscomp.generator.Context.prototype.stop_=function(){this.isRunning_=!1};$jscomp.generator.Context.prototype.jumpToErrorHandler_=function(){this.nextAddress=this.catchAddress_||this.finallyAddress_};$jscomp.generator.Context.prototype.next_=function(a){this.yieldResult=a};$jscomp.generator.Context.prototype.throw_=function(a){this.abruptCompletion_={exception:a,isException:!0};this.jumpToErrorHandler_()};$jscomp.generator.Context.prototype.return=function(a){this.abruptCompletion_={return:a};this.nextAddress=this.finallyAddress_};$jscomp.generator.Context.prototype.jumpThroughFinallyBlocks=function(a){this.abruptCompletion_={jumpTo:a};this.nextAddress=this.finallyAddress_};$jscomp.generator.Context.prototype.yield=function(a,b){this.nextAddress=b;return{value:a}};$jscomp.generator.Context.prototype.yieldAll=function(a,b){a=$jscomp.makeIterator(a);var c=a.next();$jscomp.generator.ensureIteratorResultIsObject_(c);if(c.done)this.yieldResult=c.value,this.nextAddress=b;else return this.yieldAllIterator_=a,this.yield(c.value,b)};$jscomp.generator.Context.prototype.jumpTo=function(a){this.nextAddress=a};$jscomp.generator.Context.prototype.jumpToEnd=function(){this.nextAddress=0};$jscomp.generator.Context.prototype.setCatchFinallyBlocks=function(a,b){this.catchAddress_=a;void 0!=b&&(this.finallyAddress_=b)};$jscomp.generator.Context.prototype.setFinallyBlock=function(a){this.catchAddress_=0;this.finallyAddress_=a||0};$jscomp.generator.Context.prototype.leaveTryBlock=function(a,b){this.nextAddress=a;this.catchAddress_=b||0};$jscomp.generator.Context.prototype.enterCatchBlock=function(a){this.catchAddress_=a||0;a=this.abruptCompletion_.exception;this.abruptCompletion_=null;return a};$jscomp.generator.Context.prototype.enterFinallyBlock=function(a,b,c){c?this.finallyContexts_[c]=this.abruptCompletion_:this.finallyContexts_=[this.abruptCompletion_];this.catchAddress_=a||0;this.finallyAddress_=b||0};$jscomp.generator.Context.prototype.leaveFinallyBlock=function(a,b){b=this.finallyContexts_.splice(b||0)[0];if(b=this.abruptCompletion_=this.abruptCompletion_||b){if(b.isException)return this.jumpToErrorHandler_();void 0!=b.jumpTo&&this.finallyAddress_<b.jumpTo?(this.nextAddress=b.jumpTo,this.abruptCompletion_=null):this.nextAddress=this.finallyAddress_}else this.nextAddress=a};$jscomp.generator.Context.prototype.forIn=function(a){return new $jscomp.generator.Context.PropertyIterator(a)};$jscomp.generator.Context.PropertyIterator=function(a){this.object_=a;this.properties_=[];for(var b in a)this.properties_.push(b);this.properties_.reverse()};$jscomp.generator.Context.PropertyIterator.prototype.getNext=function(){for(;0<this.properties_.length;){var a=this.properties_.pop();if(a in this.object_)return a}return null};$jscomp.generator.Engine_=function(a){this.context_=new $jscomp.generator.Context;this.program_=a};$jscomp.generator.Engine_.prototype.next_=function(a){this.context_.start_();if(this.context_.yieldAllIterator_)return this.yieldAllStep_(this.context_.yieldAllIterator_.next,a,this.context_.next_);this.context_.next_(a);return this.nextStep_()};$jscomp.generator.Engine_.prototype.return_=function(a){this.context_.start_();var b=this.context_.yieldAllIterator_;if(b)return this.yieldAllStep_("return"in b?b["return"]:function(c){return{value:c,done:!0}},a,this.context_.return);this.context_.return(a);return this.nextStep_()};$jscomp.generator.Engine_.prototype.throw_=function(a){this.context_.start_();if(this.context_.yieldAllIterator_)return this.yieldAllStep_(this.context_.yieldAllIterator_["throw"],a,this.context_.next_);this.context_.throw_(a);return this.nextStep_()};$jscomp.generator.Engine_.prototype.yieldAllStep_=function(a,b,c){try{var f=a.call(this.context_.yieldAllIterator_,b);$jscomp.generator.ensureIteratorResultIsObject_(f);if(!f.done)return this.context_.stop_(),f;var e=f.value}catch(k){return this.context_.yieldAllIterator_=null,this.context_.throw_(k),this.nextStep_()}this.context_.yieldAllIterator_=null;c.call(this.context_,e);return this.nextStep_()};$jscomp.generator.Engine_.prototype.nextStep_=function(){for(;this.context_.nextAddress;)try{var a=this.program_(this.context_);if(a)return this.context_.stop_(),{value:a.value,done:!1}}catch(b){this.context_.yieldResult=void 0,this.context_.throw_(b)}this.context_.stop_();if(this.context_.abruptCompletion_){a=this.context_.abruptCompletion_;this.context_.abruptCompletion_=null;if(a.isException)throw a.exception;return{value:a.return,done:!0}}return{value:void 0,done:!0}};$jscomp.generator.Generator_=function(a){this.next=function(b){return a.next_(b)};this.throw=function(b){return a.throw_(b)};this.return=function(b){return a.return_(b)};this[Symbol.iterator]=function(){return this}};$jscomp.generator.createGenerator=function(a,b){b=new $jscomp.generator.Generator_(new $jscomp.generator.Engine_(b));$jscomp.setPrototypeOf&&a.prototype&&$jscomp.setPrototypeOf(b,a.prototype);return b};$jscomp.asyncExecutePromiseGenerator=function(a){function b(f){return a.next(f)}function c(f){return a.throw(f)}return new Promise(function(f,e){function k(d){d.done?f(d.value):Promise.resolve(d.value).then(b,c).then(k,e)}k(a.next())})};$jscomp.asyncExecutePromiseGeneratorFunction=function(a){return $jscomp.asyncExecutePromiseGenerator(a())};$jscomp.asyncExecutePromiseGeneratorProgram=function(a){return $jscomp.asyncExecutePromiseGenerator(new $jscomp.generator.Generator_(new $jscomp.generator.Engine_(a)))};$jscomp.initSymbol=function(){};$jscomp.polyfill("Symbol",function(a){if(a)return a;var b=function(k,d){this.$jscomp$symbol$id_=k;$jscomp.defineProperty(this,"description",{configurable:!0,writable:!0,value:d})};b.prototype.toString=function(){return this.$jscomp$symbol$id_};var c="jscomp_symbol_"+(1E9*Math.random()>>>0)+"_",f=0,e=function(k){if(this instanceof e)throw new TypeError("Symbol is not a constructor");return new b(c+(k||"")+"_"+f++,k)};return e},"es6","es3");$jscomp.polyfill("Symbol.iterator",function(a){if(a)return a;a=Symbol("Symbol.iterator");for(var b="Array Int8Array Uint8Array Uint8ClampedArray Int16Array Uint16Array Int32Array Uint32Array Float32Array Float64Array".split(" "),c=0;c<b.length;c++){var f=$jscomp.global[b[c]];"function"===typeof f&&"function"!=typeof f.prototype[a]&&$jscomp.defineProperty(f.prototype,a,{configurable:!0,writable:!0,value:function(){return $jscomp.iteratorPrototype($jscomp.arrayIteratorImpl(this))}})}return a},"es6","es3");$jscomp.iteratorPrototype=function(a){a={next:a};a[Symbol.iterator]=function(){return this};return a};$jscomp.polyfill("Promise",function(a){function b(){this.batch_=null}function c(d){return d instanceof e?d:new e(function(g,l){g(d)})}if(a&&(!($jscomp.FORCE_POLYFILL_PROMISE||$jscomp.FORCE_POLYFILL_PROMISE_WHEN_NO_UNHANDLED_REJECTION&&"undefined"===typeof $jscomp.global.PromiseRejectionEvent)||!$jscomp.global.Promise||-1===$jscomp.global.Promise.toString().indexOf("[native code]")))return a;b.prototype.asyncExecute=function(d){if(null==this.batch_){this.batch_=[];var g=this;this.asyncExecuteFunction(function(){g.executeBatch_()})}this.batch_.push(d)};var f=$jscomp.global.setTimeout;b.prototype.asyncExecuteFunction=function(d){f(d,0)};b.prototype.executeBatch_=function(){for(;this.batch_&&this.batch_.length;){var d=this.batch_;this.batch_=[];for(var g=0;g<d.length;++g){var l=d[g];d[g]=null;try{l()}catch(p){this.asyncThrow_(p)}}}this.batch_=null};b.prototype.asyncThrow_=function(d){this.asyncExecuteFunction(function(){throw d;})};var e=function(d){this.state_=0;this.result_=void 0;this.onSettledCallbacks_=[];this.isRejectionHandled_=!1;var g=this.createResolveAndReject_();try{d(g.resolve,g.reject)}catch(l){g.reject(l)}};e.prototype.createResolveAndReject_=function(){function d(p){return function(n){l||(l=!0,p.call(g,n))}}var g=this,l=!1;return{resolve:d(this.resolveTo_),reject:d(this.reject_)}};e.prototype.resolveTo_=function(d){if(d===this)this.reject_(new TypeError("A Promise cannot resolve to itself"));else if(d instanceof e)this.settleSameAsPromise_(d);else{a:switch(typeof d){case"object":var g=null!=d;break a;case"function":g=!0;break a;default:g=!1}g?this.resolveToNonPromiseObj_(d):this.fulfill_(d)}};e.prototype.resolveToNonPromiseObj_=function(d){var g=void 0;try{g=d.then}catch(l){this.reject_(l);return}"function"==typeof g?this.settleSameAsThenable_(g,d):this.fulfill_(d)};e.prototype.reject_=function(d){this.settle_(2,d)};e.prototype.fulfill_=function(d){this.settle_(1,d)};e.prototype.settle_=function(d,g){if(0!=this.state_)throw Error("Cannot settle("+d+", "+g+"): Promise already settled in state"+this.state_);this.state_=d;this.result_=g;2===this.state_&&this.scheduleUnhandledRejectionCheck_();this.executeOnSettledCallbacks_()};e.prototype.scheduleUnhandledRejectionCheck_=function(){var d=this;f(function(){if(d.notifyUnhandledRejection_()){var g=$jscomp.global.console;"undefined"!==typeof g&&g.error(d.result_)}},1)};e.prototype.notifyUnhandledRejection_=function(){if(this.isRejectionHandled_)return!1;var d=$jscomp.global.CustomEvent,g=$jscomp.global.Event,l=$jscomp.global.dispatchEvent;if("undefined"===typeof l)return!0;"function"===typeof d?d=new d("unhandledrejection",{cancelable:!0}):"function"===typeof g?d=new g("unhandledrejection",{cancelable:!0}):(d=$jscomp.global.document.createEvent("CustomEvent"),d.initCustomEvent("unhandledrejection",!1,!0,d));d.promise=this;d.reason=this.result_;return l(d)};e.prototype.executeOnSettledCallbacks_=function(){if(null!=this.onSettledCallbacks_){for(var d=0;d<this.onSettledCallbacks_.length;++d)k.asyncExecute(this.onSettledCallbacks_[d]);this.onSettledCallbacks_=null}};var k=new b;e.prototype.settleSameAsPromise_=function(d){var g=this.createResolveAndReject_();d.callWhenSettled_(g.resolve,g.reject)};e.prototype.settleSameAsThenable_=function(d,g){var l=this.createResolveAndReject_();try{d.call(g,l.resolve,l.reject)}catch(p){l.reject(p)}};e.prototype.then=function(d,g){function l(u,x){return"function"==typeof u?function(B){try{p(u(B))}catch(D){n(D)}}:x}var p,n,t=new e(function(u,x){p=u;n=x});this.callWhenSettled_(l(d,p),l(g,n));return t};e.prototype.catch=function(d){return this.then(void 0,d)};e.prototype.callWhenSettled_=function(d,g){function l(){switch(p.state_){case 1:d(p.result_);break;case 2:g(p.result_);break;default:throw Error("Unexpected state: "+p.state_);}}var p=this;null==this.onSettledCallbacks_?k.asyncExecute(l):this.onSettledCallbacks_.push(l);this.isRejectionHandled_=!0};e.resolve=c;e.reject=function(d){return new e(function(g,l){l(d)})};e.race=function(d){return new e(function(g,l){for(var p=$jscomp.makeIterator(d),n=p.next();!n.done;n=p.next())c(n.value).callWhenSettled_(g,l)})};e.all=function(d){var g=$jscomp.makeIterator(d),l=g.next();return l.done?c([]):new e(function(p,n){function t(B){return function(D){u[B]=D;x--;0==x&&p(u)}}var u=[],x=0;do u.push(void 0),x++,c(l.value).callWhenSettled_(t(u.length-1),n),l=g.next();while(!l.done)})};return e},"es6","es3");$jscomp.owns=function(a,b){return Object.prototype.hasOwnProperty.call(a,b)};$jscomp.assign=$jscomp.TRUST_ES6_POLYFILLS&&"function"==typeof Object.assign?Object.assign:function(a,b){for(var c=1;c<arguments.length;c++){var f=arguments[c];if(f)for(var e in f)$jscomp.owns(f,e)&&(a[e]=f[e])}return a};$jscomp.polyfill("Object.assign",function(a){return a||$jscomp.assign},"es6","es3");$jscomp.polyfill("Object.entries",function(a){return a?a:function(b){var c=[],f;for(f in b)$jscomp.owns(b,f)&&c.push([f,b[f]]);return c}},"es8","es3");$jscomp.polyfill("Math.tanh",function(a){return a?a:function(b){b=Number(b);if(0===b)return b;var c=Math.exp(-2*Math.abs(b));c=(1-c)/(1+c);return 0>b?-c:c}},"es6","es3");var app_base_url="https://api.deepai.org",reeferrerMadness=document.referrer,cookieUserReeferrer=localStorage.getItem("userReeferrer");void 0==cookieUserReeferrer&&(localStorage.setItem("userReeferrer",reeferrerMadness),cookieUserReeferrer=localStorage.getItem("userReeferrer"));var thisLocation=window.location.pathname,pagePathCookie=localStorage.getItem("pagePath");if(void 0==pagePathCookie)localStorage.setItem("pagePath",[thisLocation]);else if(!(1E5<pagePathCookie.length)){var newPagePathCookie=[pagePathCookie,thisLocation];localStorage.setItem("pagePath",newPagePathCookie)}var latestPagePathCookie=localStorage.getItem("pagePath");console.log(latestPagePathCookie);console.log(cookieUserReeferrer);function _extends(){return(_extends=Object.assign||function(a){for(var b=1;b<arguments.length;b++){var c=arguments[b],f;for(f in c)Object.prototype.hasOwnProperty.call(c,f)&&(a[f]=c[f])}return a}).apply(this,arguments)}
+var LazyLoad=function(){var a="undefined"!=typeof window,b=a&&!("onscroll"in window)||"undefined"!=typeof navigator&&/(gle|ing|ro)bot|crawl|spider/i.test(navigator.userAgent),c=a&&"IntersectionObserver"in window,f=a&&"classList"in document.createElement("p"),e={elements_selector:"img",container:b||a?document:null,threshold:300,thresholds:null,data_src:"src",data_srcset:"srcset",data_sizes:"sizes",data_bg:"bg",class_loading:"loading",class_loaded:"loaded",class_error:"error",load_delay:0,auto_unobserve:!0,callback_enter:null,callback_exit:null,callback_reveal:null,callback_loaded:null,callback_error:null,callback_finish:null,use_native:!1},k=function(h,m){h=new h(m);try{var q=new CustomEvent("LazyLoad::Initialized",{detail:{instance:h}})}catch(r){(q=document.createEvent("CustomEvent")).initCustomEvent("LazyLoad::Initialized",!1,!1,{instance:h})}window.dispatchEvent(q)},d=function(h,m){return h.getAttribute("data-"+m)},g=function(h,m,q){m="data-"+m;null!==q?h.setAttribute(m,q):h.removeAttribute(m)},l=function(h,m){h._loadingCount+=m;0===h._elements.length&&0===h._loadingCount&&(h=h._settings.callback_finish)&&h(void 0)},p=function(h){for(var m,q=[],r=0;m=h.children[r];r+=1)"SOURCE"===m.tagName&&q.push(m);return q},n=function(h,m,q){q&&h.setAttribute(m,q)},t=function(h,m){n(h,"sizes",d(h,m.data_sizes));n(h,"srcset",d(h,m.data_srcset));n(h,"src",d(h,m.data_src))},u={IMG:function(h,m){var q=h.parentNode;q&&"PICTURE"===q.tagName&&p(q).forEach(function(r){t(r,m)});t(h,m)},IFRAME:function(h,m){n(h,"src",d(h,m.data_src))},VIDEO:function(h,m){p(h).forEach(function(q){n(q,"src",d(q,m.data_src))});n(h,"src",d(h,m.data_src));h.load()}},x=function(h,m){var q,r=m._settings,z=u[h.tagName];if(z)return z(h,r),l(m,1),void(m._elements=(q=m._elements,q.filter(function(C){return C!==h})));!function(C,A){var F=d(C,A.data_src);A=d(C,A.data_bg);F&&(C.style.backgroundImage='url("'.concat(F,'")'));A&&(C.style.backgroundImage=A)}(h,r)},B=function(h,m){f?h.classList.add(m):h.className+=(h.className?" ":"")+m},D=function(h,m,q){h.removeEventListener("load",m);h.removeEventListener("loadeddata",m);h.removeEventListener("error",q)},E=function(h,m,q){var r=q._settings,z=m?r.class_loaded:r.class_error;m=m?r.callback_loaded:r.callback_error;h=h.target;r=r.class_loading;f?h.classList.remove(r):h.className=h.className.replace(new RegExp("(^|\\s+)"+r+"(\\s+|$)")," ").replace(/^\s+/,"").replace(/\s+$/,"");!0;B(h,z);m&&m(h);l(q,-1)},y=function(h,m){var q=function A(C){E(C,!0,m);D(h,A,r)},r=function F(A){E(A,!1,m);D(h,q,F)};!function(A,F,N){A.addEventListener("load",F);A.addEventListener("loadeddata",F);A.addEventListener("error",N)}(h,q,r)},v=["IMG","IFRAME","VIDEO"],G=function(h,m){var q=m._observer;H(h,m);q&&m._settings.auto_unobserve&&q.unobserve(h)},J=function(h){var m=d(h,"ll-timeout");m&&(clearTimeout(m),g(h,"ll-timeout",null))},K=function(h,m){var q=m._settings.load_delay,r=d(h,"ll-timeout");r||(r=setTimeout(function(){G(h,m);J(h)},q),g(h,"ll-timeout",r))},H=function(h,m,q){var r=m._settings;if(q||"true"!==d(h,"was-processed"))-1<v.indexOf(h.tagName)&&(y(h,m),B(h,r.class_loading)),x(h,m),g(h,"was-processed","true"),(m=r.callback_reveal)&&m(h),(r=r.callback_set)&&r(h)},M=function(h){return!!c&&(h._observer=new IntersectionObserver(function(q){q.forEach(function(r){return r.isIntersecting||0<r.intersectionRatio?function(z,C){var A=C._settings,F=A.callback_enter;F&&F(z);A.load_delay?K(z,C):G(z,C)}(r.target,h):function(z,C){C=C._settings;var A=C.callback_exit;A&&A(z);C.load_delay&&J(z)}(r.target,h)})},{root:(m=h._settings).container===document?null:m.container,rootMargin:m.thresholds||m.threshold+"px"}),!0);var m},L=["IMG","IFRAME"],I=function(h,m){return function(r){return r.filter(function(z){return"true"!==d(z,"was-processed")})}((q=h||m.container.querySelectorAll(m.elements_selector),Array.prototype.slice.call(q)));var q},w=function(h,m){this._settings=_extends({},e,h);this._loadingCount=0;M(this);this.update(m)};return w.prototype={update:function(h){var m,q=this,r=this._settings;(this._elements=I(h,r),!b&&this._observer)?(r.use_native&&"loading"in HTMLImageElement.prototype&&((m=this)._elements.forEach(function(z){-1!==L.indexOf(z.tagName)&&(z.setAttribute("loading","lazy"),H(z,m))}),this._elements=I(h,r)),this._elements.forEach(function(z){q._observer.observe(z)})):this.loadAll()},destroy:function(){var h=this;this._observer&&(this._elements.forEach(function(m){h._observer.unobserve(m)}),this._observer=null);this._settings=this._elements=null},load:function(h,m){H(h,this,m)},loadAll:function(){var h=this;this._elements.forEach(function(m){G(m,h)})}},a&&function(h,m){if(m)if(m.length)for(var q,r=0;q=m[r];r+=1)k(h,q);else k(h,m)}(w,window.lazyLoadOptions),w}(),lazyLoadInstance=new LazyLoad({elements_selector:".lazyload",use_native:!0});if(document.createElement("dialog").showModal)console.log("not loading dialog polyfill");else{console.log("loading dialog polyfill...");var script=document.createElement("script");script.src="https://deepai.org/static/js/libs/dialog-polyfill.js";script.type="text/javascript";script.async=!0;script.onload=function(){for(var a=$jscomp.makeIterator(document.getElementsByTagName("dialog")),b=a.next();!b.done;b=a.next())dialogPolyfill.registerDialog(b.value)};document.getElementsByTagName("head")[0].appendChild(script)}
+window.localStorage&&window.sessionStorage||function(){var a=function(b){function c(d,g,l){if(l){var p=new Date;p.setTime(p.getTime()+864E5*l);l="; expires="+p.toGMTString()}else l="";document.cookie=d+"="+g+l+"; path=/"}function f(d){d=JSON.stringify(d);"session"==b?window.name=d:c("localStorage",d,365)}function e(){var d=0,g;for(g in k)k.hasOwnProperty(g)&&(d+=1);return d}var k=function(){if("session"==b)var d=window.name;else a:{d=document.cookie.split(";");var g,l;for(g=0;g<d.length;g++){for(l=d[g];" "==l.charAt(0);)l=l.substring(1,l.length);if(0==l.indexOf("localStorage=")){d=l.substring(13,l.length);break a}}d=null}return d?JSON.parse(d):{}}();return{clear:function(){k={};"session"==b?window.name="":c("localStorage","",365);this.length=e()},getItem:function(d){d=encodeURIComponent(d);return void 0===k[d]?null:k[d]},key:function(d){var g=0,l;for(l in k){if(g==d)return decodeURIComponent(l);g++}return null},removeItem:function(d){d=encodeURIComponent(d);delete k[d];f(k);this.length=e()},setItem:function(d,g){d=encodeURIComponent(d);k[d]=String(g);f(k);this.length=e()},length:0}};window.localStorage||(window.localStorage=new a("local"));window.sessionStorage||(window.sessionStorage=new a("session"))}();Element.prototype.matches||(Element.prototype.matches=Element.prototype.msMatchesSelector||Element.prototype.webkitMatchesSelector);Element.prototype.closest||(Element.prototype.closest=function(a){var b=this;do{if(b.matches(a))return b;b=b.parentElement||b.parentNode}while(null!==b&&1===b.nodeType);return null});self.fetch||(self.fetch=function(a,b){return b=b||{},new Promise(function(c,f){var e=new XMLHttpRequest,k=[],d=[],g={},l=function(){return{ok:2==(e.status/100|0),statusText:e.statusText,status:e.status,url:e.responseURL,text:function(){return Promise.resolve(e.responseText)},json:function(){return Promise.resolve(JSON.parse(e.responseText))},blob:function(){return Promise.resolve(new Blob([e.response]))},clone:l,headers:{keys:function(){return k},entries:function(){return d},get:function(n){return g[n.toLowerCase()]},has:function(n){return n.toLowerCase()in g}}}},p;for(p in e.open(b.method||"get",a,!0),e.onload=function(){e.getAllResponseHeaders().replace(/^(.*?):[^\S\n]*([\s\S]*?)$/gm,function(n,t,u){k.push(t=t.toLowerCase());d.push([t,u]);g[t]=g[t]?g[t]+","+u:u});c(l())},e.onerror=f,e.withCredentials="include"==b.credentials,b.headers)e.setRequestHeader(p,b.headers[p]);e.send(b.body||null)})});var user_object={};function userIsLoggedIn(){return user_object.pk?!0:!1}
+function checkAuthStatus(){return $jscomp.asyncExecutePromiseGeneratorProgram(function(a){localStorage.getItem("user")&&(user_object=JSON.parse(localStorage.getItem("user")));console.log(user_object);if(!userIsLoggedIn())return a.jumpTo(0);document.getElementById("add-your-research-card")&&document.getElementById("add-your-research-card").setAttribute("onclick","window.location.replace('/dashboard/profile')");document.getElementById("add-your-job-card")&&document.getElementById("add-your-job-card").setAttribute("onclick","window.location.replace('/dashboard/job-postings')");document.getElementById("signup-button")&&(document.getElementById("signup-button").setAttribute("onclick","window.location.replace('/dashboard/profile')"),document.getElementById("signup-button").innerHTML="Dashboard");document.getElementById("signup-button-dropdown")&&(document.getElementById("signup-button-dropdown").setAttribute("onclick","window.location.replace('/dashboard/profile')"),document.getElementById("signup-button-dropdown").innerHTML="Dashboard");document.getElementById("login-button")&&(document.getElementById("login-button").setAttribute("onclick","logout()"),document.getElementById("login-button").innerHTML="logout");document.getElementById("login-button-dropdown")&&(document.getElementById("login-button-dropdown").setAttribute("onclick","logout()"),document.getElementById("login-button-dropdown").innerHTML="logout");user_object.userprofile&&user_object.userprofile.api_key?applyApiKeyToCodeExamples(user_object.userprofile.api_key):console.log("Error - user is logged in but has no API key.");applyCachedHeartsToHeartsOnPage();return a.yield(refreshHeartsFromServer(),0)})}
+function auth(){var a,b,c;return $jscomp.asyncExecutePromiseGeneratorProgram(function(f){switch(f.nextAddress){case 1:return f.yield(fetch(app_base_url+"https://deepai.org/rest-auth/user/",{credentials:"include"}),2);case 2:return a=f.yieldResult,f.yield(a.json(),3);case 3:return b=f.yieldResult,c=JSON.stringify(b),f.yield(a.status,4);case 4:if(200==f.yieldResult)return localStorage.setItem("user",c),user_object=JSON.parse(localStorage.getItem("user")),f.yield(checkAuthStatus(),6);localStorage.setItem("user",c);return f.yield(checkAuthStatus(),6);case 6:f.jumpToEnd()}})}function mainNavDrop(){document.getElementById("mainNavDropdown").classList.toggle("show-dropdown")}
+window.onclick=function(a){a.target.closest(".dropdown-link")||a.target.closest(".content-dropdown-link")||a.target.matches(".dropbtn")||(document.getElementById("contentNavDropdown")&&(a=document.getElementById("contentNavDropdown"),a.classList.contains("show-dropdown")&&a.classList.remove("show-dropdown")),a=document.getElementById("mainNavDropdown"),a.classList.contains("show-dropdown")&&a.classList.remove("show-dropdown"))};var lastApiKeyUsed;function applyApiKeyToCodeExamples(a){for(var b=$jscomp.makeIterator(document.getElementsByClassName("api-key-auto-substitute-area")),c=b.next();!c.done;c=b.next())for(c=document.createTreeWalker(c.value);c.nextNode();){var f=c.currentNode;if(f.nodeValue){var e=f.nodeValue.replace("YOUR_API_KEY",a);lastApiKeyUsed&&(e=e.replace(lastApiKeyUsed,a));f.nodeValue=e}}lastApiKeyUsed=a}applyApiKeyToCodeExamples("quickstart-QUdJIGlzIGNvbWluZy4uLi4K");checkAuthStatus();auth();function refreshHeartsFromServer(){var a,b;return $jscomp.asyncExecutePromiseGeneratorProgram(function(c){if(1==c.nextAddress)return c.yield(fetch(app_base_url+"https://deepai.org/get_my_hearted_object_ids",{credentials:"include"}),2);if(3!=c.nextAddress)return a=c.yieldResult,c.yield(a.json(),3);b=c.yieldResult;localStorage.setItem("hearts-cache",JSON.stringify(b));applyCachedHeartsToHeartsOnPage();c.jumpToEnd()})}
+function applyCachedHeartsToHeartsOnPage(){if(localStorage.getItem("hearts-cache"))for(var a=JSON.parse(localStorage.getItem("hearts-cache")).hearts,b=$jscomp.makeIterator(document.getElementsByClassName("heart-link")),c=b.next();!c.done;c=b.next())c=c.value,c.removeAttribute("hearted"),a[c.attributes.heartid.value]&&c.setAttribute("hearted","hearted");else console.log("no heart cache")}
+function heart(a){var b,c,f,e,k,d,g,l,p;return $jscomp.asyncExecutePromiseGeneratorProgram(function(n){if(1==n.nextAddress){if(!userIsLoggedIn())return openSignup(function(){heart(a)}),n.return();localStorage.getItem("hearts-cache")?b=JSON.parse(localStorage.getItem("hearts-cache")):(console.log("warning, hearts cache is empty. creating new hearts cache..."),b={hearts:{}});f=1*a.getElementsByClassName("heart-count")[0].innerText;a.attributes.hearted?(a.removeAttribute("hearted"),c="false",delete b.hearts[a.attributes.heartid.value],e=f-1,0>e&&(e=0),a.getElementsByClassName("heart-count")[0].innerText=e):(a.setAttribute("hearted","hearted"),c="true",b.hearts[a.attributes.heartid.value]=!0,a.getElementsByClassName("heart-count")[0].innerText=f+1);localStorage.setItem("hearts-cache",JSON.stringify(b));k=new FormData;d=a.attributes.heartid.value.split("-");g=d[0];l=d[1];k.append("type",g);k.append("id",l);k.append("switch",c);return n.yield(fetch(app_base_url+"https://deepai.org/add_remove_heart",{method:"POST",credentials:"include",body:k}),2)}p=n.yieldResult;console.log("hearty response ",p);n.jumpToEnd()})}
+function newsletter(a){var b,c,f,e;return $jscomp.asyncExecutePromiseGeneratorProgram(function(k){if(1==k.nextAddress){a.preventDefault();newsletter_email=document.getElementById("newsletter-email");newsletter_email_value=newsletter_email.value;signup_page=window.location.pathname;b=new FormData;b.append("email",newsletter_email_value);b.append("signup_page",signup_page);b.append("referrer","["+cookieUserReeferrer+"]["+latestPagePathCookie+"]");if(""==newsletter_email_value)return k.jumpTo(0);newsletter_email.classList.add("loading");return k.yield(fetch(app_base_url+"https://deepai.org/add_to_deepai_newsletter",{method:"POST",credentials:"include",body:b}),3)}c=k.yieldResult;console.log(c);1==c.ok?(newsletter_email.classList.remove("loading"),f="Success! You're so smart and beautiful.",e=document.getElementById("newsletter-success-message"),e.innerHTML=f,e.setAttribute("style","display: block;")):0==c.ok&&(newsletter_email.classList.remove("loading"),f="oops! It's not you, it's us. Try that again.",e=document.getElementById("newsletter-success-message"),e.innerHTML=f,e.setAttribute("style","display: block;"));k.jumpToEnd()})}
+function enterprise(a){var b,c,f,e;return $jscomp.asyncExecutePromiseGeneratorProgram(function(k){if(1==k.nextAddress){a.preventDefault();enterprise_first_name=document.getElementById("enterprise-first-name");enterprise_last_name=document.getElementById("enterprise-last-name");enterprise_phone=document.getElementById("enterprise-phone");enterprise_website=document.getElementById("enterprise-website");enterprise_email=document.getElementById("enterprise-email");enterprise_org=document.getElementById("enterprise-org");enterprise_message=document.getElementById("enterprise-message");enterprise_employees=document.getElementById("enterprise-employees");enterprise_new_hires=document.getElementById("enterprise-new-hires");enterprise_first_name_value=enterprise_first_name.value;enterprise_last_name_value=enterprise_last_name.value;enterprise_phone_value=enterprise_phone.value;enterprise_website_value=enterprise_website.value;enterprise_email_value=enterprise_email.value;enterprise_org_value=enterprise_org.value;enterprise_message_value=enterprise_message.value;signup_page=window.location.pathname;b=new FormData;b.append("first_name",enterprise_first_name_value);b.append("last_name",enterprise_last_name_value);b.append("phone",enterprise_phone_value);b.append("website",enterprise_website_value);b.append("email",enterprise_email_value);b.append("organization",enterprise_org_value);b.append("message",enterprise_message_value);enterprise_employees&&b.append("current_employees",enterprise_employees.value);enterprise_new_hires&&b.append("upcoming_hires",enterprise_new_hires.value);b.append("signup_page",signup_page);b.append("reeferrer_madness",latestPagePathCookie);b.append("referral_path",cookieUserReeferrer);if(!enterprise_email_value)return c="oops! It's not us, it's you...please enter your electronic mailing address so we can respond to your inquiry with a piece of electronic mail.",f=document.getElementById("enterprise-success-message"),f.innerHTML=c,f.setAttribute("style","display: block;max-width: 300px; margin: 0 auto;"),k.jumpTo(0);enterprise_email.classList.add("loading");return k.yield(fetch(app_base_url+"https://deepai.org/submit_enterprise_contact",{method:"POST",credentials:"include",body:b}),3)}e=k.yieldResult;console.log(e);1==e.ok?(enterprise_email.classList.remove("loading"),c="Thanks for reaching out! We'll get back to you in the next 12-hours.",f=document.getElementById("enterprise-success-message"),f.innerHTML=c,f.setAttribute("style","display: block;")):0==e.ok&&(enterprise_email.classList.remove("loading"),c="oops! It's not you, it's us. Try that again.",f=document.getElementById("enterprise-success-message"),f.innerHTML=c,f.setAttribute("style","display: block;"));k.jumpToEnd()})}var modal=document.getElementById("signup-modal"),afterSignupFunction=null,openSignup=function(a){afterSignupFunction=a;userIsLoggedIn()?afterSignupFunction&&afterSignupFunction():modal.showModal()},close=document.getElementById("close");close.addEventListener("click",function(){modal.close("cancelled")});modal.addEventListener("cancel",function(){modal.close("cancelled")});modal.addEventListener("click",function(a){a.target===modal&&modal.close("cancelled")});function getSignupCustomData(a){return{referrer:"["+cookieUserReeferrer+"]["+latestPagePathCookie+"]",signup_page:window.location.pathname,desired_username:a}}
+function save_custom_signup_data(a){var b,c;return $jscomp.asyncExecutePromiseGeneratorProgram(function(f){if(1==f.nextAddress)return b=getSignupCustomData(a),f.yield(fetch(app_base_url+"https://deepai.org/save_custom_signup_data",{credentials:"include",method:"POST",body:JSON.stringify(b),headers:{"Content-Type":"application/json"}}),2);c=f.yieldResult;if(!c.ok)throw Error("saving custom signup data HTTP status "+c.status);return f.return(null)})}
+function signup(a){var b,c,f,e,k,d,g,l,p,n,t,u,x,B,D,E,y,v,G,J,K,H,M,L,I;return $jscomp.asyncExecutePromiseGeneratorProgram(function(w){switch(w.nextAddress){case 1:a.preventDefault();b=document.getElementById("user-email-error");c=document.getElementById("user-username-error");b.innerHTML="";b.setAttribute("style","display: none;");c.innerHTML="";c.setAttribute("style","display: none;");f=document.getElementById("user-email");e=document.getElementById("user-password");k=document.getElementById("confirm-user-password");d=document.getElementById("user-username");g=f.value;l=e.value;p=k.value;n=d.value;t=new FormData;t.append("username",n?n:g);t.append("email",g);t.append("password1",l);t.append("password2",p);f.classList.add("loading");u=null;if(!g){u="Email is required";w.jumpTo(2);break}if(!e){u="Password is required";w.jumpTo(2);break}if(!k){u="Password confirmation is required";w.jumpTo(2);break}if(!d.value){w.jumpTo(2);break}return w.yield(check_username_availability(d.value),6);case 6:if(x=w.yieldResult,console.log(x),!x.ok)return B=x.error,c.innerHTML=B,c.setAttribute("style","display: block;"),f.classList.remove("loading"),w.return();case 2:return u?(b.innerHTML=u,b.setAttribute("style","display: block;"),f.classList.remove("loading"),w.return()):w.yield(get_user_login_type(g),8);case 8:D=w.yieldResult;if(D.user_exists){f.classList.remove("loading");E="This account already exists";D.login_with_password||(y=D.login_with_social_accounts[0],E="This account exists and needs to be logged in using "+y);b=document.getElementById("user-email-error");b.innerHTML=E;b.setAttribute("style","display: block;");w.jumpTo(0);break}return w.yield(save_custom_signup_data(n),10);case 10:return w.yield(fetch(app_base_url+"https://deepai.org/rest-auth/registration/",{credentials:"include",method:"POST",body:t}),11);case 11:v=w.yieldResult;console.log(v);if(1==v.ok){f.classList.remove("loading");modal.close("cancelled");if(!afterSignupFunction){window.location="https://deepai.org/dashboard/profile";w.jumpTo(0);break}return w.yield(auth(),19)}if(0!=v.ok){w.jumpTo(0);break}f.classList.remove("loading");if(500==v.status){G="Hmm, something went wrong. Perhaps try another email address, or try again later.";b=document.getElementById("user-email-error");b.innerHTML=G;b.setAttribute("style","display: block;");w.jumpTo(0);break}if(!(400<=v.status)){w.jumpTo(0);break}return w.yield(v.json(),17);case 17:J=w.yieldResult;G="Hmm, something went wrong. Perhaps try another email address, or try again later.";K=$jscomp.makeIterator(Object.entries(J));for(H=K.next();!H.done;H=K.next())if(M=H.value,L=$jscomp.makeIterator(M),L.next(),I=L.next().value,I[0]){G=I[0];break}b=document.getElementById("user-email-error");b.innerHTML=G;b.setAttribute("style","display: block;");w.jumpTo(0);break;case 19:afterSignupFunction(),w.jumpToEnd()}})}function signupSwitchToLogin(a){a.preventDefault();modal.close("cancelled");openLogin(afterSignupFunction)}function debounce(a,b){var c;return function(){var f=arguments,e=this;clearTimeout(c);c=setTimeout(function(){return a.apply(e,f)},b)}}var checking_username=!1;username_changed=debounce(function(a){var b,c,f,e,k,d;return $jscomp.asyncExecutePromiseGeneratorProgram(function(g){switch(g.nextAddress){case 1:if(checking_username)return g.return();checking_username=!0;g.setFinallyBlock(2);b=document.getElementById("user-username");b.classList.add("loading");case 4:return c=b.value,g.yield(check_username_availability(c),6);case 6:f=g.yieldResult;console.log(f);e=document.getElementById("user-username-error");k=b.value;k!=c?g.jumpTo(4):g.jumpTo(5);break;case 5:f.ok?(e.innerHTML="",e.setAttribute("style","display: none;")):(d=f.error,e.innerHTML=d,e.setAttribute("style","display: block;"));case 2:g.enterFinallyBlock(),checking_username=!1,b.classList.remove("loading"),g.leaveFinallyBlock(0)}})},500);function check_username_availability(a){var b,c,f;return $jscomp.asyncExecutePromiseGeneratorProgram(function(e){switch(e.nextAddress){case 1:return b=new FormData,b.append("username",a),e.yield(fetch(app_base_url+"https://deepai.org/check_username_availability",{credentials:"include",method:"POST",body:b}),2);case 2:c=e.yieldResult;if(1!=c.ok){e.jumpTo(3);break}return e.yield(c.json(),4);case 4:return f=e.yieldResult,e.return(f);case 3:return e.return(null)}})}
+var login_modal=document.getElementById("login-modal"),afterLoginFunction=null,openLogin=function(a){afterLoginFunction=a;userIsLoggedIn()?afterLoginFunction&&afterLoginFunction():login_modal.showModal()},closeLogin=document.getElementById("close-login");closeLogin.addEventListener("click",function(){login_modal.close("cancelled")});login_modal.addEventListener("cancel",function(){login_modal.close("cancelled")});login_modal.addEventListener("click",function(a){a.target===login_modal&&login_modal.close("cancelled")});function get_user_login_type(a){var b,c,f;return $jscomp.asyncExecutePromiseGeneratorProgram(function(e){switch(e.nextAddress){case 1:return b=new FormData,b.append("email",a),e.yield(fetch(app_base_url+"https://deepai.org/get_user_login_type",{credentials:"include",method:"POST",body:b}),2);case 2:c=e.yieldResult;if(1!=c.ok){e.jumpTo(3);break}return e.yield(c.json(),4);case 4:return f=e.yieldResult,e.return(f);case 3:return e.return(null)}})}
+function login(a){var b,c,f,e,k,d,g,l,p,n;return $jscomp.asyncExecutePromiseGeneratorProgram(function(t){switch(t.nextAddress){case 1:a.preventDefault();b=document.getElementById("login-user-email-error");b.innerHTML="";b.setAttribute("style","display: none;");c=document.getElementById("login-user-email");f=document.getElementById("login-user-password");e=c.value;k=f.value;d=new FormData;d.append("username",e);d.append("password",k);if(""==e||""==f){t.jumpTo(0);break}c.classList.add("loading");return t.yield(get_user_login_type(e),3);case 3:return g=t.yieldResult,g.user_exists?g.login_with_password?t.yield(fetch(app_base_url+"https://deepai.org/rest-auth/login/",{credentials:"include",method:"POST",body:d}),4):(c.classList.remove("loading"),p=g.login_with_social_accounts[0],l="This account needs to be logged in using "+p,b=document.getElementById("login-user-email-error"),b.innerHTML=l,b.setAttribute("style","display: block;"),t.return()):(c.classList.remove("loading"),l="No user with this email or username was found",b=document.getElementById("login-user-email-error"),b.innerHTML=l,b.setAttribute("style","display: block;"),t.return());case 4:n=t.yieldResult;console.log(n);if(1!=n.ok){0==n.ok&&(c.classList.remove("loading"),500==n.status?(l="Hmm, something went wrong. Let's try that again.",b=document.getElementById("login-user-email-error"),b.innerHTML=l,b.setAttribute("style","display: block;")):400==n.status&&(l="Email/password combination incorrect. Let's try that again.",b=document.getElementById("login-user-email-error"),b.innerHTML=l,b.setAttribute("style","display: block;")));t.jumpTo(0);break}c.classList.remove("loading");login_modal.close("cancelled");if(!afterLoginFunction){window.location="https://deepai.org/dashboard/profile";t.jumpTo(0);break}return t.yield(auth(),7);case 7:afterLoginFunction(),t.jumpToEnd()}})}function loginSwitchToSignup(a){a.preventDefault();login_modal.close("cancelled");openSignup(afterLoginFunction)}function sleep_async(a){return new Promise(function(b){return setTimeout(b,a)})}
+function social_auth(a,b){var c,f,e;return $jscomp.asyncExecutePromiseGeneratorProgram(function(k){switch(k.nextAddress){case 1:return c={linkedin:"https://deepai.org/accounts/linkedin_oauth2/login/?process=login",twitter:"https://deepai.org/accounts/twitter/login/?process=login",google:"https://deepai.org/accounts/google/login/?process=login",github:"https://deepai.org/accounts/github/login/?process=login"},f=app_base_url+c[a],e=window.open("about:blank","deepaiLogin","height=600,width=600,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no,status=no"),k.yield(save_custom_signup_data(b),2);case 2:e.location.href=f;case 3:return k.yield(sleep_async(200),5);case 5:if(e.closed)return k.return();k.jumpTo(3)}})}
+function social_signup(a,b){var c,f,e,k,d,g,l,p;return $jscomp.asyncExecutePromiseGeneratorProgram(function(n){switch(n.nextAddress){case 1:a.preventDefault();c=document.getElementById("user-username").value;f=document.getElementById("user-email");f.classList.add("loading");e=document.getElementById("user-email-error");k=document.getElementById("user-username-error");e.innerHTML="";e.setAttribute("style","display: none;");k.innerHTML="";k.setAttribute("style","display: none;");d=null;if(!c){n.jumpTo(2);break}return n.yield(check_username_availability(c),3);case 3:if(g=n.yieldResult,console.log(g),!g.ok)return l=g.error,k.innerHTML=l,k.setAttribute("style","display: block;"),f.classList.remove("loading"),n.return();case 2:return d?(e.innerHTML=d,e.setAttribute("style","display: block;"),f.classList.remove("loading"),n.return()):n.yield(social_auth(b,c),4);case 4:return n.yield(fetch(app_base_url+"https://deepai.org/rest-auth/user/",{credentials:"include"}),5);case 5:p=n.yieldResult;if(1!=p.ok){f.classList.remove("loading");e.innerHTML="Hmm, something went wrong. You might already have an account with that email, or your passwords do not match.";e.setAttribute("style","display: block;");n.jumpTo(0);break}f.classList.remove("loading");modal.close("cancelled");if(!afterSignupFunction){window.location="https://deepai.org/dashboard/profile";n.jumpTo(0);break}return n.yield(auth(),8);case 8:afterSignupFunction(),n.jumpToEnd()}})}
+function social_login(a,b){var c,f,e;return $jscomp.asyncExecutePromiseGeneratorProgram(function(k){if(1==k.nextAddress)return a.preventDefault(),k.yield(social_auth(b,null),2);if(3!=k.nextAddress)return c=document.getElementById("login-user-email"),c.classList.add("loading"),k.yield(fetch(app_base_url+"https://deepai.org/rest-auth/user/",{credentials:"include"}),3);f=k.yieldResult;1==f.ok?(c.classList.remove("loading"),window.location="https://deepai.org/dashboard/profile"):(c.classList.remove("loading"),e=document.getElementById("login-user-email-error"),e.innerHTML="Hmm, something went wrong. Let's try that again.",e.setAttribute("style","display: block;"));k.jumpToEnd()})}function logout(){return $jscomp.asyncExecutePromiseGeneratorProgram(function(a){if(1==a.nextAddress)return a.yield(fetch(app_base_url+"https://deepai.org/rest-auth/logout/",{method:"POST",credentials:"include"}),2);localStorage.removeItem("user");localStorage.removeItem("hearts-cache");user_object={};window.location="https://deepai.org/";a.jumpToEnd()})}
+function resetPassword(){var a,b;return $jscomp.asyncExecutePromiseGeneratorProgram(function(c){if(1==c.nextAddress)return a=document.getElementById("login-user-email-error"),a.innerHTML="",a.setAttribute("style","display: none;"),login_user_email=document.getElementById("login-user-email"),login_user_email_value=login_user_email.value,b=new FormData,b.append("email",login_user_email_value),c.yield(fetch(app_base_url+"https://deepai.org/rest-auth/password/reset/",{credentials:"include",method:"POST",body:b}),2);c.jumpToEnd()})}
+var thisPagePath=window.location.pathname,social_modal=document.getElementById("social-modal"),openSocial=function(a,b,c){social_modal.showModal();document.getElementById("share_title").innerHTML=b;document.getElementById("social-image").setAttribute("style","background-image: url('"+c+"')");document.getElementById("fb-link").href="https://www.facebook.com/sharer.php?u="+a;document.getElementById("tw-link").href="https://twitter.com/intent/tweet?url="+a;document.getElementById("lkdin-link").href="https://www.linkedin.com/shareArticle?mini=true&url="+a},closeSocial=document.getElementById("close-social");closeSocial.addEventListener("click",function(){social_modal.close("cancelled")});social_modal.addEventListener("cancel",function(){social_modal.close("cancelled")});social_modal.addEventListener("click",function(a){a.target===social_modal&&social_modal.close("cancelled")});function timeSince(a,b){a=Math.floor((new Date-a)/1E3);var c=Math.floor(a/31536E3);if(1<c)return b.innerText=c+" years ago";c=Math.floor(a/2592E3);if(1<c)return b.innerText=c+" months ago";c=Math.floor(a/86400);if(1<c)return b.innerText=c+" days ago";c=Math.floor(a/3600);if(1<c)return b.innerText=c+" hours ago";c=Math.floor(a/60);if(1<c)return b.innerText=c+" minutes ago";b.innerText=Math.floor(a)+" seconds ago"}
+function runTimeSince(){var a=document.getElementsByClassName("time-since"),b;a=$jscomp.makeIterator(a);for(b=a.next();!b.done;b=a.next()){var c=b.value;b=new Date(c.attributes.isodate.value);timeSince(b,c)}}runTimeSince();function postComment(a,b,c,f,e){var k,d,g,l,p;return $jscomp.asyncExecutePromiseGeneratorProgram(function(n){if(1==n.nextAddress)return a.preventDefault(),k=document.getElementById(b),k.classList.add("loading"),document.getElementById("comment-submission-message")&&(document.getElementById("comment-submission-message").innerHTML="",document.getElementById("comment-submission-message").setAttribute("style","display: none;")),d=f?$(".summernote").eq(1).summernote("code"):$(".summernote").eq(0).summernote("code"),form_data=new FormData,form_data.append("content_object_url_handle",c),form_data.append("content_type",e),form_data.append("replying_to_comment",f),form_data.append("content",d),""==d?(k.classList.remove("loading"),g="You must write something in order to post a comment.",l=document.getElementById("comment-submission-message"),l.innerHTML=g,l.setAttribute("style","display: block; margin-top: 20px;"),n.jumpTo(0)):n.yield(fetch(app_base_url+"https://deepai.org/submit_new_comment",{method:"POST",credentials:"include",body:form_data}),3);p=n.yieldResult;console.log(p);1==p.ok?(k.classList.remove("loading"),g="Success!",l=document.getElementById("comment-submission-message"),l.innerHTML=g,l.setAttribute("style","display: block; margin-top: 20px;"),window.location.reload()):0==p.ok&&(k.classList.remove("loading"),g="hmm something isnt right. Make sure you filled in all of the fields and try again",l=document.getElementById("comment-submission-message"),l.innerHTML=g,l.setAttribute("style","display: block; margin-top: 20px;"));n.jumpToEnd()})}var model_id="text2img",model_demo_results=[];function deepaiClientLibraryLoadHandler(){return $jscomp.asyncExecutePromiseGeneratorProgram(function(a){return 0<model_demo_results.length?a.yield(deepai.renderResultIntoElement(model_demo_results[0].output,document.getElementsByClassName("try-it-result-area")[0]),0):a.jumpTo(0)})}
+function loadDemoResult(a){var b,c,f,e;return $jscomp.asyncExecutePromiseGeneratorProgram(function(k){1==k.nextAddress&&(b=a.attributes.demoid.value,c=$jscomp.makeIterator(model_demo_results),f=c.next());if(3!=k.nextAddress){if(f.done)return k.jumpTo(0);e=f.value;return e.id!=b?k.jumpTo(3):k.yield(deepai.renderResultIntoElement(e.output,document.getElementsByClassName("try-it-result-area")[0]),3)}f=c.next();return k.jumpTo(2)})}
+var switchToUrlUploadButton=document.getElementsByClassName("switchToUrlUploadButton")[0],switchToFileUploadButton=document.getElementsByClassName("switchToFileUploadButton")[0],currentUploadMode="file";function refreshUploadButtons(){"file"==currentUploadMode?([].forEach.call(document.querySelectorAll(".show-for-file-upload-mode"),function(a){a.style.display=null}),[].forEach.call(document.querySelectorAll(".show-for-url-upload-mode"),function(a){a.style.display="none"})):"url"==currentUploadMode?([].forEach.call(document.querySelectorAll(".show-for-file-upload-mode"),function(a){a.style.display="none"}),[].forEach.call(document.querySelectorAll(".show-for-url-upload-mode"),function(a){a.style.display=null})):([].forEach.call(document.querySelectorAll(".show-for-file-upload-mode"),function(a){a.style.display="none"}),[].forEach.call(document.querySelectorAll(".show-for-url-upload-mode"),function(a){a.style.display="none"}))}0==document.getElementsByClassName("model-input-file-picker").length&&(currentUploadMode="text");refreshUploadButtons();function switchToUrlUpload(){currentUploadMode="url";refreshUploadButtons()}
+function switchToFileUpload(){currentUploadMode="file";refreshUploadButtons()}var verified_icon=document.getElementById("upload-verified-icon"),currentProgressTime=0,currentProgressTimer=null;function cancelProgressBar(){progressBar=document.getElementById("progressBar");progressBar.style.width="0%";currentProgressTime=0;currentProgressTimer&&(window.clearInterval(currentProgressTimer),currentProgressTimer=null)}
+function progressBarFunctionWrapper(a){var b;return $jscomp.asyncExecutePromiseGeneratorProgram(function(c){if(1==c.nextAddress)return console.log("start progress bar"),progressBar=document.getElementById("progressBar"),cancelProgressBar(),c.setCatchFinallyBlocks(2,3),currentProgressTimer=window.setInterval(function(){currentProgressTime++;progressBar.style.width=100*Math.tanh(currentProgressTime/60/5)+"%"},Math.round(1E3/60)),c.yield(a(),3);if(2!=c.nextAddress)return c.enterFinallyBlock(),console.log("end progress bar"),cancelProgressBar(),verified_icon&&verified_icon.setAttribute("style","opacity: 0.3"),c.leaveFinallyBlock(0);b=c.enterCatchBlock();console.log(b);return c.jumpTo(3)})}
+for(var $jscomp$iter$6=$jscomp.makeIterator(document.getElementsByClassName("model-input-file-picker")),$jscomp$key$fileInput=$jscomp$iter$6.next();!$jscomp$key$fileInput.done;$jscomp$key$fileInput=$jscomp$iter$6.next()){var fileInput=$jscomp$key$fileInput.value;fileInput.onchange=function(a){verified_icon.setAttribute("style","opacity: 1");autoSubmit()}}
+for(var $jscomp$iter$7=$jscomp.makeIterator(document.getElementsByClassName("model-input-url-input")),$jscomp$key$urlInput=$jscomp$iter$7.next();!$jscomp$key$urlInput.done;$jscomp$key$urlInput=$jscomp$iter$7.next()){var urlInput=$jscomp$key$urlInput.value,handle=function(a){autoSubmit()};urlInput.onchange=handle;urlInput.onpaste=function(a){setTimeout(function(){a.target.blur()},10)}}
+function autoSubmit(){var a={};if("file"==currentUploadMode)for(var b=$jscomp.makeIterator(document.getElementsByClassName("model-input-file-picker")),c=b.next();!c.done;c=b.next()){c=c.value;if(""==c.value)return;a[c.name]=c}else if("url"==currentUploadMode)for(b=$jscomp.makeIterator(document.getElementsByClassName("model-input-url-input")),c=b.next();!c.done;c=b.next()){c=c.value;if(!c.value)return;a[c.name]=c.value}else console.log("unknown upload input mode");console.log("we got all the inputs needed to auto submit");doSubmit(a)}function textModelSubmit(){for(var a={},b=$jscomp.makeIterator(document.getElementsByClassName("model-input-text-input")),c=b.next();!c.done;c=b.next())c=c.value,a[c.name]=c.value;doSubmit(a)}function showTryItError(a,b){b.innerHTML="";var c=document.createElement("pre");c.textContent=a;c.style.whiteSpace="pre-wrap";c.style.margin="0px";b.appendChild(c)}
+function doSubmit(a){return $jscomp.asyncExecutePromiseGeneratorProgram(function(b){if(!window.deepai)return console.log("cannot call API, client library not loaded yet."),b.return();progressBarFunctionWrapper(function(){var c,f,e,k,d,g;return $jscomp.asyncExecutePromiseGeneratorProgram(function(l){switch(l.nextAddress){case 1:return c=document.getElementsByClassName("try-it-result-area")[0],l.setCatchFinallyBlocks(2),f=Math.round(1E11*Math.random())+"",e=function(){for(var p=[],n=0;64>n;)p[n]=0|4294967296*Math.sin(++n%Math.PI);return function(t){var u,x,B,D=[u=1732584193,x=4023233417,~u,~x],E=[],y=unescape(encodeURI(t))+"\u0080",v=y.length;t=--v/4+2|15;for(E[--t]=8*v;~v;)E[v>>2]|=y.charCodeAt(v)<<8*v--;for(n=y=0;n<t;n+=16){for(v=D;64>y;v=[B=v[3],u+((B=v[0]+[u&x|~u&B,B&u|~B&x,u^x^B,x^(u|~B)][v=y>>4]+p[y]+~~E[n|[y,5*y+1,3*y+5,7*y][v]&15])<<(v=[7,12,17,22,5,9,14,20,4,11,16,23,6,10,15,21][4*v+y++%4])|B>>>-v),u,x])u=v[1]|0,x=v[2];for(y=4;y;)D[--y]+=v[y]}for(t="";32>y;)t+=(D[y>>3]>>4*(1^y++)&15).toString(16);return t.split("").reverse().join("")}}(),k="tryit-"+f+"-"+e(navigator.userAgent+e(navigator.userAgent+e(navigator.userAgent+f))),deepai.setApiKey(k),l.yield(deepai.callStandardApi(model_id,a),4);case 4:if((d=l.yieldResult)&&d.err)return showTryItError(d.err,c),l.return();if(d&&d.status)return showTryItError(d.status,c),l.return();l.leaveTryBlock(3);break;case 2:return(g=l.enterCatchBlock())&&g.response&&g.response.data&&g.response.data.err?showTryItError(g.response.data.err,c):g&&g.response&&g.response.data&&g.response.data.status?showTryItError(g.response.data.status,c):showTryItError("Oops, something went wrong with the request.",c),l.return();case 3:return l.yield(deepai.renderResultIntoElement(d,c),0)}})});b.jumpToEnd()})};;</script>
+
+        
+<!-- Put this in the end body so it is the last thing to load... -->
+<script async src="https://cdnjs.deepai.org/deepai.min.js" onload="if(window.deepaiClientLibraryLoadHandler){deepaiClientLibraryLoadHandler()}"></script>
+
+	</body>
+</html>

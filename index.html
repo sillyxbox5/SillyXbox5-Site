@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<!-- End Google Analytics -->
+
+<head>
+  <script src="https://www.gstatic.com/firebasejs/ui/6.0.0/firebase-ui-auth.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.0/firebase-ui-auth.css" />
+  <script>
+
+    import { initializeApp } from 'firebase/app';
+
+    // TODO: Replace the following with your app's Firebase project configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyBMPY39rCNaGPIbjFf3jGT8ih9TvVbXo3s",
+      authDomain: "sillyxbox5-website.firebaseapp.com",
+      projectId: "sillyxbox5-website",
+      storageBucket: "sillyxbox5-website.appspot.com",
+      messagingSenderId: "839985555913",
+      appId: "1:839985555913:web:44fec9a2341a30dbfaa018",
+      measurementId: "G-CB59BX5Y6Q"
+    };
+    const app = initializeApp(firebaseConfig);
+    (function() {
+    var id = '4cb5d750-58da-11ec-b97b-0242ac130002';
+    var ci_search = document.createElement('script');
+    ci_search.type = 'text/javascript';
+    ci_search.async = true;
+    ci_search.src = 'https://cse.expertrec.com/api/js/ci_common.js?id=' + id;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ci_search, s);
+    })();
+  </script>
+      <meta charset='UTF-8'>
+      <script>
+      const f = document.getElementById('form');
+      const q = document.getElementById('query');
+      const google = 'https://www.google.com/search?q=site%3A';
+      const site = 'www.sillydev5.repl.co';
+
+      function submitted(event) {
+        event.preventDefault();
+        const url = google + site + '+' + q.value;
+        const win = window.open(url, '_blank');
+        win.focus();
+      }
+
+      f.addEventListener('submit', submitted);
+    </script>
+	<!-- Add icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- Add font awesome icons -
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-T52BY4LGVM">
+	</script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T52BY4LGVM');
+
+	</script>
+	<script data-ad-client="ca-pub-7645850220804105" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+	</script>
+	<link rel="icon icon" href="logo.ico?" type="image/x-icon" />
+	<meta charset="ISO-8859-1"><meta name="viewport" content="width=device-width">
+  
+	<!-- <meta version="resource-packs"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+	</script>
+  <script src="script.js">
+	</script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+	</script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+	</script>
+	<!-- jQuery Modal -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js">
+	</script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+	<title>SillyXbox5</title>
+	<link rel="stylesheet" href="style.css">
+
+
+
+
+
+
+
+</head>
+
+<body>
+  
+	<script>
+    // Initialize the FirebaseUI Widget using Firebase.
+    var ui = new firebaseui.auth.AuthUI(firebase.auth());
+        ui.start('#firebaseui-auth-container', {
+      signInOptions: [
+        firebase.auth.EmailAuthProvider.PROVIDER_ID
+      ],
+      // Other config options...
+    });
+		$(document).ready(function() {
+				var hash = window.location.hash;
+				if (hash == "#no_download") {
+					$("#no_download").modal('open');
+				}
+			});
+	</script>
+	<!-- Modal HTML embedded directly into document -->
+	<div id="no_download" class="modal">
+		<p>You have not selected any pack!</p>
+		<a href="#" rel="modal:close">Close</a>
+	</div>
+
+	<nav id="navbar" class="navbar navbar-expand-md text-light navbar-dark sticky" style="background-color: black">
+		<!-- Brand -->
+		<a href="/">
+			<img class="img-responsive logo"
+				src="/logo.png">
+        </a>
+        <a class="navbar-brand"
+				href="/">
+        <div class="type">SillyXbox5</div></a>
+
+        <a  class="skip-nav" href="#Textures">
+          Skip Navigation
+        </a>
+
+
+			<!-- Toggler/collapsibe Button -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item" id="holder1"><a class="navbar-brand" href="/#Textures">Texture Packs</a></li>
+					<li class="nav-item" id="holder2"><a class="navbar-brand" href="/#Mods">Mods</a></li>
+          <li class="nav-item" id="holder3"><a class="navbar-brand" href="https://twitter.com/SillyTweet5" target="_blank">Twitter</a></li>
+          <li class="nav-item" id="holder5"><a class="navbar-brand" href="/coding">Coding</a></li>
+          <li class="nav-item" id="holder5"><a class="navbar-brand" href="/games">Games</a></li>
+          <li class="nav-item" id="holder5"><a class="navbar-brand" href="/experiments">Experiments</a></li>
+        <ci-search></ci-search>
+				</ul>
+			</div>
+		</nav>
+		<form action="Generator" method="get"
+			enctype="application/x-www-form-urlencoded">
+			<div class="container">
+				<div class="jumbotron"
+					style="color: white !important; background-color: transparent !important; text-align: center !important; padding-bottom: 32px !important; justify-content: center;">
+					<h1><br>Minecraft Bedrock Addons</h1>
+          <!-- LikeBtn.com BEGIN -->
+        <span class="likebtn-wrapper" data-theme="padded" data-ef_voting="bounce" data-identifier="item_1"></span>
+        <script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
+        <!-- LikeBtn.com END -->
+				</div>
+			</div>
+			<div class="row">
+				<script type="text/javascript">
+					function tongle(name) {
+						if (document.getElementsByName(name)[0].style.backgroundColor != "gray") {
+							document.getElementsByName(name)[0].style.backgroundColor = "gray";
+							document.getElementsByName(name)[1].checked = true;
+						} else {
+							document.getElementsByName(name)[0].style.backgroundColor = "#121212";
+							document.getElementsByName(name)[1].checked = false;
+						}						
+					}
+					console.log("Loaded");
+				</script>
+				
+				
+				<div name="0" class="category col-sm-12 card bg-secondary text-white">
+					<a id="Textures">Texture Packs</a>
+				</div>
+				
+        
+				<div name="0-0"
+					class="checkbox card btn col-xl-2 col-xl-2 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-0');">
+          <a href="mods/SimpleTweaks/">
+					<input type="checkbox" name="0-0"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="images/simpletweaks.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Simple Tweaks
+						</h4>
+						<p class="card-text">
+							Just a few simple tweaks.
+						</p>
+					</div>
+          </a>
+				</div>
+        <div name="0-1"
+					class="checkbox card btn col-xl-2 col-xl-2 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-1');">
+          <a href="mods/classicPE">
+					<input type="checkbox" name="0-1"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="mc.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Classic MCPE
+						</h4>
+						<p class="card-text">
+							Changes the UI to classic MCPE 1.0 UI. Put in global resources
+						</p>
+					</div>
+          </a>
+				</div>
+				<div name="0-2"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-2');">
+          <a href="mods/brewingguide">
+					<input type="checkbox" name="0-2"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="images/Brewing_Stand.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Brewing stand guide
+						</h4>
+						<p class="card-text">
+							Shows all recipies on the brewing stand UI because nobody can memorise them
+						</p>
+					</div>
+          </a>
+				</div>
+        <div name="0-3"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-3');">
+          <a href="mods/vanilla+">
+					<input type="checkbox" name="0-3"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="images/vanilla+.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Vanilla+
+						</h4>
+						<p class="card-text">
+							Improved vanilla. Not compatible with Simple Tweaks
+						</p>
+					</div>
+          </a>
+				</div>
+        <div name="0-3"
+					class="checkbox card btn col-xl-2 col-xl-2 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-3');">
+          <a href="pack/notexture.mcpack">
+					<input type="checkbox" name="0-3"
+						style="display: none !important"/> 
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							No Texture Challenge
+						</h4>
+						<p class="card-text">
+							Removes all textures. Have fun!
+						</p>
+					</div>
+          </a>
+				</div>
+        <div name="0-4"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-4');">
+          <a href="pack/java.mcpack">
+					<input type="checkbox" name="0-4"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="images/java.jpg">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Java UI
+						</h4>
+						<p class="card-text">
+							Uses the UI from Minecraft: Java Edition. Put in global resources
+						</p>
+					</div>
+          </a>
+				</div>
+        <div name="0-1"
+					class="checkbox card btn col-xl-2 col-xl-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-5');">
+          <a id="MinecraftPro" href="pack/minecraftpro.mcpack">
+					<input type="checkbox" name="0-5"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="mc.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Minecraft Pro
+						</h4>
+						<p class="card-text">
+							Minecraft but for professional gamers. Put in global resources
+						</p>
+					</div>
+          </a>
+				</div>
+<!-- Addons                                                knvjkdvbegdrjkgrhhghnrvnurvhhhhhhhhhhhhhhhhhhhhhhhhhhhhhrhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh-->
+
+        <div name="0" class="category col-sm-12 card bg-secondary text-white">
+					<a id="Mods">Mods</a>
+				</div>
+
+        <div name="0-1"
+					class="checkbox card btn col-xl-2 col-xl-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-5');">
+          <a href="pack/betterex.mcaddon">
+					<input type="checkbox" name="0-5"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="images/tnt.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Better Explosions
+						</h4>
+						<p class="card-text">
+							Adds better physics to explosions
+						</p>
+					</div>
+          </a>
+				</div>
+        <div name="0-1"
+					class="checkbox card btn col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-5');">
+          <a href="pack/loot+.mcpack">
+					<input type="checkbox" name="0-5"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="images/chest.webp">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Loot+
+						</h4>
+						<p class="card-text">
+							Loot for chests has been upgraded
+						</p>
+					</div>
+          </a>
+				</div>
+        <div name="0-1"
+					class="checkbox card btn col-xl-2 col-xl-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-5');">
+          <a href="pack/enchants.mcaddon">
+					<input type="checkbox" name="0-5"
+						style="display: none !important"/> 
+						<img
+						class="card-img-top img-responsive"
+						src="images/enchants.png">
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							More Enchantments
+						</h4>
+						<p class="card-text">
+							More enchantments (New enchantments can only be added to items through crafting)
+						</p>
+					</div>
+          </a>
+				</div>
+        <div name="0" class="category col-sm-12 card bg-secondary text-white">
+					<a id="Other">Other</a>
+				</div>
+				<div name="0-1"
+					class="checkbox card btn col-xl-2 col-xl-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-5');">
+          <a href="others">
+					<input type="checkbox" name="0-5"
+						style="display: none !important"/> 
+						
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Other Modders
+						</h4>
+					</div>
+          </a>
+				</div>
+        <div name="0-1"
+					class="checkbox card btn col-xl-2 col-xl-3 col-md-4 col-sm-5 col-xsl-8 col-xs-16 grid-item grid-video"
+					onclick="tongle('0-5');">
+          <a href="byothers">
+					<input type="checkbox" name="0-5"
+						style="display: none !important"/> 
+						
+					<div class="card-body">
+						<h4 class="card-title" id = "card-title">
+							Other Modders Mods
+						</h4>
+					</div>
+          </a>
+				</div>
+			</div>
+		</form>
+	<!--INFORMACION ABAJO-->
+	<div class="information_panel bg-dark text-center">
+		<h1>-Information-</h1>
+    <p  class="information_text">
+      Yes, I am aware there are no pack icons.
+    </p>
+		<p class="information_text">
+			For Bugs, Updates, Requests or any issue regarding this site and the addons: <a
+				style="margin-bottom: 0px !important;"
+				href="mailto:sillyxbox5@gmail.com">Contact</a>
+		</p>
+    <a href="https://twitter.com/SillyTweet5" target="_blank" class="fa fa-twitter"></a>
+        <h3>
+          <a id="Others" href="others">
+            Other Bedrock Modders
+          </a>
+        </h3>
+</div>
+</body>
+</html>
